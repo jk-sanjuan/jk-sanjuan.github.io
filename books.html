@@ -1,0 +1,147 @@
+---
+layout: base
+title: OpenLibrary Books
+---
+
+<style>
+  .bg-tron {
+    background-image: url('/assets/images/biomew/Hawk-Anbu-Tron.png');
+  }
+</style>
+
+<!-- List the available books -->
+<div>
+  <ul class="flex">
+  {% for post in site.posts %}
+    <li>
+      <div class="mt-6 ml-6">
+        <div class="will-change_filter transition_filter-300 inline-block text-black bg-[rgba(136,_136,_136,_0.15)]
+                   border border-solid border-[#00000003] rounded-2xl w-[720px]
+                   overflow-hidden
+                   hover:bg-[rgba(215,_200,_121,_0.11)] hover_filter-drop-shadow-sm
+                   relative">
+          <div id="book-list-inner" class="bg-white focus:bg-slate-500 p-[20px_20px_15px_20px]">
+
+            <div id="book-image" class="h-[250px] -mx-6 -mt-5
+              hover_filter-blur-5 will-change_filter transition_filter-300
+               bg-tron bg-no-repeat bg-sz-100"></div>
+
+            <div id="book-heading" class="-mx-[20px] relative">
+              <div id="book-details">
+                <div class="" data-django-slot="title">
+
+                  <div class="relative">
+                    <div class="group bg-[mediumvioletred] text-white py-2 w-full p-0">
+                      <h1 class="text-[2rem] w-max p-0 my-1 m-auto">
+                        <!--- Book Name -->
+                        <a id="name-link"
+                           class="text-white transition_filter-300 will-change_filter hover_filter_drop-shadow_blur text-none
+                                    border-4 border-x-transparent border-t-transparent [border-bottom-style:inset]
+                                    group-hover:border-b-sky-600 hover:bg-[#009EFF2F] djvu-serif-italic"
+                           href="{{ post.url }}">
+                          {{ post.name }}
+                        </a>
+                      </h1>
+                    </div>
+                  </div>
+
+                  <div class="relative">
+                    <div id="details-title" class="bg-[#ffb30f] text-black py-2 w-full pl-[20px]">
+                      <!--- Book Title -->
+                      <h2>{{ post.title }}</h2>
+                    </div>
+                  </div>
+                  <div class="relative">
+                    <div id="book-description" class="bg-[#4f4f4f] text-white py-1 w-full left-0
+                                                      hover:bg-slate-700">
+                      <!--- Book Summary -->
+                      <p data-django-slot="description" id="summary" class="m-[20px]">{{ post.summary }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div id="book-metadata" class="px-2">
+              <p class="rounded text-slate-500 bg-slate-300 py-4 px-4 -mt-2 w-full [box-sizing:content-box]"><b>ISBN:</b>
+                <!--- ISBN -->
+                <span class="px-2 py-1 hover:bg-yellow-500 hover:text-yellow-900 hover:font-semibold hover:text-sm cursor-pointer">{{ post.isbn }}</span>
+              </p>
+              <h2 class="rounded py-2 px-7 -mx-8 text-slate-100 bg-slate-500">Authors:</h2>
+
+              <div class="-mt-6 mb-8 -mx-3 first:mt-0 last:mb-0 relative overflow-hidden rounded">
+                <!--- Book Authors -->
+                {% for author in site.authors %}
+                  <div class="pt-2 bg-slate-800 shadow-lg group/item">
+                    <div class="flex group text-slate-400 text-sm leading-6">
+                      <!--- Author's Name -->
+                      <div class="flex-none -mx-1 mr-0 px-4 py-1 -mr-1 text-sky-300
+                                  rounded-none border-solid border-x-transparent border-b border-t-transparent border-t-2 border-b-sky-400
+                                  hover:border-b-2 hover:border-b-sky-500 hover:-mb-1 hover:rounded-br hover:mt-0
+                                  flex peer items-center content_author
+                                  group-[:hover]:bg-slate-700/40" data-author="{{ author.name }}">
+                      </div>
+                      <!--- Conditional if 'MC' then 'Ella' -->
+                      {% if author.name == 'Meldencio Czarlemagne' %}
+                      <div class="ella flex-none mx-0 px-4 py-1 text-sky-300 bg-slate-700/40
+                                  rounded-tl rounded-tr border-solid border-l-transparent border-r-slate-500/30 border-r border-b border-t-transparent border-b-sky-300
+                                  hover:bg-slate-800 hover:border-b-2 hover:border-b-sky-500 hover:-mb-1 hover:rounded-br hover:mr-0 hover:mt-0
+                                  flex peer items-center content_author cursor-pointer peer-hover:bg-rose-700/40" data-author="Johnella Kyle San Juan">
+                      </div>
+                      {% endif %}
+                      <!--- Last BG tab -->
+                      <div class="flex-auto flex items-center ml-0 bg-slate-700/50 border border-solid border-slate-500/30 rounded-tl
+                                  peer-hover:border-t-sky-500 peer-hover:border-s-sky-500 peer-hover:border-t-2">
+
+                      </div>
+                    </div>
+
+                    <div class="group/ella children:my-0 children:!shadow-none children:bg-transparent text-slate-100">
+                      <div>
+                        <!--- Author Biography -->
+                        <p class="w-full px-6 pt-3 pb-5">{{ author.bio }}</p>
+                      </div>
+                      {% if author.name == 'Meldencio Czarlemagne' %}
+                      <div id="book-nerd" class="w-full display-none invisible group-hover/ella:visible group-hover/ella:block">
+                        <!--- Show Booknerd(Love) Image -->
+                        <div class="w-[668px] h-[500px] m-auto"
+                             style="height: 500px;
+                                    background-image: url('/assets/images/biomew/bg/booknerd.png');
+                                    background-repeat: no-repeat;"></div>
+                      </div>
+                      {% endif %}
+                    </div>
+
+                  </div>
+                  <!--- Horizontal line -->
+                  <hr class="border-2 border-slate-700 m-0 -mt-4 p-0 -mr-[6px]">
+                {% endfor %}
+              </div>
+            </div>
+
+            <div id="publisher-wrapper"
+                 class="bg-[rgba(136,_136,_136,_0.15)] relative -top-[20px] h-[95px] rounded-[0_0_8px_8px]">
+              <div id="book-publisher" class="m-[20px]">
+                <!--- Publisher & Published date -->
+                <p data-django-slot="publisher" class="bg-slate-100 py-2 px-5 -ml-5 -mr-5"><b>Publisher:</b>
+                  <span class="text-slate-700 bg-slate-300 border-none px-2 py-2 border-b-2 hover:bg-sky-800/60 hover:text-white">
+                    <span class="border-b-sky-400/90 [border-bottom-style:inset] border-b-3 hover:border-b-sky-300 hover:cursor-pointer">Bayanihan Publishing</span></span></p>
+                <p data-django-slot="published" class="bg-slate-300 py-2 px-5 -ml-5 -mr-5 -mt-4"><b>Published:</b>
+                  <span class="text-slate-100 bg-slate-400 px-2 py-1 hover:bg-slate-500">{{ post.published_date }}</span></p>
+              </div>
+            </div>
+
+            <div class="py-1 pb-3">
+              <!--- Book link -->
+              <a id="slug" class="text-blue-100 bg-blue-500 no-underline px-2 py-2 m-6 rounded hover:rounded-xl group"
+                 href="{{ post.url }}"><span class="border-b-2 border-b-sky-300/90 group-hover:[border-bottom-style:dotted]">{{ post.url }}</span></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
