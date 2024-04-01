@@ -22,7 +22,7 @@ title: OpenLibrary
 email: mczvc.biomew@gmail.com
 description: >- 
   Bayanihan OpenLibrary
-baseurl: "/OpenLibrary"
+baseurl: ""
 url: "http://mczvc-biomew.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mczvc12
 github_username:  mczvc-biomew
