@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Blog
+  link: /blog.html
+- name: Books
+  link: /books.html
+- name: Staff
+  link: /staff.html
+- name: Contact Us
+  link: /contact-us.md
