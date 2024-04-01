@@ -27,6 +27,10 @@ url: "http://mczvc-biomew.github.io" # the base hostname & protocol for your sit
 twitter_username: mczvc12
 github_username:  mczvc-biomew
 
+collections:
+  authors:
+    output: true
+
 # Build settings
 theme: null
 plugins:
