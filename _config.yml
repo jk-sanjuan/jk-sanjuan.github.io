@@ -27,8 +27,14 @@ url: "http://mczvc-biomew.github.io" # the base hostname & protocol for your sit
 twitter_username: mczvc12
 github_username:  mczvc-biomew
 
+paginate: 10
+
+collections_dir: my_collections
+
 collections:
   authors:
+    output: true
+  files:
     output: true
 
 # Build settings
