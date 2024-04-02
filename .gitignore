@@ -7,4 +7,5 @@ vendor
 
 *.lock
 
-/.idea
+/.idea/
+/vue_frontend/.idea/
