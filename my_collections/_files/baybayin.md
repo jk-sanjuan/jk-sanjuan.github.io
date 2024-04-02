@@ -16,21 +16,24 @@ size_readable: 4.8MB
 modified: Jan. 14, 2024, 6:13 p.m.
 tags: epub
 ---
-
-<main>
-  <div class="text w-[1200px] ml-[3rem] mr-auto">
-    <h2 class="ml-[5rem]">Description:</h2>
-    <p class="description">
-
-    Do you want to learn how to write using baybayin? It is easy to learn this writing system!<br>
-    Let this book guide you on how to learn easily how to write and read in baybayin, the ancient writings of the Tagalogs.<br> 
-    This book contains the rules and exercises to help you become proficient in using baybayin. <br>
-    This book also gives you a short history of writing in other parts of the world and how it influenced <br> 
-    the writing systems used here in the Philippines. Aside from that, it also discusses indigenous writing <br>
-    as it relates to language and culture. <br><br>
-    
-    This book is dedicated to all who want to learn how to write and read using baybayin. <br> 
-    Let's learn and discover baybayin!
-    </p>
-  </div>
-</main>
+<div class="w-[1200px] flex">
+  <img alt="Discover Baybayin" src="/assets/images/book_covers/Discover-Baybayin.png" width="400px"
+      class=""/>
+  <main>
+    <div class="text w-[860px] ml-[3rem] mr-auto">
+      <h2 class="ml-[5rem]">Description:</h2>
+      <p class="description">
+  
+      Do you want to learn how to write using baybayin? It is easy to learn this writing system!<br>
+      Let this book guide you on how to learn easily how to write and read in baybayin, the ancient writings of the Tagalogs.<br> 
+      This book contains the rules and exercises to help you become proficient in using baybayin. <br>
+      This book also gives you a short history of writing in other parts of the world and how it influenced <br> 
+      the writing systems used here in the Philippines. Aside from that, it also discusses indigenous writing <br>
+      as it relates to language and culture. <br><br>
+      
+      This book is dedicated to all who want to learn how to write and read using baybayin. <br> 
+      Let's learn and discover baybayin!
+      </p>
+    </div>
+  </main>  
+</div>
