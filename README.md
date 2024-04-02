@@ -18,5 +18,5 @@ title: JKSJ-x-mczvc
     <img alt="Double Happiness" src="/assets/images/kayee/SS20240402-164839.png" width="100%"/>
   </div>
 </div>
-`Johnella Kyle San Juan`
-`Meldencio Czarlemagne`
+
+`Johnella Kyle San Juan` `Meldencio Czarlemagne`
