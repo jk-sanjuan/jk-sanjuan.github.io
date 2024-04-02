@@ -17,6 +17,7 @@ title: JKSJ-x-mczvc
     </p>
     <img alt="Double Happiness" src="/assets/images/kayee/SS20240402-164839.png" width="100%"/>
   </div>
+  <img alt="Kayee" src="/assets/images/kayee/SS_Kayee.jpg" width="100%"/>
 </div>
 
 `Johnella Kyle San Juan` `Meldencio Czarlemagne`
