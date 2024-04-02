@@ -1,0 +1,36 @@
+---
+layout: base
+title: Discover Baybayin
+author: [Leo Emmanuel Castro]
+publishing: (St. Matthew's Publishing Corporation) [Kahel Press, 2021]
+year: 2021
+ISBN: 9789716254549
+ISBN10: 9716254512 
+ISBN13: 9789716254518
+name: "[Leo Emmanuel Castro] Discover Baybayin (St. Matthew's Publishing Corporation. 2021).epub"
+format: epub
+bank: Meldencio Czarlemagne
+cloud: a13ed25824d913ad9f7c0f70489e4566
+uploaded_at: April 2, 2024, 1:21 p.m. 
+size_readable: 4.8MB
+modified: Jan. 14, 2024, 6:13 p.m.
+tags: epub
+---
+
+<main>
+  <div class="text w-[1200px] ml-[3rem] mr-auto">
+    <h2 class="ml-[5rem]">Description:</h2>
+    <p class="description">
+
+    Do you want to learn how to write using baybayin? It is easy to learn this writing system!<br>
+    Let this book guide you on how to learn easily how to write and read in baybayin, the ancient writings of the Tagalogs.<br> 
+    This book contains the rules and exercises to help you become proficient in using baybayin. <br>
+    This book also gives you a short history of writing in other parts of the world and how it influenced <br> 
+    the writing systems used here in the Philippines. Aside from that, it also discusses indigenous writing <br>
+    as it relates to language and culture. <br><br>
+    
+    This book is dedicated to all who want to learn how to write and read using baybayin. <br> 
+    Let's learn and discover baybayin!
+    </p>
+  </div>
+</main>
