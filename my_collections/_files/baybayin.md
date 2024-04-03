@@ -33,7 +33,7 @@ tags: epub
       var url = params && params.get("url") && decodeURIComponent(params.get("url"));
       var currentSectionIndex = (params && params.get("loc")) ? params.get("loc") : undefined;
   
-      // Load the opf
+      // Load the epub
       window.book = ePub("/assets/books/discover-baybayin.epub");
       var rendition = book.renderTo("viewer", {
         manager: "continuous",

@@ -49,7 +49,7 @@
 }
 
 #next {
-  width: 760px;
+  width: 0;
   right: 0;
 }
 
@@ -82,13 +82,13 @@
   }
 
   #next {
-    right: 40px;
+    left: 1130px;
   }
 }
 
 .arrow {
-  position: fixed;
-  top: 50%;
+  position: relative;
+  top: -321px;
   margin-top: -32px;
   font-size: 64px;
   color: #E2E2E2;
