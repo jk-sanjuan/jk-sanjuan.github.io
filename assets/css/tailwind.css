@@ -1155,6 +1155,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-top: auto;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -1318,10 +1326,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.min-w-\[100\%\] {
-  min-width: 100%;
 }
 
 .min-w-\[1200px\] {
@@ -1589,6 +1593,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgba(136, 136, 136, 0.15);
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-blue-200\/50 {
   background-color: rgb(191 219 254 / 0.5);
 }
@@ -1777,9 +1786,9 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(133 77 14 / var(--tw-bg-opacity));
 }
 
-.bg-black {
+.bg-gray-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-no-repeat {
@@ -2078,6 +2087,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .text-yellow-100 {
   --tw-text-opacity: 1;
   color: rgb(254 249 195 / var(--tw-text-opacity));
+}
+
+.text-yellow-400 {
+  --tw-text-opacity: 1;
+  color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
 .text-yellow-600 {
@@ -2546,10 +2560,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 }
 
 @media (min-width: 640px) {
-  .sm\:min-w-\[1200px\] {
-    min-width: 1200px;
-  }
-
   .sm\:min-w-\[100\%\] {
     min-width: 100%;
   }
@@ -2564,10 +2574,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 }
 
 @media (min-width: 768px) {
-  .md\:w-\[100\%\] {
-    width: 100%;
-  }
-
   .md\:w-\[1024px\] {
     width: 1024px;
   }
