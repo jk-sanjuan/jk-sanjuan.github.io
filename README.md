@@ -20,4 +20,6 @@ title: JKSJ-x-mczvc
   <img alt="Kayee" src="/assets/images/kayee/SS_Kayee.jpg" width="100%"/>
 </div>
 
-`Johnella Kyle San Juan` `Meldencio Czarlemagne`
+<div class="-mt-2">
+  <span class="bg-[mediumvioletred] text-white p-2">Johnella Kyle San Juan</span><span class="text-black bg-yellow-600 p-2">Meldencio Czarlemagne</span>
+</div>
