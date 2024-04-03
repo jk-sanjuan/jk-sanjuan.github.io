@@ -21,5 +21,5 @@ title: JKSJ-x-mczvc
 </div>
 
 <div class="-mt-2">
-  `<span class="bg-[mediumvioletred] text-white p-2">Johnella Kyle San Juan</span>``<span class="text-black bg-yellow-600 p-2">Meldencio Czarlemagne</span>`
+  <span class="bg-[mediumvioletred] text-white p-2">Johnella Kyle San Juan|</span><span class="text-black bg-yellow-600 p-2">Meldencio Czarlemagne</span>
 </div>
