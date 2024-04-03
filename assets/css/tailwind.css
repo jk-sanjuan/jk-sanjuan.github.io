@@ -931,11 +931,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: -0.25rem;
 }
 
-.-mx-2 {
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-}
-
 .-mx-3 {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
@@ -1323,6 +1318,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.min-w-\[100\%\] {
+  min-width: 100%;
 }
 
 .min-w-\[1200px\] {
@@ -1778,21 +1777,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(133 77 14 / var(--tw-bg-opacity));
 }
 
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -2101,11 +2085,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   color: rgb(113 63 18 / var(--tw-text-opacity));
 }
 
-.text-sky-200 {
-  --tw-text-opacity: 1;
-  color: rgb(186 230 253 / var(--tw-text-opacity));
-}
-
 .no-underline {
   text-decoration-line: none;
 }
@@ -2166,10 +2145,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .\[clear\:both\] {
   clear: both;
-}
-
-.\[color\:mediumvioletred\] {
-  color: mediumvioletred;
 }
 
 .\[flex-direction\:column\] {
@@ -2570,6 +2545,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     min-width: 1200px;
   }
 
+  .sm\:min-w-\[100\%\] {
+    min-width: 100%;
+  }
+
   .sm\:display-none {
     display: none;
   }
@@ -2580,6 +2559,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 }
 
 @media (min-width: 768px) {
+  .md\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .md\:w-\[1024px\] {
     width: 1024px;
   }
@@ -2592,10 +2575,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
   .lg\:w-\[1124px\] {
     width: 1124px;
-  }
-
-  .lg\:min-w-\[1520px\] {
-    min-width: 1520px;
   }
 
   .lg\:\[flex-direction\:row\] {
@@ -2612,9 +2591,5 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 @media (min-width: 1536px) {
   .\32xl\:w-\[1720px\] {
     width: 1720px;
-  }
-
-  .\32xl\:min-w-\[1720px\] {
-    min-width: 1720px;
   }
 }
