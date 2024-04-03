@@ -1777,6 +1777,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(133 77 14 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
