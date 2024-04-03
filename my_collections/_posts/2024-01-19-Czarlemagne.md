@@ -13,7 +13,7 @@ published_date: 2024-01-19
     <div class="[font-size:20px] w-[148px]"><div class="font-bold">Meldencio Czarlemagne</div> Corrales</div>
     <img alt="mczvc" class="[right:0] [left:580] [position:relative]" src="/assets/images/biomew/mczvc.png" width="13%" height="13%"/>
   </div>
-  <div class="flex">
+  <div class="flex mt-2">
     <div class="w-[155px]"><span>Software Engineer and Architect, DevOps Engineer, Database Manager and Administrator,  
   IT & IS Manager</span></div>
     <div class="mx-auto">
@@ -106,6 +106,43 @@ published_date: 2024-01-19
                 JavaScript, Typescript, Rust, Ruby, OCaml, Swift, Bash, Powershell, Solidity, Vyper</span>
         </div>
         <div>
+          <div class="flex *:w-[784px]">
+            <h3 class="pr-3">Computer Languages</h3>
+            <span>C <br>
+                  💗💗💗💗💗
+                  C++ <br>
+                  💗💗💗💗💗
+                  C# <br>
+                  💛💛💛💛💛
+                  Rust <br>
+                  💜💜💜💜🖤</span>
+            <span>Javascript <br>
+                  💝💝💝💝💝
+                  Go <br>
+                  💚💚💚💚🖤
+                  Java <br>
+                  💙💙💙💙💙
+                  Swift <br>
+                  💞💞💞🖤🖤</span>
+            <span>Python (with Django) <br>
+                  💚💚💚💚💚
+                  LUA <br>
+                  💚💚💚💚💚
+                  PHP <br>
+                  💚💚💚🖤🖤 <br>
+                  Ruby <br>
+                  💚💚💚🖤🖤</span>
+            <span>HTML5 <br>
+                  💙💙💙💙💙
+                  CSS3 <br>
+                  💚💚💚💚💚
+                  SQL <br>
+                  💜💜💜💜💜
+                  Carbon <br>
+                  💜💜💜💜🖤</span>
+          </div>
+        </div>
+        <div>
           <h3>Frameworks and Libraries</h3>
           <span>Django, Flask, VueJS, ReactJS, AngularJS, Strapi, NextJS, Webpack, ExpressJS, Polymer, NodeJS, 
                 Electron, Bootstrap, Bulma, Boost, Rails, Qt5, Junit, jOOQ, Spring, Rails, Scipy, 
@@ -124,6 +161,61 @@ published_date: 2024-01-19
                 Twelve-Factor App (SaaS, PaaS), DevSecOps (DAST, PSS ISE, Security by Design, 
                 Security Automation), DataOps
           </span>
+        </div>
+      </div>
+      <div class="flex">
+        <div>
+          <h3>Organizations</h3>
+          <div class="flex mb-4">
+            <span>Royal Academies of Science, Engineering, and Medicine</span>
+            <span>Software Architect, 2022–2032</span>
+          </div>
+          <div class="flex">
+            <span>Vanguard Consortium – Phi Chi Alpha</span>
+            <div class="*:block w-[183px] ml-auto">
+              <span>Royal Knight, Sigma Alpha, Founder
+  Established on 14 Dec. 2023</span>
+              <ul class="list-disc">
+                <li>Linux Foundation</li>
+                <li>CompTIA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h3>Database</h3>
+          <span>MySQL, SQLite, PostgreSQL, MongoDB</span>
+        </div>
+        <div>
+          <h3>Operating Systems</h3>
+          <span>Windows, Linux (OpenBSD, Ubuntu, CentOS, Redhat), Android</span>
+        </div>
+        <div>
+          <h3>Software and Tools</h3>
+          <span>Git, Cmake, VS Code, Docker, Eclipse, NodeJS, LAMP, Jetbrains (CLion, IntelliJ, PyCharm), Jira</span>
+        </div>
+        <div>
+          <h3>Coursework Information</h3>
+          <span class="w-[600px] block">Calculus I, II | English Composition I, II | Interpersonal Communication Skills | 
+                Reasoning & Argumentation | Computation in Physical Sciences | Discrete Mathematic | 
+                Concrete Mathematics * | Logic & Mathematical Reasoning | Distributed Systems | 
+                Parallel and Distributed Algorithms | Algorithms-I* | Algorithms-II | 
+                Database and Web System Development | Computer Organization & Architecture | 
+                Computer Networks | Networks and Data Communications | Statistics * | 
+                Formal Language and Automata Theory |  Software Engineering* | 
+                Software Engineering for Data Scientists | Programming Languages | Software Architecture | 
+                Software Design * |  Operating Systems * | Database Management Systems* | 
+                Speech and Natural Language Processing | Ethical and Secure Computing | Machine Learning | 
+                Breadth Life Science | High Performance Computing & Computer Architecture | 
+                Computational Science and Engineering | MATLAB * for Engineering and the Life Sciences | 
+                Graphics and Computer Vision * + Image Processing | Graphics Programming with OpenGL | 
+                Network Science * | Social Computing | Discrete Structures |  Cryptography * | 
+                Blockchain Technologies * | Cloud Computing * | Artificial Intelligence * | Symbolic Logic | 
+                ERGU | EREG | Rizal
+          </span>
+          <span class="block w-[600px] [right:-250px] [position:relative]">(* Coursework had a lab component as well)</span>
         </div>
       </div>
     </div>

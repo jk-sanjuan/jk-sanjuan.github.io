@@ -1147,6 +1147,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-top: 0px;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -1157,10 +1165,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .block {
@@ -1247,6 +1251,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: auto;
 }
 
+.h-\[150px\] {
+  height: 150px;
+}
+
 .w-\[1192px\] {
   width: 1192px;
 }
@@ -1271,6 +1279,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 170px;
 }
 
+.w-\[183px\] {
+  width: 183px;
+}
+
 .w-\[200px\] {
   width: 200px;
 }
@@ -1289,6 +1301,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[50px\] {
   width: 50px;
+}
+
+.w-\[511px\] {
+  width: 511px;
 }
 
 .w-\[56px\] {
@@ -1344,8 +1360,12 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: max-content;
 }
 
-.w-\[511px\] {
-  width: 511px;
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-\[600px\] {
+  width: 600px;
 }
 
 .min-w-\[1200px\] {
@@ -1978,6 +1998,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-top: 20px;
 }
 
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2014,10 +2038,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-\[20px\] {
-  font-weight: 20px;
 }
 
 .italic {
@@ -2235,6 +2255,10 @@ ul.dashed > li:before {
   font-family: sans-serif;
 }
 
+.\[font-size\:18px\] {
+  font-size: 18px;
+}
+
 .\[font-size\:20px\] {
   font-size: 20px;
 }
@@ -2259,8 +2283,12 @@ ul.dashed > li:before {
   right: 0;
 }
 
-.\[font-size\:18px\] {
-  font-size: 18px;
+.\[flex-grow\:1\] {
+  flex-grow: 1;
+}
+
+.\[right\:-250px\] {
+  right: -250px;
 }
 
 .\*\:mt-2 > * {
@@ -2269,6 +2297,10 @@ ul.dashed > li:before {
 
 .\*\:block > * {
   display: block;
+}
+
+.\*\:w-\[784px\] > * {
+  width: 784px;
 }
 
 .\*\:p-1 > * {
