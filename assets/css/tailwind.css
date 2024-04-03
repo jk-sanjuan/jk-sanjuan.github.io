@@ -1147,6 +1147,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-top: 0px;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -1155,12 +1159,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-top: auto;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .block {
@@ -1259,6 +1259,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 128px;
 }
 
+.w-\[148px\] {
+  width: 148px;
+}
+
+.w-\[155px\] {
+  width: 155px;
+}
+
 .w-\[170px\] {
   width: 170px;
 }
@@ -1285,6 +1293,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[56px\] {
   width: 56px;
+}
+
+.w-\[613px\] {
+  width: 613px;
 }
 
 .w-\[662px\] {
@@ -1319,6 +1331,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 900px;
 }
 
+.w-\[990px\] {
+  width: 990px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1326,6 +1342,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[511px\] {
+  width: 511px;
 }
 
 .min-w-\[1200px\] {
@@ -1368,6 +1388,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.list-\[lower-roman\] {
+  list-style-type: lower-roman;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .list-none {
@@ -1622,6 +1650,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
@@ -1786,11 +1819,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(133 77 14 / var(--tw-bg-opacity));
 }
 
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1906,8 +1934,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-left: 0.5rem;
 }
 
+.pl-\[1\.6rem\] {
+  padding-left: 1.6rem;
+}
+
 .pl-\[20px\] {
   padding-left: 20px;
+}
+
+.pl-\[3rem\] {
+  padding-left: 3rem;
 }
 
 .pr-1 {
@@ -1928,6 +1964,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pt-6 {
@@ -1974,6 +2014,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-\[20px\] {
+  font-weight: 20px;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-6 {
@@ -2118,6 +2166,19 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   transition-duration: 916ms;
 }
 
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li {
+  text-indent: 13px;
+}
+
+ul.dashed > li:before {
+  content: "—";
+  text-indent: -5px;
+}
+
 .border-b-3 {
   border-bottom-width: 3px;
 }
@@ -2174,16 +2235,52 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   font-family: sans-serif;
 }
 
+.\[font-size\:20px\] {
+  font-size: 20px;
+}
+
 .\[grid-template-rows\:0fr_auto\] {
   grid-template-rows: 0fr auto;
+}
+
+.\[left\:580\] {
+  left: 580;
 }
 
 .\[max-width\:825px\] {
   max-width: 825px;
 }
 
+.\[position\:relative\] {
+  position: relative;
+}
+
+.\[right\:0\] {
+  right: 0;
+}
+
+.\[font-size\:18px\] {
+  font-size: 18px;
+}
+
+.\*\:mt-2 > * {
+  margin-top: 0.5rem;
+}
+
+.\*\:block > * {
+  display: block;
+}
+
 .\*\:p-1 > * {
   padding: 0.25rem;
+}
+
+.\*\:pr-2 > * {
+  padding-right: 0.5rem;
+}
+
+.\*\:pr-4 > * {
+  padding-right: 1rem;
 }
 
 .marker\:text-sky-400 *::marker {
