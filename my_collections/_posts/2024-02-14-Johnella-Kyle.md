@@ -10,4 +10,4 @@ published_date: 2024-02-14
 [12-23-2021]
 Johnella Kyle SJ
 
-![Kayee Motus](assets/images/kayee/kayee-motus.png)
+<img alt="Kayee Motus" src="/assets/images/kayee/kayee-motus.png"/>
