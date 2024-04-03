@@ -1349,6 +1349,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   flex-shrink: 0;
 }
 
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 .cursor-default {
   cursor: default;
 }
@@ -2096,6 +2106,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.duration-\[916ms\] {
+  transition-duration: 916ms;
+}
+
 .border-b-3 {
   border-bottom-width: 3px;
 }
@@ -2478,6 +2496,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .hover\:\[border-bottom-style\:inset\]:hover {
   border-bottom-style: inset;
+}
+
+.hover\:\[animation-duration\:12s\]:hover {
+  animation-duration: 12s;
 }
 
 .focus\:bg-slate-500:focus {
