@@ -22,7 +22,7 @@ tags: epub
 <script src="/assets/js/epub.js/dist/epub.min.js"></script>
 
 <div class="block">
-  <div id="area" class="w-[1200px] block h-[100vh]">
+  <div id="area" class="w-[969px] block h-[83vh]">
   
     <select id="toc"></select>
     <div id="viewer" class="spreads"></div>

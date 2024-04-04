@@ -1251,6 +1251,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: auto;
 }
 
+.h-\[969vh\] {
+  height: 969vh;
+}
+
+.h-\[83vh\] {
+  height: 83vh;
+}
+
 .w-\[1192px\] {
   width: 1192px;
 }
@@ -1358,6 +1366,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[969px\] {
+  width: 969px;
 }
 
 .min-w-\[1200px\] {
@@ -2295,6 +2311,10 @@ ul.dashed > li:before {
 
 .\*\:w-\[911px\] > * {
   width: 911px;
+}
+
+.\*\:w-\[999px\] > * {
+  width: 999px;
 }
 
 .\*\:p-1 > * {
