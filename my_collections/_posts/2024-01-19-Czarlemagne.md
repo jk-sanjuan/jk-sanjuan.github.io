@@ -106,7 +106,7 @@ published_date: 2024-01-19
                 JavaScript, Typescript, Rust, Ruby, OCaml, Swift, Bash, Powershell, Solidity, Vyper</span>
         </div>
         <div>
-          <div class="flex *:w-[850px]">
+          <div class="flex mt-3 *:w-[850px]">
             <h3 class="pr-3">Computer Languages</h3>
             <span>C <br>
                   💗💗💗💗💗
