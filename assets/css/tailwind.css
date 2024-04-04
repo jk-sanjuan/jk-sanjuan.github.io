@@ -2293,6 +2293,10 @@ ul.dashed > li:before {
   width: 850px;
 }
 
+.\*\:w-\[911px\] > * {
+  width: 911px;
+}
+
 .\*\:p-1 > * {
   padding: 0.25rem;
 }
