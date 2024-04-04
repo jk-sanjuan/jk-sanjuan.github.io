@@ -25,7 +25,7 @@
 
 <body class="h-[100vh] grid [grid-template-rows:0fr_auto]">
 
-  <div class="container sticky top-0 z-10 flex justify-between items-center bg-blue-900
+  <div class="container sticky top-0 z-10 [position:fixed] flex justify-between items-center bg-blue-900
        min-w-[1200px] sm:min-w-[100%]">
 
     <div class="block">
@@ -34,10 +34,18 @@
     </div>
   </div>
 
-  {% include home.html %}
-  {% include books.html %}
-  {% include storage.html %}
-  {% include contact-us.html %}
+  <section id="home">
+    {% include home.html %}
+  </section>
+  <section id="book">
+    {% include books.html %}
+  </section>
+  <section id="files">
+    {% include storage.html %}
+  </section>
+  <section id="readme">
+    {% include contact-us.html %}
+  </section>
 
   {% include footer.html %}
 </body>

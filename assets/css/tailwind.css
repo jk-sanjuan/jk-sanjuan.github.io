@@ -864,6 +864,13 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     --tw-bg-opacity: 1 !important;
     background-color: rgb(253 224 71 / var(--tw-bg-opacity)) !important;
   }
+
+  nav a.active {
+    background-color: rgb(3 105 161 / 0.5);
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition: 0.5s ease-out;
+  }
 }
 
 .visible {
@@ -2274,6 +2281,18 @@ ul.dashed > li:before {
   opacity: 1;
 }
 
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
 @keyframes fade-bottom {
   0% {
     transform: translateY(50px);
@@ -2366,6 +2385,10 @@ ul.dashed > li:before {
 
 .\[max-width\:1191px\] {
   max-width: 1191px;
+}
+
+.\[position\:fixed\] {
+  position: fixed;
 }
 
 .\[position\:relative\] {
