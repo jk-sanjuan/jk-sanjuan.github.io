@@ -152,7 +152,7 @@ tags: epub
     <img alt="Discover Baybayin" src="/assets/images/book_covers/Discover-Baybayin.png" width="400px"
         class=""/>
     <main>
-      <div class="text w-[860px] ml-[3rem] mr-auto">
+      <div class="text w-[750px] ml-[3rem] mr-auto">
         <h2 class="ml-[5rem]">Description:</h2>
         <p class="description">
     
