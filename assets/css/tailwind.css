@@ -2423,6 +2423,10 @@ ul.dashed > li:before {
   right: 53;
 }
 
+.\[transform\:scale\(1\.7\)\] {
+  transform: scale(1.7);
+}
+
 .\[transition\:background-color_\.15s_ease\] {
   transition: background-color .15s ease;
 }
