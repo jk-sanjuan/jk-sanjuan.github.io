@@ -1,0 +1,130 @@
+<!-- list all files -->
+<div>
+<!--- Some heading. TODO: add some SEO-featured info here -->
+
+  <h1>You are viewing as: Github Viewer</h1>
+  <p>Browse some files uploaded here.. </p>
+  <p>Files was sorted by: <a href="#">Newest &uparrow;</a></p>
+</div>
+
+<div class="row mx-8 mt-6 w-[1200px]">
+  <ul>
+  {% for file in site.files %}
+    <!--- iterate through paginated files -->
+    <li class="inline-block">
+      <div class="p-[20px_16px_0_0] w-[800px] h-[290px]
+                 overflow-scroll inline-block relative
+                 border border-solid border-[#00000003] rounded-[8px]
+                 bg-[rgba(136,_136,_136,_0.15)]
+                 hover:bg-slate-300 hover:text-slate-800" >
+        <div id="details-outer" class="p-[20px_16px_16px] w-[720px] absolute top-0">
+        <!--- Some file icons (TODO: make it functional and connect it to internal [book] viewer or something) -->
+          <div id="file-icons" class="absolute inline-block w-[80px] h-[310px] h-auto top-0 left-0 bg-[rgba(136,_136,_136,_0.15)]">
+
+            <ul class="list-none max-w-[80px] m-0 pt-0 pl-[0.5rem]">
+              <li class="rounded px-1 py-1 pb-3 -ml-2 hover:bg-slate-400/50 h-[80px] relative">
+              <!--- File type icon -->
+
+                <div class="auto">
+                  <div class="icon-wrapper">
+                    <a class="file-button">
+                      <div class="file-icon"
+                           style="background-image: url('/assets/images/icons/epub-blue.png')">
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="rounded px-1 py-1 pb-3 -ml-2 hover:bg-slate-400/50 h-[80px] relative">
+              <!--- Additional icon(s) (to be implemented) -->
+              </li>
+
+            </ul>
+
+          </div>
+        <!--- File summary and details with initial width of 662-wide-pixels 1324 if size was double -->
+        <!--- with margins top and bottom to 0, and left to auto, and right to 80px -->
+          <div id="details" class="inline-block m-[0_auto_0_80px] relative w-[662px]">
+
+            <div id="file-description">
+              <!--- File's name as heading (TODO: link it to a detailed view of file) -->
+              <h3 id="name-heading" class="mt-0 mr-[6rem] hover:bg-slate-100 hover:cursor-pointer">
+                <a href="{{ file.url }}">{{ file.name }}</a></h3>
+              <!--- size and modification time as additional details -->
+              <div class="mb-6 w-max">
+                <span id="size" class="text-[rgba(0,_0,_0,_0.38)]"><a href="?sort=size">{{ file.size_readable }}</a></span>
+                <span class="text-slate-800 font-semibold"> / </span>
+                <span id="modified" class="text-[rgba(0,_0,_0,_0.38)]"><a href="?sort=mod">{{ file.modified }}</a></span>
+              </div>
+            </div>
+
+            <div id="tags" class="bg-slate-500/20 -ml-4 -mb-5 py-1 -mr-9">
+              <div class="bg-white">
+                <!--- Tags summary -->
+                <div class="inline-block rounded-full bg-blue-500 text-slate-100 px-2 py-1">1</div>
+                <h4 id="tags-heading" class="inline-block px-1 py-2 rounded bg-white/20 text-slate-500 hover:bg-sky-500/20">Tags
+                  <sub class="font-normal before:content-['('] after:content-[')']">{{ file.tags }}</sub></h4>
+              </div>
+            </div>
+
+            <div id="tags-links" class="">
+              <ul class="list-none mx-1 my-1 -ml-[1.5rem]">
+              <!--- Clickable tag links, to categorized search (see todo) -->
+
+                {% for file_tag in file.tags %}
+                <!--- file_tags as list-links (clickable) -->
+                <!--- TODO: add support for multiple tags to pin down search by tags -->
+                <li class="inline-block rounded-full border border-sky-400
+                          {% if file_tag.slug == tag %}bg-sky-400{% else %}bg-blue-600{% endif %}
+                          px-1 py-2 mx-1 my-1 -ml-1 hover:bg-sky-500">
+                  <a href="?tag={{ file_tag }}" class="no-underline mx-2 py-2 text-slate-200">{{ file_tag }}</a>
+                </li>
+                {% endfor %}
+
+              </ul>
+            </div>
+
+          </div>
+        <!-- Details (wrapped in div#details-outer) -->
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <!--- Search pagination -->
+  <div id="pagination" class="pt-[20px]">
+    <span id="step-links">
+      {% if paginator.previous_page %}
+      <a href="?page=1"
+         class="bg-red-600 text-red-200 px-1 py-1 pl-2 rounded-tl-[9px] rounded-bl-[9px] no-underline hover:underline
+                hover:bg-red-700">&laquo; first</a>
+      <a href="{{ paginator.previous_page }}"
+         class="bg-red-400 text-red-100 px-1 py-1 no-underline hover:underline
+                hover:bg-red-500">previous</a>
+      {% endif %}
+
+      <span id="current" class="bg-yellow-700 text-yellow-100 px-2 py-1"> Page 1 of 1</span>
+
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page }}"
+         class="bg-blue-400 text-blue-100 px-1 py-1 no-underline hover:underline
+                hover:bg-blue-500">next</a>
+      <a href="{{ paginator.total_pages }}"
+         class="bg-blue-600 text-blue-200 px-1 py-1 pr-2 rounded-tr-[9px] rounded-br-[9px] no-underline hover:underline
+                hover:bg-blue-700">last &raquo</a>
+      {% endif %}
+
+    </span>
+  </div>
+  <!--- Search info (as summarized statistics) -->
+  <div class="w-[900px] md:w-[1024px] lg:w-[1124px] xl:w-[1280px] 2xl:w-[1720px]">
+    <hr>
+    <p class="w-full"> Total files tagged with <span
+        class="px-2 py-1 bg-blue-400 text-blue-100 rounded"> EPUB</span>: <span
+        class="bg-red-400 text-white p-1">1</span> total; Shown: <span
+        class="bg-green-400 text-green-900 p-1">1</span>; Past: <span
+        class="bg-yellow-400 text-yellow-900 p-1"> 1 </span></p>
+  </div>
+</div>
