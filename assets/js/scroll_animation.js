@@ -1,7 +1,7 @@
 
 
 let section = document.querySelectorAll('section');
-let menu = document.querySelectorAll('nav a');
+let menu_nav = document.querySelectorAll('nav a');
 
 window.onscroll = () => {
     section.forEach(i => {
@@ -10,7 +10,7 @@ window.onscroll = () => {
         let height = i.offsetHeight;
         let id = i.getAttribute('id');
         if (top >= offset && top < offset + height) {
-            menu.forEach(link => {
+            menu_nav.forEach(link => {
                 link.classList.remove('active');
                 document.querySelector('nav a[id*=' + id + ']')
                     .classList.add('active');
