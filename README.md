@@ -5,7 +5,7 @@ title: JKSJ-x-mczvc
 # Welcome to Github Page of OpenLibrary!
 
 <div class="w-[1200px]">
-  <div class="mx-auto [max-width:825px]">
+  <div class="mx-auto [max-width:1191px]">
     <p>
       <img alt="Double Happiness" src="/assets/images/kayee/2000608.jpg" height="480"/>
       <img alt="Double Happiness" src="/assets/images/kayee/SS20220317-172916.png" height="480"/>

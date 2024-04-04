@@ -2293,6 +2293,10 @@ ul.dashed > li:before {
   transition: background-color .15s ease;
 }
 
+.\[max-width\:1191px\] {
+  max-width: 1191px;
+}
+
 .\*\:mt-2 > * {
   margin-top: 0.5rem;
 }
