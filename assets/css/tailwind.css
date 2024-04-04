@@ -2233,6 +2233,10 @@ ul.dashed > li:before {
   transition: background-color .15s ease, border-color .15s ease, color .15s ease;
 }
 
+.animate-opacity {
+  transition: opacity 0.75s ease;
+}
+
 .animate-border {
   transition: border-bottom-width .15s ease;
 }
@@ -2339,8 +2343,16 @@ ul.dashed > li:before {
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
+.\!\[font-size\:32px\] {
+  font-size: 32px !important;
+}
+
 .\[border-bottom-style\:inset\] {
   border-bottom-style: inset;
+}
+
+.\[bottom\:70\] {
+  bottom: 70;
 }
 
 .\[box-sizing\:content-box\] {
@@ -2387,6 +2399,10 @@ ul.dashed > li:before {
   max-width: 1191px;
 }
 
+.\[opacity\:0\.34\] {
+  opacity: 0.34;
+}
+
 .\[position\:fixed\] {
   position: fixed;
 }
@@ -2403,48 +2419,16 @@ ul.dashed > li:before {
   right: 0;
 }
 
-.\[transition\:background-color_\.15s_ease\] {
-  transition: background-color .15s ease;
-}
-
-.\[font-size\:32px\] {
-  font-size: 32px;
-}
-
-.\[position\:absolute\] {
-  position: absolute;
-}
-
-.\!\[font-size\:32px\] {
-  font-size: 32px !important;
-}
-
-.\[bottom\:20\] {
-  bottom: 20;
-}
-
-.\[right\:20\] {
-  right: 20;
-}
-
-.\[z-index\:100\] {
-  z-index: 100;
-}
-
-.\[bottom\:70\] {
-  bottom: 70;
-}
-
 .\[right\:53\] {
   right: 53;
 }
 
-.\[opacity\:0\.4\] {
-  opacity: 0.4;
+.\[transition\:background-color_\.15s_ease\] {
+  transition: background-color .15s ease;
 }
 
-.\[opacity\:0\.34\] {
-  opacity: 0.34;
+.\[z-index\:100\] {
+  z-index: 100;
 }
 
 .\*\:mt-2 > * {
