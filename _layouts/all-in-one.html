@@ -25,14 +25,7 @@
 
 <body class="h-[100vh] grid [grid-template-rows:0fr_auto]">
 
-  <div class="container sticky top-0 z-10 [position:fixed] flex justify-between items-center bg-blue-900
-       min-w-[640px] sm:min-w-[100%]">
-
-    <div class="block w-full">
-      {% include header.navigator.html %}
-      {% include navigator-items.html %}
-    </div>
-  </div>
+  {% include base.navigator.html %}
 
   <section id="home">
     {% include home.html %}
