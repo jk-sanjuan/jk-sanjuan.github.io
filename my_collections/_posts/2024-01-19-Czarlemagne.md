@@ -75,7 +75,7 @@ published_date: 2024-01-19
             Full-stack Developer, DevOps Engineer – R&D, 
             Database Administrator, IT & IS Manager, 
             Business Innovator</span>
-          <span class="font-bold [font-size:18px]">DADS University, Bayanihan College, Network Careers</span><span> | </span><span class="italic">Quezon City</span></span>
+          <span class="font-bold [font-size:18px]">DADS University, Bayanihan College, Network Careers</span><span> | </span><span class="italic">Quezon City</span>
           
           <ul class="dashed *:mt-2">
             <li>Built several micro-services and API endpoints for the consumers and producers operating in the open-source, MOOC and value-based Careers platform to implement automated management solutions.</li>
@@ -106,7 +106,7 @@ published_date: 2024-01-19
                 JavaScript, Typescript, Rust, Ruby, OCaml, Swift, Bash, Powershell, Solidity, Vyper</span>
         </div>
         <div>
-          <div class="flex *:w-[784px]">
+          <div class="flex *:w-[850px]">
             <h3 class="pr-3">Computer Languages</h3>
             <span>C <br>
                   💗💗💗💗💗
