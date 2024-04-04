@@ -866,7 +866,7 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   }
 
   nav a.active {
-    background-color: rgb(3 105 161 / 0.5);
+    background-color: rgb(14 165 233 / 0.7);
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
     transition: 0.5s ease-out;
@@ -2407,6 +2407,46 @@ ul.dashed > li:before {
   transition: background-color .15s ease;
 }
 
+.\[font-size\:32px\] {
+  font-size: 32px;
+}
+
+.\[position\:absolute\] {
+  position: absolute;
+}
+
+.\!\[font-size\:32px\] {
+  font-size: 32px !important;
+}
+
+.\[bottom\:20\] {
+  bottom: 20;
+}
+
+.\[right\:20\] {
+  right: 20;
+}
+
+.\[z-index\:100\] {
+  z-index: 100;
+}
+
+.\[bottom\:70\] {
+  bottom: 70;
+}
+
+.\[right\:53\] {
+  right: 53;
+}
+
+.\[opacity\:0\.4\] {
+  opacity: 0.4;
+}
+
+.\[opacity\:0\.34\] {
+  opacity: 0.34;
+}
+
 .\*\:mt-2 > * {
   margin-top: 0.5rem;
 }
@@ -2755,6 +2795,10 @@ ul.dashed > li:before {
 
 .hover\:\[border-bottom-style\:inset\]:hover {
   border-bottom-style: inset;
+}
+
+.hover\:\[opacity\:0\.79\]:hover {
+  opacity: 0.79;
 }
 
 .focus\:bg-slate-500:focus {

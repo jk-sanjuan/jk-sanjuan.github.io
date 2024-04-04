@@ -1,4 +1,7 @@
 
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
 
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
