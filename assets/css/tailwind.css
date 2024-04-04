@@ -1135,6 +1135,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: 0.75rem;
 }
 
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
 .mr-\[6rem\] {
   margin-right: 6rem;
 }
@@ -1165,10 +1169,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mr-6 {
-  margin-right: 1.5rem;
 }
 
 .block {
@@ -2274,6 +2274,16 @@ ul.dashed > li:before {
   opacity: 1;
 }
 
+.social-links {
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+}
+
+.social-links:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
 .\[border-bottom-style\:inset\] {
   border-bottom-style: inset;
 }
@@ -2749,10 +2759,6 @@ ul.dashed > li:before {
 @media (min-width: 640px) {
   .sm\:min-w-\[100\%\] {
     min-width: 100%;
-  }
-
-  .sm\:display-none {
-    display: none;
   }
 
   .sm\:\[flex-direction\:column\] {
