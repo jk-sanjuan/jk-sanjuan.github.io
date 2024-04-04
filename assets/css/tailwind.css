@@ -1251,10 +1251,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: auto;
 }
 
-.h-\[150px\] {
-  height: 150px;
-}
-
 .w-\[1192px\] {
   width: 1192px;
 }
@@ -1311,6 +1307,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 56px;
 }
 
+.w-\[600px\] {
+  width: 600px;
+}
+
 .w-\[613px\] {
   width: 613px;
 }
@@ -1358,14 +1358,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[150px\] {
-  width: 150px;
-}
-
-.w-\[600px\] {
-  width: 600px;
 }
 
 .min-w-\[1200px\] {
@@ -1920,6 +1912,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1974,6 +1971,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-right: 0.5rem;
 }
 
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
 .pt-0 {
   padding-top: 0px;
 }
@@ -1996,10 +1997,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .pt-\[20px\] {
   padding-top: 20px;
-}
-
-.pr-3 {
-  padding-right: 0.75rem;
 }
 
 .text-center {
@@ -2216,23 +2213,12 @@ ul.dashed > li:before {
   line-height: 2.25rem;
 }
 
-.tw-p-4 {
-  padding: 1rem;
+.animate-btn {
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
 }
 
-.tw-py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.tw-py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.tw-px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.animate-border {
+  transition: border-bottom-width .15s ease;
 }
 
 .\[border-bottom-style\:inset\] {
@@ -2279,16 +2265,16 @@ ul.dashed > li:before {
   position: relative;
 }
 
+.\[right\:-250px\] {
+  right: -250px;
+}
+
 .\[right\:0\] {
   right: 0;
 }
 
-.\[flex-grow\:1\] {
-  flex-grow: 1;
-}
-
-.\[right\:-250px\] {
-  right: -250px;
+.\[transition\:background-color_\.15s_ease\] {
+  transition: background-color .15s ease;
 }
 
 .\*\:mt-2 > * {
@@ -2301,6 +2287,10 @@ ul.dashed > li:before {
 
 .\*\:w-\[784px\] > * {
   width: 784px;
+}
+
+.\*\:w-\[850px\] > * {
+  width: 850px;
 }
 
 .\*\:p-1 > * {
@@ -2422,6 +2412,11 @@ ul.dashed > li:before {
 .hover\:bg-\[mediumvioletred\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(199 21 133 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[rgb\(250_21_133\)\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 21 133 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[rgba\(215\2c _200\2c _121\2c _0\.11\)\]:hover {
