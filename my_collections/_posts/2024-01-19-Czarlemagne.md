@@ -90,7 +90,7 @@ published_date: 2024-01-19
     </div>
   </div>
   <div>
-    <div class="w-[511px]">
+    <div class="w-[900px]">
       <h3>EDUCATION</h3>
       <div class="*:block">
         <span>August 2014 – October 2016</span>
