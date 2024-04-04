@@ -3,6 +3,20 @@ function scrollToTop() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
+let menu_open = false;
+function menu(m) {
+    m.classList.toggle('open');
+    menu_open = !menu_open;
+    scroll_on_top = document.getElementById("scroll-on-top");
+    if (menu_open) {
+        scroll_on_top.classList.add("show");
+        scroll_on_top.classList.remove("hide");
+    } else {
+        scroll_on_top.classList.add("hide");
+        scroll_on_top.classList.remove("show");
+    }
+}
+
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
 
