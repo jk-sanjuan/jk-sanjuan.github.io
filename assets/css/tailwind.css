@@ -1375,6 +1375,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 750px;
 }
 
+.w-\[98\%\] {
+  width: 98%;
+}
+
 .min-w-\[1200px\] {
   min-width: 1200px;
 }
