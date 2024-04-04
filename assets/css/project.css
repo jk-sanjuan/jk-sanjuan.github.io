@@ -96,5 +96,68 @@
 }
 
 #book-description {
-  border-inline-start: 4px solid #0171ff;
+    border-inline-start: 4px solid #0171ff;
+}
+
+
+.btn-back {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 0;
+    top: 20px;
+    transition-duration: 0.5s;
+}
+
+.btn-back .icon {
+    transition-duration: 0.5s;
+    position: relative;
+    height: 4px;
+    width: 30px;
+    top: 30px;
+    background-color: mediumvioletred;
+}
+
+.btn-back .icon:before {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: mediumvioletred;
+    content: "";
+    top: -10px;
+}
+
+.btn-back .icon:after {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: mediumvioletred;
+    content: "";
+    top: 10px;
+}
+
+.btn-back.open .icon {
+    transition: 0.5s;
+}
+
+.btn-back.open .icon:before {
+    transform: rotateZ(-45deg) scaleX(0.75) translate(-10px, -3px);
+}
+
+.btn-back.open .icon:after {
+    transform: rotateZ(45deg) scaleX(0.75) translate(-10px, 3px);
+}
+
+.btn-back:hover {
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }
