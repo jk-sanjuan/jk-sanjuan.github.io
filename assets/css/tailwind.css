@@ -2242,7 +2242,7 @@ ul.dashed > li:before {
 }
 
 .footer-col ul li {
-  transition: all 0.5s ease;
+  transition: all 0.15s ease;
 }
 
 .footer-col ul li:hover {
