@@ -1391,6 +1391,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: max-content;
 }
 
+.w-\[246px\] {
+  width: 246px;
+}
+
 .min-w-\[640px\] {
   min-width: 640px;
 }
@@ -1866,6 +1870,29 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(133 77 14 / var(--tw-bg-opacity));
 }
 
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400\/90 {
+  background-color: rgb(156 163 175 / 0.9);
+}
+
+.bg-gray-400\/80 {
+  background-color: rgb(156 163 175 / 0.8);
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -2209,6 +2236,26 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   color: rgb(113 63 18 / var(--tw-text-opacity));
 }
 
+.text-yellow-800 {
+  --tw-text-opacity: 1;
+  color: rgb(133 77 14 / var(--tw-text-opacity));
+}
+
+.text-yellow-500 {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-\[mediumvioletred\] {
+  --tw-text-opacity: 1;
+  color: rgb(199 21 133 / var(--tw-text-opacity));
+}
+
+.text-\[rgb\(8\2c 137\2c 187\)\] {
+  --tw-text-opacity: 1;
+  color: rgb(8 137 187 / var(--tw-text-opacity));
+}
+
 .no-underline {
   text-decoration-line: none;
 }
@@ -2478,6 +2525,14 @@ ul.dashed > li:before {
 
 .\[z-index\:100\] {
   z-index: 100;
+}
+
+.\[border-inline-start\:4px_solid_\#0171ff\] {
+  border-inline-start: 4px solid #0171ff;
+}
+
+.\[border-inline-start\:4px_solid_\#5499f0\] {
+  border-inline-start: 4px solid #5499f0;
 }
 
 .\*\:mt-2 > * {
@@ -2763,6 +2818,11 @@ ul.dashed > li:before {
 .hover\:bg-yellow-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .hover\:text-sm:hover {

@@ -62,7 +62,9 @@ published_date: 2024-01-19
         <div class="*:block *:pr-2 pt-4">
           <span>(May 2019 – Nov. 2019)</span>
           <span class="text-white bg-yellow-600 p-2">CEO & Founder, Software Engineer and Architect</span>
-          <span class="font-bold [font-size:18px]">Egg. Co. Creations</span><span> | </span><span class="italic">Quezon City</span>
+          <span class="font-bold [font-size:18px] bg-gray-300 p-2 hover:bg-gray-200 cursor-pointer
+                        [border-inline-start:4px_solid_#5499f0]">Egg Co. Creations</span><span> | </span>
+          <span class="italic">Quezon City</span>
           <ul class="dashed mt-1 *:mt-2">
             <li>Developed the Easy Graphics, Easy Game, and Easy Animation library using Java and OpenGL.</li>
             <li>Released two Android games using the library.</li>
@@ -75,7 +77,10 @@ published_date: 2024-01-19
             Full-stack Developer, DevOps Engineer – R&D, 
             Database Administrator, IT & IS Manager, 
             Business Innovator</span>
-          <span class="font-bold [font-size:18px]">DADS University, Bayanihan College, Network Careers</span><span> | </span><span class="italic">Quezon City</span>
+          <span class="font-bold [font-size:18px] bg-gray-300 p-2 hover:bg-gray-200 cursor-pointer
+                      [border-inline-start:4px_solid_#5499f0]">
+            DADS University, Bayanihan College, Network Careers</span>
+          <span> | </span><span class="italic">Quezon City</span>
           
           <ul class="dashed *:mt-2">
             <li>Built several micro-services and API endpoints for the consumers and producers operating in the open-source, MOOC and value-based Careers platform to implement automated management solutions.</li>
@@ -196,19 +201,22 @@ published_date: 2024-01-19
         <div>
           <h3>Organizations</h3>
           <div class="flex mb-4">
-            <span>Royal Academies of Science, Engineering, and Medicine</span>
-            <span>Software Architect, 2022–2032</span>
+            <span class="flex items-center justify-center px-1 
+                          bg-gray-200 font-bold block">Royal Academies of Science, Engineering, and Medicine</span>
+            <span class="text-white bg-yellow-600 p-2 block">Software Architect, 2022–2032</span>
           </div>
-          <div class="flex">
-            <span>Vanguard Consortium – Phi Chi Alpha</span>
-            <div class="*:block w-[183px] ml-auto">
-              <span>Royal Knight, Sigma Alpha, Founder
-  Established on 14 Dec. 2023</span>
-              <ul class="list-disc">
-                <li>Linux Foundation</li>
-                <li>CompTIA</li>
-              </ul>
+          <div class="flex mb-4">
+            <span><span class="bg-gray-200 p-2">Vanguard Consortium – Phi Chi Alpha</span></span>
+            <div class="*:block w-[246px] ml-auto">
+              <span class="text-[rgb(8,137,187)] bg-gray-400/80 p-2">Royal Knight, Sigma Alpha, <br>Founder</span>
+              <span class="text-yellow-600 bg-gray-300 p-1">Established on 14 Dec. 2023</span>
             </div>
+          </div>
+          <div class="flex mb-4">
+            <span class="bg-gray-200 p-2">Linux Foundation</span>
+          </div>
+          <div class="flex mb-4">
+            <span class="bg-gray-200 p-2">CompTIA</span>
           </div>
         </div>
       </div>
