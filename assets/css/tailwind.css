@@ -1294,16 +1294,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 170px;
 }
 
-.w-\[183px\] {
-  width: 183px;
-}
-
 .w-\[200px\] {
   width: 200px;
 }
 
 .w-\[21ch\] {
   width: 21ch;
+}
+
+.w-\[246px\] {
+  width: 246px;
 }
 
 .w-\[256px\] {
@@ -1389,10 +1389,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[246px\] {
-  width: 246px;
 }
 
 .min-w-\[640px\] {
@@ -1701,6 +1697,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400\/80 {
+  background-color: rgb(156 163 175 / 0.8);
+}
+
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -1868,29 +1878,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .bg-yellow-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(133 77 14 / var(--tw-bg-opacity));
-}
-
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
-.bg-gray-400\/90 {
-  background-color: rgb(156 163 175 / 0.9);
-}
-
-.bg-gray-400\/80 {
-  background-color: rgb(156 163 175 / 0.8);
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-no-repeat {
@@ -2112,6 +2099,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   line-height: 1.5rem;
 }
 
+.text-\[rgb\(8\2c 137\2c 187\)\] {
+  --tw-text-opacity: 1;
+  color: rgb(8 137 187 / var(--tw-text-opacity));
+}
+
 .text-\[rgba\(0\2c _0\2c _0\2c _0\.38\)\] {
   color: rgba(0, 0, 0, 0.38);
 }
@@ -2236,26 +2228,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   color: rgb(113 63 18 / var(--tw-text-opacity));
 }
 
-.text-yellow-800 {
-  --tw-text-opacity: 1;
-  color: rgb(133 77 14 / var(--tw-text-opacity));
-}
-
-.text-yellow-500 {
-  --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-
-.text-\[mediumvioletred\] {
-  --tw-text-opacity: 1;
-  color: rgb(199 21 133 / var(--tw-text-opacity));
-}
-
-.text-\[rgb\(8\2c 137\2c 187\)\] {
-  --tw-text-opacity: 1;
-  color: rgb(8 137 187 / var(--tw-text-opacity));
-}
-
 .no-underline {
   text-decoration-line: none;
 }
@@ -2356,18 +2328,6 @@ ul.dashed > li:before {
   opacity: 1;
 }
 
-.active.fade-bottom {
-  animation: fade-bottom 1s ease-in;
-}
-
-.active.fade-left {
-  animation: fade-left 1s ease-in;
-}
-
-.active.fade-right {
-  animation: fade-right 1s ease-in;
-}
-
 @keyframes fade-bottom {
   0% {
     transform: translateY(50px);
@@ -2404,11 +2364,6 @@ ul.dashed > li:before {
   }
 }
 
-.ec-hover:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
 .social-links {
   border-radius: 1.5rem;
   padding: 0.75rem;
@@ -2425,6 +2380,10 @@ ul.dashed > li:before {
 
 .\[border-bottom-style\:inset\] {
   border-bottom-style: inset;
+}
+
+.\[border-inline-start\:4px_solid_\#5499f0\] {
+  border-inline-start: 4px solid #5499f0;
 }
 
 .\[bottom\:70\] {
@@ -2525,14 +2484,6 @@ ul.dashed > li:before {
 
 .\[z-index\:100\] {
   z-index: 100;
-}
-
-.\[border-inline-start\:4px_solid_\#0171ff\] {
-  border-inline-start: 4px solid #0171ff;
-}
-
-.\[border-inline-start\:4px_solid_\#5499f0\] {
-  border-inline-start: 4px solid #5499f0;
 }
 
 .\*\:mt-2 > * {
@@ -2707,6 +2658,11 @@ ul.dashed > li:before {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-gray-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
@@ -2818,11 +2774,6 @@ ul.dashed > li:before {
 .hover\:bg-yellow-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .hover\:text-sm:hover {
