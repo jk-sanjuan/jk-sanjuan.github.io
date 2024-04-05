@@ -6,6 +6,8 @@ summary: Founder of Bayanihan College
 isbn: "0000000000000000"
 published_date: 2024-01-19
 image: https://mczvc-biomew.github.io/assets/images/biomew/mczvc.png
+image-width: "599"
+image-height: "600"
 ---
 <div class="text-white bg-yellow-600 p-4 [font-size:20px]">Resume of Czarlemagne</div>
 
