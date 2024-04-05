@@ -42,3 +42,19 @@ function noreveal(el) {
 }
 
 window.addEventListener("scroll", reveal);
+
+function select_asterisked() {
+    var asterisked = document.querySelectorAll("#coursework span.asterisked");
+
+    for (var i = 0; i < asterisked.length; i++) {
+        asterisked[i].classList.add("selected");
+    }
+}
+
+function deselect_asterisked() {
+    var asterisked = document.querySelectorAll("#coursework span.asterisked");
+
+    for (var i = 0; i < asterisked.length; i++) {
+        asterisked[i].classList.remove("selected");
+    }
+}

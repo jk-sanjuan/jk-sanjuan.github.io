@@ -29,7 +29,7 @@ published_date: 2024-01-19
 <div class="flex">
   <div class="p-4">
     <h3>ABOUT ME</h3>
-    <div class="w-[613px]">
+    <div class="w-[613px] [line-height:1.4]">
       <ul class="pl-[3rem] list-[lower-roman]">
         <li>I am expert in Python, Java, C++, and JavaScript and a wide variety of frameworks for these languages, 
           for example:
@@ -55,15 +55,15 @@ published_date: 2024-01-19
         <li>I am full-stack developer, and DevOps engineer for 6+ years.</li>
       </ul>
     </div>
-    
+
     <h3>WORK EXPERIENCE</h3>
     <div class="w-[613px]">
       <div class="pl-[3rem]">
-        <div class="*:block *:pr-2">
+        <div class="*:block *:pr-2 pt-4">
           <span>(May 2019 – Nov. 2019)</span>
           <span class="text-white bg-yellow-600 p-2">CEO & Founder, Software Engineer and Architect</span>
           <span class="font-bold [font-size:18px]">Egg. Co. Creations</span><span> | </span><span class="italic">Quezon City</span>
-          <ul class="dashed mt-1">
+          <ul class="dashed mt-1 *:mt-2">
             <li>Developed the Easy Graphics, Easy Game, and Easy Animation library using Java and OpenGL.</li>
             <li>Released two Android games using the library.</li>
           </ul>
@@ -88,6 +88,35 @@ published_date: 2024-01-19
         </div>
       </div>
     </div>
+
+    <h3>Company</h3>
+    <div>
+      <div class="flex">
+        <div>
+          <span class="font-bold w-[75px] [display:inline-block]">Egg Co.</span><span>(Parent)</span>
+        </div>
+        <div>
+          <ul class="list-disc list-inside [&_ul]:list-[revert] ml-4 [line-height:1.5]">
+            <li>DAD System and University – College of Computer Science, School for Business and Management</li>
+            <li>Royal Society of Science, Engineering, and Medicine</li>
+            <li>Royal Society of Mathematics, Architecture, and Computing</li>
+            <li>Royal Society for Professionals</li>
+            <li>Bayanihan College, Bayanihan Foundation</li>
+              <ul class="list-disc list-inside ml-8">
+                <li>United Alumnus Royals</li>
+                <li>Bayanihan OS, Software</li>
+              </ul>
+            <li>Vanguard Consortium</li>
+              <ul class="list-disc list-inside ml-8">
+                <li>Royal Knighthood</li>
+              </ul>
+            <li>Egg Co. Club, Egg Co. Hub</li>
+            <li>Royal Club™ Machines, Equipments, and Technology</li>
+            <li>Picosoft™</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
   <div>
     <div class="w-[900px]">
@@ -95,7 +124,7 @@ published_date: 2024-01-19
       <div class="*:block">
         <span>August 2014 – October 2016</span>
         <span class="font-bold">Bachelor of Science in Computer Science</span>
-        <span>New Era University</span>
+        <span class="mt-4">New Era University</span>
         <span>College of Computer Studies | <span class="italic">New Era, Quezon City</span>
         </span>
       </div>
@@ -198,24 +227,38 @@ published_date: 2024-01-19
         </div>
         <div>
           <h3>Coursework Information</h3>
-          <span class="w-[600px] block">Calculus I, II | English Composition I, II | Interpersonal Communication Skills | 
-                Reasoning & Argumentation | Computation in Physical Sciences | Discrete Mathematic | 
-                Concrete Mathematics * | Logic & Mathematical Reasoning | Distributed Systems | 
-                Parallel and Distributed Algorithms | Algorithms-I* | Algorithms-II | 
-                Database and Web System Development | Computer Organization & Architecture | 
-                Computer Networks | Networks and Data Communications | Statistics * | 
-                Formal Language and Automata Theory |  Software Engineering* | 
-                Software Engineering for Data Scientists | Programming Languages | Software Architecture | 
-                Software Design * |  Operating Systems * | Database Management Systems* | 
-                Speech and Natural Language Processing | Ethical and Secure Computing | Machine Learning | 
-                Breadth Life Science | High Performance Computing & Computer Architecture | 
-                Computational Science and Engineering | MATLAB * for Engineering and the Life Sciences | 
-                Graphics and Computer Vision * + Image Processing | Graphics Programming with OpenGL | 
-                Network Science * | Social Computing | Discrete Structures |  Cryptography * | 
-                Blockchain Technologies * | Cloud Computing * | Artificial Intelligence * | Symbolic Logic | 
-                ERGU | EREG | Rizal
+          <span id="coursework" class="w-[725px] block *:bg-gray-500 *:text-white *:p-1 [line-height:2.1]
+                       *:cursor-pointer">
+                <span>Calculus I, II</span> <span>English Composition I, II</span> 
+                <span>Interpersonal Communication Skills</span> <span>Reasoning & Argumentation</span> 
+                <span>Computation in Physical Sciences</span> <span>Discrete Mathematics</span> 
+                <span class="asterisked">Concrete Mathematics *</span> <span>Logic & Mathematical Reasoning</span> 
+                <span>Distributed Systems</span> <span>Parallel and Distributed Algorithms</span> 
+                <span class="asterisked">Algorithms-I *</span> <span>Algorithms-II</span> <span>Database and Web System Development</span> 
+                <span>Computer Organization & Architecture</span> <span>Computer Networks</span>
+                <span>Networks and Data Communications</span> <span class="asterisked">Statistics *</span> 
+                <span>Formal Language and Automata Theory</span> <span class="asterisked">Software Engineering *</span> 
+                <span>Software Engineering for Data Scientists</span> <span>Programming Languages</span> 
+                <span>Software Architecture</span> <span class="asterisked">Software Design *</span> 
+                <span class="asterisked">Operating Systems *</span> <span class="asterisked">Database Management Systems *</span> 
+                <span>Speech and Natural Language Processing</span> <span>Ethical and Secure Computing</span> 
+                <span>Machine Learning</span> <span>Breadth Life Science</span>
+                <span>High Performance Computing & Computer Architecture</span>
+                <span>Computational Science and Engineering</span> 
+                <span class="asterisked">MATLAB * for Engineering and the Life Sciences</span> 
+                <span class="asterisked">Graphics and Computer Vision * + Image Processing</span> 
+                <span>Graphics Programming with OpenGL</span> 
+                <span class="asterisked">Network Science *</span> 
+                <span>Social Computing</span> <span>Discrete Structures</span> 
+                <span class="asterisked">Cryptography *</span> <span class="asterisked">Blockchain Technologies *</span> 
+                <span class="asterisked">Cloud Computing *</span> <span class="asterisked">Artificial Intelligence *</span> 
+                <span>Symbolic Logic</span> <span>ERGU | EREG</span> 
+                <span>Rizal</span>
           </span>
-          <span class="block w-[600px] [right:-250px] [position:relative]">(* Coursework had a lab component as well)</span>
+          <span class="block w-[600px] [right:-250px] [position:relative] ">
+            <span id="coursework-asterisk" class="bg-yellow-400 p-2" 
+                  onmouseover="select_asterisked()" onmouseleave="deselect_asterisked()">
+              (* Coursework had a lab component as well)</span></span>
         </div>
       </div>
     </div>

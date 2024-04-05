@@ -161,3 +161,13 @@
 .hide {
     display: none;
 }
+
+#coursework > span:hover {
+    background-color: rgb(229, 231, 235);
+    color: black;
+}
+
+#coursework span.asterisked.selected {
+    background-color: mediumvioletred;
+    color: aliceblue;
+}
