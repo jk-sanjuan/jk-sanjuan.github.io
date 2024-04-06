@@ -155,7 +155,7 @@
 }
 
 .show {
-    display: block;
+    display: block !important;
 }
 
 .hide {
