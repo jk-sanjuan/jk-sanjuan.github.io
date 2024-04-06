@@ -21,16 +21,18 @@
 
   {% include fonts-and-icons.style.html %}
 
-  <style>
-    #main-nav {
-        display: block;
-    }
-  </style>
+  <script>
+      window.onload = function () {
+          document.getElementById("main-nav").classList.add("show");
+          mainmenu = document.querySelector(".menu");
+          menu(mainmenu);
+      };
+  </script>
 </head>
 
 <body class="h-[100vh] grid [grid-template-rows:0fr_auto]">
 
-  <div class="h-[177px]">
+  <div id="tbar" class="h-[177px]">
     {% include base.navigator.html %}
   </div>
 
