@@ -9,17 +9,30 @@ function menu(m) {
     menu_open = !menu_open;
     scroll_on_top = document.getElementById("scroll-on-top");
     mainnav = document.getElementById("main-nav");
+    tbar = document.getElementById("tbar");
+
     if (menu_open) {
         scroll_on_top.classList.add("show");
         scroll_on_top.classList.remove("hide");
         mainnav.classList.add("show");
         mainnav.classList.remove("hide");
+        tbar.style.height = "177px";
     } else {
+        tbar.style.height = "102px";
         scroll_on_top.classList.add("hide");
         scroll_on_top.classList.remove("show");
         mainnav.classList.add("hide");
         mainnav.classList.remove("show");
     }
+}
+function hide_mainnav() {
+    mainmenu = document.querySelector(".menu");
+    mainnav = document.getElementById("main-nav");
+    tbar = document.getElementById("tbar");
+
+    mainnav.classList.add("hide");
+    mainnav.classList.remove("show");
+    menu(mainmenu);
 }
 
 function reveal() {
