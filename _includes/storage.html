@@ -1,5 +1,5 @@
 <!-- list all files -->
-<div>
+<div class="ml-3">
 <!--- Some heading. TODO: add some SEO-featured info here -->
 
   <h1>You are viewing as: Github Viewer</h1>
@@ -64,7 +64,10 @@
                 <!--- Tags summary -->
                 <div class="inline-block rounded-full bg-blue-500 text-slate-100 px-2 py-1">1</div>
                 <h4 id="tags-heading" class="inline-block px-1 py-2 rounded bg-white/20 text-slate-500 hover:bg-sky-500/20">Tags
-                  <sub class="font-normal before:content-['('] after:content-[')']">{{ file.tags }}</sub></h4>
+                  <sub class="font-normal before:content-['('] after:content-[')']">
+                    ePUB{% for file_tag in file.tags %}, {{ file_tag }}{% endfor %}
+                  </sub>
+                </h4>
               </div>
             </div>
 
