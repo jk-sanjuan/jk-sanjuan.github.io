@@ -5,7 +5,7 @@ title: Autobiography of Czarlemagne
 summary: Founder of Bayanihan College
 isbn: "0000000000000000"
 published_date: 2024-01-19
-image: https://mczvc-biomew.github.io/assets/images/biomew/mczvc.png
+image: https://mczvc-biomew.github.io/assets/images/biomew/mczvc_1.png
 image-width: "684"
 image-height: "632"
 ---
