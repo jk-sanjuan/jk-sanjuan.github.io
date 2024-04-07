@@ -96,7 +96,7 @@
                     <div class="group/ella children:my-0 children:!shadow-none children:bg-transparent text-slate-100">
                       <div>
                         <!--- Author Biography -->
-                        <p class="w-full px-6 pt-3 pb-5">{{ author.bio }}</p>
+                        <p id="author-bio" class="w-full px-6 pt-3 pb-5">{{ author.bio }}</p>
                       </div>
                       {% if author.name == 'Meldencio Czarlemagne' %}
                       <div id="book-nerd" class="w-full display-none invisible group-hover/ella:visible group-hover/ella:block">
@@ -104,6 +104,18 @@
                         <div class="w-[668px] h-[500px] m-auto noreveal" onmouseover="reveal_hover(this)" onmouseleave="noreveal(this)"
                              style="height: 500px;
                                     background-image: url('/assets/images/biomew/bg/booknerd.png');
+                                    background-repeat: no-repeat;"></div>
+                        <div class="w-[668px] h-[500px] m-auto noreveal" onmouseover="reveal_hover(this)" onmouseleave="noreveal(this)"
+                             style="background-size: 668px;
+                                    background-image: url('/assets/images/kayee/BiW-8-12-14-26-17-27JK.png');
+                                    background-repeat: no-repeat;"></div>
+                      </div>
+                      {% else %}
+                      <div id="jksj-babe" class="w-full display-none invisible group-hover/ella:visible group-hover/ella:block">
+                        <!--- Show Booknerd(Love) Image -->
+                        <div class="w-[668px] h-[500px] m-auto noreveal" onmouseover="reveal_hover(this)" onmouseleave="noreveal(this)"
+                             style="background-size: 668px;
+                                    background-image: url('/assets/images/kayee/8-12-14-26-17-27JK.png');
                                     background-repeat: no-repeat;"></div>
                       </div>
                       {% endif %}

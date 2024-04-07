@@ -95,8 +95,8 @@
     position: relative;
 }
 
-#book-description {
-    border-inline-start: 4px solid #0171ff;
+#book-description, #author-bio {
+    border-inline-start: 5px solid #0171ff;
 }
 
 
