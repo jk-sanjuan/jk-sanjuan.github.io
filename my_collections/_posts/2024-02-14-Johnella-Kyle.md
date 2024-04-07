@@ -14,7 +14,7 @@ published_date: 2024-02-14
   hover:bg-[rgb(250_21_133)]">
 Johnella Kyle San Juan</span><span><span 
 class="bg-gray-700 w-[250px] h-[31px] inline-block"></span><span class="
-w-[250px] h-[20px] bg-red-700 block [position:relative]"></span></span>
+w-[250px] h-[21px] bg-red-700 block [position:relative]"></span></span>
 </div>
 <div>
   <img alt="Kayee Motus" src="/assets/images/kayee/kayee-motus.png"/>
