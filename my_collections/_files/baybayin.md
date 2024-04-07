@@ -14,7 +14,7 @@ cloud: a13ed25824d913ad9f7c0f70489e4566
 uploaded_at: April 2, 2024, 1:21 p.m. 
 size_readable: 4.8MB
 modified: Jan. 14, 2024, 6:13 p.m.
-tags: epub
+tags: baybayin language Filipino 2021
 ---
 <link rel="stylesheet" type="text/css" href="/assets/css/reader.css">
 
