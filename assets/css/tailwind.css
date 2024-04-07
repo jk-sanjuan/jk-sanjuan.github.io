@@ -1106,6 +1106,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-left: 0px;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -1392,10 +1396,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[969px\] {
   width: 969px;
-}
-
-.w-\[98\%\] {
-  width: 98%;
 }
 
 .w-\[990px\] {
