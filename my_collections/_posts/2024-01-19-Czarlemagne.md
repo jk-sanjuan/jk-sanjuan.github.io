@@ -14,7 +14,7 @@ image-height: "632"
 <div class="bg-gray-500 text-white p-4">
   <div class="flex w-[990px]">
     <div class="[font-size:20px] w-[148px]"><div class="font-bold">Meldencio Czarlemagne</div> Corrales</div>
-    <img alt="mczvc" class="[right:0] [left:580] [position:relative]" src="/assets/images/biomew/mczvc.png" width="13%" height="13%"/>
+    <img alt="mczvc" class="[right:0] [left:580] [position:relative]" src="/assets/images/biomew/mczvc_1.png" width="13%" height="13%"/>
   </div>
   <div class="flex mt-2">
     <div class="w-[155px]"><span>Software Engineer and Architect, DevOps Engineer, Database Manager and Administrator,  
