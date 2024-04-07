@@ -2519,6 +2519,10 @@ ul.dashed > li:before {
   opacity: 0.34;
 }
 
+.\[opacity\:0\.75\] {
+  opacity: 0.75;
+}
+
 .\[position\:fixed\] {
   position: fixed;
 }
