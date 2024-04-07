@@ -10,7 +10,7 @@ published_date: 2024-02-14
       background-size: 1000px;
       background-image: url('/assets/images/kayee/C.png');
       background-repeat: no-repeat;
-      background-color: #353535">
+      background-color: #353535;">
   <div class="flex">
   <span class="text-white bg-yellow-600 p-4">(The Motus)</span><span 
     class="text-yellow-400 bg-gray-700 p-4">12-23-2021</span><span 
