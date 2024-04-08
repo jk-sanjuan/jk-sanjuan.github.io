@@ -250,7 +250,7 @@ nav li > ul li {
     width: 0;
     background: #0377bd;
     height: 5px;
-    bottom: -12px;
+    bottom: -11px;
     left: 19px;
     position: absolute;
     transition: width 1s ease;
