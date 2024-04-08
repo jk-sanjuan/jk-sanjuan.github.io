@@ -186,19 +186,19 @@
 .nav ul > a > li:after {
     content: '';
     width: 0;
-    left: 372px;
+    left: 258px;
     height: 3px;
     background-color: #00000000;
     position: absolute;
     display: block;
     bottom: 9px;
-    transition: width 1s ease, right 1s ease-out;
+    transition: width 1s ease, left 1s ease-out;
 }
 
 .nav ul > a > li:hover::after {
     background-color: #b98200;
     width: 259px;
-    right: 0;
+    left: 0;
     top: 36px;
 }
 
