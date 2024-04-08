@@ -28,7 +28,7 @@
         ADMIN</a>
     </li>
     <li class="flex items-center justify-center">
-      <div onclick="hide_mainnav()"
+      <div onclick="menuOnMouseLeave()" onmouseenter="menuOnHover()"
           class="group flex h-15 w-15 cursor-pointer items-center justify-center rounded-3xl bg-gray-400/20 p-2
                   hover:bg-gray-500/30">
         <div class="space-y-2">
@@ -43,5 +43,37 @@
     </li>
   </ul>
 
+  <div id="menu-container" onmouseleave="menuOnMouseLeave()">
+    <nav class="nav" id="nav">
+      <ul class="animate-pulse ease-in-out">
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="books">Books</a>
+          <ul>
+            {% for post in site.posts %}
+            <a href="{{ post.url }}">
+              <li class="anim-hover-bb">
+                {{ post.title }}
+              </li>
+            </a>
+            {% endfor %}
+          </ul>
+        </li>
+        <li>
+          <a href="/storage">Files</a>
+          <ul>
+            {% for file in site.files %}
+            <li>
+              <a href="{{ file.url }}">{{ file.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li><a href="/contact-us">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="menu-bg" id="menu-bg"></div>
 
 </nav>
