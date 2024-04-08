@@ -3,6 +3,16 @@ function scrollToTop() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
+function menuOnHover() {
+    document.getElementById("nav").classList.add("show");
+    document.getElementById("menu-bg").classList.add("show-bg");
+}
+
+function menuOnMouseLeave() {
+    document.getElementById("nav").classList.remove("show");
+    document.getElementById("menu-bg").classList.remove("show-bg");
+}
+
 let menu_open = false;
 function menu(m) {
     m.classList.toggle('open');
@@ -26,7 +36,7 @@ function menu(m) {
     }
 }
 function hide_mainnav() {
-    mainmenu = document.querySelector(".menu");
+    mainmenu = document.querySelector(".hamburger");
     mainnav = document.getElementById("main-nav");
     tbar = document.getElementById("tbar");
 
