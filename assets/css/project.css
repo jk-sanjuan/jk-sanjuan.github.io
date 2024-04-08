@@ -186,7 +186,7 @@
 .nav ul > a > li:after {
     content: '';
     width: 0;
-    right: 259px;
+    left: 372px;
     height: 3px;
     background-color: #00000000;
     position: absolute;
