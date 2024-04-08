@@ -204,6 +204,7 @@
     width: 277px;
     left: 19px;
     top: 36px;
+    border-radius: 3px;
 }
 
 nav li > ul li {
@@ -249,6 +250,7 @@ nav li > ul li {
     content: "";
     width: 0;
     background: #0377bd;
+    border-radius: 3px;
     height: 5px;
     bottom: -11px;
     left: 19px;
