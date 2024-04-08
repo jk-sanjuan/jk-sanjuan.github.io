@@ -165,8 +165,12 @@
     display: none;
 }
 
-.nav ul {
-    padding: 10px 22px 0;
+.nav > ul {
+    padding: 10px 42px 0;
+}
+
+.nav > ul ul li {
+    padding: 14px 33px 0;
 }
 
 .nav li {
@@ -197,8 +201,8 @@
 
 .nav ul > a > li:hover::after {
     background-color: #b98200;
-    width: 259px;
-    left: 0;
+    width: 277px;
+    left: 19px;
     top: 36px;
 }
 
@@ -216,7 +220,7 @@ nav li > ul li {
 
 .menu-bg, #menu-container {
     top: 180px;
-    right: 271px;
+    left: 368px;
     position: absolute;
 }
 
@@ -246,14 +250,14 @@ nav li > ul li {
     width: 0;
     background: #0377bd;
     height: 5px;
-    bottom: -2px;
-    left: -2px;
+    bottom: -12px;
+    left: 19px;
     position: absolute;
     transition: width 1s ease;
 }
 
 .anim-hover-bb:hover::before {
-    width: 102%;
+    width: 281px;
 }
 
 .show {
