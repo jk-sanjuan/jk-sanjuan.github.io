@@ -1270,6 +1270,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 500px;
 }
 
+.h-\[670px\] {
+  height: 670px;
+}
+
 .h-\[70px\] {
   height: 70px;
 }

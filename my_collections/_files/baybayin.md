@@ -22,7 +22,7 @@ tags: baybayin language Filipino 2021
 <script src="/assets/js/epub.js/dist/epub.min.js"></script>
 
 <div class="block">
-  <div id="area" class="w-[969px] block h-[100vh]">
+  <div id="area" class="w-[969px] block h-[670px]">
   
     <select id="toc"></select>
     <div id="viewer" class="spreads"></div>
