@@ -901,6 +901,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   top: -20px;
 }
 
+.-top-\[44px\] {
+  top: -44px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -1050,6 +1054,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: -2.25rem;
 }
 
+.-mr-\[4px\] {
+  margin-right: -4px;
+}
+
 .-mr-\[6px\] {
   margin-right: -6px;
 }
@@ -1076,6 +1084,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .-mt-6 {
   margin-top: -1.5rem;
+}
+
+.-mt-\[30px\] {
+  margin-top: -30px;
 }
 
 .mb-0 {
@@ -1154,6 +1166,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: 1.5rem;
 }
 
+.mr-\[20px\] {
+  margin-right: 20px;
+}
+
 .mr-\[6rem\] {
   margin-right: 6rem;
 }
@@ -1184,6 +1200,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[9px\] {
+  margin-top: 9px;
 }
 
 .mt-auto {
@@ -1288,6 +1312,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .h-\[95px\] {
   height: 95px;
+}
+
+.h-\[97px\] {
+  height: 97px;
 }
 
 .h-auto {
@@ -1700,9 +1728,19 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(79 79 79 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#cecece\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(206 206 206 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#ffb30f\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 179 15 / var(--tw-bg-opacity));
+}
+
+.bg-\[blanchedalmond\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 235 205 / var(--tw-bg-opacity));
 }
 
 .bg-\[blueviolet\]\/70 {
@@ -1963,6 +2001,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding: 1rem;
 }
 
+.p-\[20px\] {
+  padding: 20px;
+}
+
 .p-\[20px_16px_0_0\] {
   padding: 20px 16px 0 0;
 }
@@ -2035,6 +2077,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-bottom: 1rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -2050,6 +2097,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pb-\[12px\] {
+  padding-bottom: 12px;
 }
 
 .pl-2 {
@@ -2467,6 +2518,10 @@ ul.dashed > li:before {
   clear: both;
 }
 
+.\[color\:burlywood\] {
+  color: burlywood;
+}
+
 .\[display\:inline-block\] {
   display: inline-block;
 }
@@ -2489,6 +2544,10 @@ ul.dashed > li:before {
 
 .\[font-size\:18px\] {
   font-size: 18px;
+}
+
+.\[font-size\:2\.1rem\] {
+  font-size: 2.1rem;
 }
 
 .\[font-size\:20px\] {
