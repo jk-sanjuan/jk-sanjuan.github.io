@@ -2159,6 +2159,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-top: 1.5rem;
 }
 
+.pt-\[1\.8rem\] {
+  padding-top: 1.8rem;
+}
+
 .pt-\[20px\] {
   padding-top: 20px;
 }
@@ -2764,6 +2768,11 @@ ul.dashed > li:before {
 
 .hover\:bg-\[\#009EFF2F\]:hover {
   background-color: #009EFF2F;
+}
+
+.hover\:bg-\[cadetblue\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(95 158 160 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[mediumvioletred\]:hover {
