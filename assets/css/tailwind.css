@@ -2527,8 +2527,8 @@ ul.dashed > li:before {
   clear: both;
 }
 
-.\[color\:burlywood\] {
-  color: burlywood;
+.\[color\:\#d7a570\] {
+  color: #d7a570;
 }
 
 .\[display\:inline-block\] {
