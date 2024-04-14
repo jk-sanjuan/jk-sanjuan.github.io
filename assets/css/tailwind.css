@@ -2623,6 +2623,10 @@ ul.dashed > li:before {
   transition: background-color .15s ease;
 }
 
+.\[transition\:height_0\.3s_ease-in-out\] {
+  transition: height 0.3s ease-in-out;
+}
+
 .\[z-index\:100\] {
   z-index: 100;
 }

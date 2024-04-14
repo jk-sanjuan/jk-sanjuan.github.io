@@ -272,11 +272,17 @@ nav li > ul li {
 }
 
 .show {
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+    height: 63px;
+    opacity: 1;
     display: block !important;
 }
 
 .hide {
-    display: none;
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
 }
 
 #coursework > span:hover {
