@@ -977,9 +977,9 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: 0.5rem;
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.mx-\[20px\] {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .mx-auto {
@@ -1406,6 +1406,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 50px;
 }
 
+.w-\[517px\] {
+  width: 517px;
+}
+
+.w-\[565px\] {
+  width: 565px;
+}
+
 .w-\[56px\] {
   width: 56px;
 }
@@ -1418,16 +1426,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 613px;
 }
 
-.w-\[662px\] {
-  width: 662px;
-}
-
 .w-\[668px\] {
   width: 668px;
 }
 
 .w-\[692px\] {
   width: 692px;
+}
+
+.w-\[699px\] {
+  width: 699px;
 }
 
 .w-\[70px\] {
@@ -1448,10 +1456,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[75px\] {
   width: 75px;
-}
-
-.w-\[800px\] {
-  width: 800px;
 }
 
 .w-\[80px\] {
