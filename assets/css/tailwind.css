@@ -1090,6 +1090,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-top: -30px;
 }
 
+.-mt-\[66px\] {
+  margin-top: -66px;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1162,16 +1166,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: 0.75rem;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .mr-6 {
   margin-right: 1.5rem;
 }
 
 .mr-\[20px\] {
   margin-right: 20px;
-}
-
-.mr-\[6rem\] {
-  margin-right: 6rem;
 }
 
 .mr-auto {
@@ -1200,6 +1204,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-\[19px\] {
+  margin-top: 19px;
 }
 
 .mt-\[20px\] {
@@ -1246,12 +1254,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 100vh;
 }
 
+.h-\[110px\] {
+  height: 110px;
+}
+
 .h-\[128px\] {
   height: 128px;
 }
 
 .h-\[170px\] {
   height: 170px;
+}
+
+.h-\[175px\] {
+  height: 175px;
 }
 
 .h-\[177px\] {
@@ -1262,8 +1278,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 200px;
 }
 
+.h-\[203px\] {
+  height: 203px;
+}
+
 .h-\[21px\] {
   height: 21px;
+}
+
+.h-\[246px\] {
+  height: 246px;
 }
 
 .h-\[250px\] {
@@ -1400,6 +1424,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[668px\] {
   width: 668px;
+}
+
+.w-\[692px\] {
+  width: 692px;
 }
 
 .w-\[70px\] {
@@ -2106,6 +2134,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .pb-\[12px\] {
   padding-bottom: 12px;
+}
+
+.pb-\[3px\] {
+  padding-bottom: 3px;
 }
 
 .pl-2 {
@@ -3128,6 +3160,10 @@ ul.dashed > li:before {
 
   .lg\:w-\[1124px\] {
     width: 1124px;
+  }
+
+  .lg\:display-none {
+    display: none;
   }
 
   .lg\:\[flex-direction\:row\] {
