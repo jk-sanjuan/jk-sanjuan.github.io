@@ -881,10 +881,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   visibility: hidden;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -1048,10 +1044,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .-mr-5 {
   margin-right: -1.25rem;
-}
-
-.-mr-9 {
-  margin-right: -2.25rem;
 }
 
 .-mr-\[1\.3rem\] {
@@ -1318,6 +1310,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 32px;
 }
 
+.h-\[35\%\] {
+  height: 35%;
+}
+
 .h-\[500px\] {
   height: 500px;
 }
@@ -1350,6 +1346,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: auto;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1372,6 +1372,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[148px\] {
   width: 148px;
+}
+
+.w-\[1505px\] {
+  width: 1505px;
 }
 
 .w-\[155px\] {
@@ -1402,6 +1406,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 256px;
 }
 
+.w-\[302px\] {
+  width: 302px;
+}
+
 .w-\[32px\] {
   width: 32px;
 }
@@ -1412,10 +1420,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[517px\] {
   width: 517px;
-}
-
-.w-\[565px\] {
-  width: 565px;
 }
 
 .w-\[56px\] {
@@ -1808,6 +1812,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-black\/40 {
+  background-color: rgb(0 0 0 / 0.4);
 }
 
 .bg-blue-200\/50 {
@@ -2846,6 +2854,10 @@ ul.dashed > li:before {
   background-color: rgba(215, 200, 121, 0.11);
 }
 
+.hover\:bg-black\/20:hover {
+  background-color: rgb(0 0 0 / 0.2);
+}
+
 .hover\:bg-blue-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
@@ -3180,6 +3192,10 @@ ul.dashed > li:before {
 
   .lg\:display-none {
     display: none;
+  }
+
+  .lg\:\[display\:inline-block\] {
+    display: inline-block;
   }
 
   .lg\:\[flex-direction\:row\] {
