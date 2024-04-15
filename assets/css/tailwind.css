@@ -1054,6 +1054,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: -2.25rem;
 }
 
+.-mr-\[1\.3rem\] {
+  margin-right: -1.3rem;
+}
+
 .-mr-\[4px\] {
   margin-right: -4px;
 }
@@ -1416,6 +1420,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[56px\] {
   width: 56px;
+}
+
+.w-\[576px\] {
+  width: 576px;
 }
 
 .w-\[600px\] {
