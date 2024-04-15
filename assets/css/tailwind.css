@@ -1170,6 +1170,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: 1.5rem;
 }
 
+.mr-\[-5px\] {
+  margin-right: -5px;
+}
+
 .mr-\[20px\] {
   margin-right: 20px;
 }
@@ -1344,10 +1348,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .h-auto {
   height: auto;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .w-10 {
