@@ -21,7 +21,7 @@ layout: base
                     url('/assets/images/jk/jk-icon-384.png') black no-repeat; background-size: 100%">
       </div>
       <h1 class="ml-2 bg-sky-400 h-[20px]">Johnella Kyle San Juan</h1>
-      <div class="[flex-basis:100%] [height:0]">
+      <div class="[flex-basis:100%] [height:0] [font-family:Play]">
         <ul>
           <li><span class="px-4 py-5"
               >Lady</span>
