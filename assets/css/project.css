@@ -336,6 +336,8 @@ nav li > ul li {
     height: 0;
     opacity: 0;
     overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 #coursework > span:hover {
