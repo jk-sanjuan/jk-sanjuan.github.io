@@ -16,7 +16,7 @@ layout: base
                   url('/assets/images/jk/jk-i.png') black no-repeat; background-size: 100%">
     </div>
     <div class="flex [flex-wrap:wrap] min-w-[600px] w-[50%]" style="background:
-                url('/assets/images/jk/jk-login.png') black no-repeat; background-size: 100%">
+                url('/assets/images/jk/jk-login.png') black no-repeat; background-size: 562px">
       <div class="w-[86px] h-[86px] hover:!bg-gray-900" style="background:
                     url('/assets/images/jk/jk-icon-384.png') black no-repeat; background-size: 100%">
       </div>
