@@ -24,7 +24,10 @@ layout: base
         <h1 class="ml-2 bg-sky-400 hover:bg-[mediumvioletred]/40 h-[20px]">Johnella Kyle San Juan</h1>
       </div>
       <div class="[flex-basis:100%] [height:0] [font-family:Play]">
-        <ul>
+        <h2 class="text-white bg-purple-700/20 p-2 hover:text-black animate-text duration-1 my-0"
+          >Ube-beh</h2>
+        <p class="bg-purple-400/80 p-4 my-0">* [Hover] the name of *babe* for 3 seconds for text-effects</p>
+        <ul class="my-0">
           <li><span class="px-4 py-5"
               >Lady</span>
           </li>

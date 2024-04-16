@@ -987,6 +987,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: auto;
 }
 
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -1933,8 +1938,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 
+.bg-purple-400\/80 {
+  background-color: rgb(192 132 252 / 0.8);
+}
+
 .bg-purple-600\/20 {
   background-color: rgb(147 51 234 / 0.2);
+}
+
+.bg-purple-700\/20 {
+  background-color: rgb(126 34 206 / 0.2);
 }
 
 .bg-red-400 {
@@ -2530,6 +2543,10 @@ ul.dashed > li:before {
   transition: background-color 3s ease, color 3s ease;
 }
 
+.duration-1 {
+  transition-duration: 1s;
+}
+
 .animate-opacity {
   transition: opacity 0.75s ease;
 }
@@ -3097,6 +3114,11 @@ ul.dashed > li:before {
 
 .hover\:font-semibold:hover {
   font-weight: 600;
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-lime-400:hover {
