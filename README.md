@@ -25,8 +25,11 @@ layout: base
       </div>
       <div class="[flex-basis:100%] [height:0] [font-family:Play]">
         <h2 class="text-white bg-purple-700/20 p-2 hover:text-black animate-text duration-1 my-0"
-          >Ube-beh</h2>
-        <p class="bg-purple-400/80 p-4 my-0">* [Hover] the name of *babe* for 3 seconds for text-effects</p>
+          >Ube-beh (by Babe)</h2>
+        <p class="bg-purple-400/80 p-4 my-0 group/ella"
+          >* <span class="bg-white/20 group-hover/ella:bg-white/40 rounded-3xl p-1">Hover</span> the name of <span class="group-hover/ella:text-white">the</span> 
+            <span class="group-hover/ella:text-red-600"
+            >*babe*</span> for 3 seconds for text-effects</p>
         <ul class="my-0">
           <li><span class="px-4 py-5"
               >Lady</span>
@@ -41,7 +44,7 @@ layout: base
                           rounded-3xl px-4 py-5"
               >Lady Kyle</span>
           </li>
-          <li><span class="px-4 py-5"
+          <li><span class="px-4 py-5 hover:text-rose-600 hover:font-bold hover:animate-pulse anim-hover-bb"
               >Ella Kyle</span>
           </li>
         </ul>

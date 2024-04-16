@@ -2858,6 +2858,16 @@ ul.dashed > li:before {
   margin-top: 0px;
 }
 
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.hover\:animate-pulse:hover {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
@@ -3112,6 +3122,10 @@ ul.dashed > li:before {
   line-height: 1.25rem;
 }
 
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
 .hover\:font-semibold:hover {
   font-weight: 600;
 }
@@ -3134,6 +3148,11 @@ ul.dashed > li:before {
 .hover\:text-red-400:hover {
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
+.hover\:text-rose-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(225 29 72 / var(--tw-text-opacity));
 }
 
 .hover\:text-sky-200\/80:hover {
@@ -3233,6 +3252,10 @@ ul.dashed > li:before {
   border-bottom-color: rgb(2 132 199 / var(--tw-border-opacity));
 }
 
+.group\/ella:hover .group-hover\/ella\:bg-white\/40 {
+  background-color: rgb(255 255 255 / 0.4);
+}
+
 .group\/violet:hover .group-hover\/violet\:bg-\[blueviolet\] {
   --tw-bg-opacity: 1;
   background-color: rgb(138 43 226 / var(--tw-bg-opacity));
@@ -3241,6 +3264,16 @@ ul.dashed > li:before {
 .group:hover .group-hover\:bg-sky-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(56 189 248 / var(--tw-bg-opacity));
+}
+
+.group\/ella:hover .group-hover\/ella\:text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.group\/ella:hover .group-hover\/ella\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:\[animation\:rotation_850ms_ease-in\] {
