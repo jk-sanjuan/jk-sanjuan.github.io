@@ -17,21 +17,23 @@ layout: base
     </div>
     <div class="flex [flex-wrap:wrap] min-w-[600px] w-[50%]" style="background:
                 url('/assets/images/jk/jk-login.png') black no-repeat; background-size: 562px">
-      <div class="w-[86px] h-[86px] hover:!bg-gray-900" style="background:
+      <div class="w-[86px] h-[86px] hover:!bg-gray-800" style="background:
                     url('/assets/images/jk/jk-icon-384.png') black no-repeat; background-size: 100%">
       </div>
-      <h1 class="ml-2 bg-sky-400 h-[20px]">Johnella Kyle San Juan</h1>
+      <div class="bg-[rgba(248,56,200,0.18)] h-[86px] pr-[87px]">
+        <h1 class="ml-2 bg-sky-400 hover:bg-[mediumvioletred]/40 h-[20px]">Johnella Kyle San Juan</h1>
+      </div>
       <div class="[flex-basis:100%] [height:0] [font-family:Play]">
         <ul>
           <li><span class="px-4 py-5"
               >Lady</span>
           </li>
           <li>
-            <span class="bg-purple-600/20 rounded-3xl px-4 py-5"
+            <span class="bg-purple-600/20 hover:bg-purple-400 rounded-3xl px-4 py-5"
               >Lady Ella</span>
           </li>
           <li>
-            <span class="bg-purple-600/20 rounded-3xl px-4 py-5"
+            <span class="bg-purple-600/20 hover:bg-purple-400 rounded-3xl px-4 py-5"
               >Lady Kyle</span>
           </li>
           <li><span class="px-4 py-5"

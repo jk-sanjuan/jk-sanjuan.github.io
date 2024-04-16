@@ -1854,6 +1854,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgba(136, 136, 136, 0.15);
 }
 
+.bg-\[rgba\(248\2c 56\2c 200\2c 0\.18\)\] {
+  background-color: rgba(248,56,200,0.18);
+}
+
 .bg-\[rgba\(249\2c 219\2c 0\2c 0\.7\)\] {
   background-color: rgba(249,219,0,0.7);
 }
@@ -2251,6 +2255,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .pr-3 {
   padding-right: 0.75rem;
+}
+
+.pr-\[87px\] {
+  padding-right: 87px;
 }
 
 .pt-0 {
@@ -2892,6 +2900,11 @@ ul.dashed > li:before {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;
 }
 
+.hover\:\!bg-gray-800:hover {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
+}
+
 .hover\:\!bg-gray-900:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
@@ -2909,6 +2922,10 @@ ul.dashed > li:before {
 .hover\:bg-\[mediumvioletred\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(199 21 133 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[mediumvioletred\]\/40:hover {
+  background-color: rgb(199 21 133 / 0.4);
 }
 
 .hover\:bg-\[rgb\(250_21_133\)\]:hover {
@@ -2950,6 +2967,11 @@ ul.dashed > li:before {
 
 .hover\:bg-orange-500\/30:hover {
   background-color: rgb(249 115 22 / 0.3);
+}
+
+.hover\:bg-purple-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(192 132 252 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-red-500:hover {
