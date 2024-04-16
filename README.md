@@ -1,33 +1,19 @@
 ---
 layout: base
-title: JKSJ-x-mczvc
 ---
-# Welcome to Github Page of OpenLibrary!
 
-<div style="
-      background-image: url('/assets/images/biomew/Tron-C.jpg');
-      background-repeat: repeat-y;
-      background-color: #353535;
-      height: 108%;">
-  <div class="w-[1200px]">
-    <div class="mx-auto [max-width:1191px]">
-      <p>
-        <img alt="Double Happiness" src="/assets/images/kayee/2000608.jpg" height="480" class="reveal"/>
-        <img alt="Double Happiness" src="/assets/images/kayee/SS20220317-172916.png" height="480" class="reveal"/>
-      </p>
-      <br>
-      <p>
-        <img alt="Double Happiness" src="/assets/images/kayee/SS20220206-090903.png" height="480" class="reveal"/>
-        <img alt="Double Happiness" src="/assets/images/kayee/2000608.jpg" height="480" class="reveal"/>
-      </p>
-      <img alt="Double Happiness" src="/assets/images/kayee/SS20240402-164839.png" width="100%" class="reveal"/>
-    </div>
-    <img alt="Kayee" src="/assets/images/kayee/SS_Kayee.jpg" width="100%" class="reveal"/>
+<div class="[font-size:2.1rem] bg-yellow-600 py-5 flex h-[97px] page-header">
+  <img src="/assets/images/jk/jk-m.png"
+       class="h-[170px] [position:relative] -top-[16px] hover:bg-white/20"
+       alt="Clinic">
+  <span class="ml-4 mt-[15px]">About Johnella Kyle</span>
+</div>
+
+<div class="bg-sky-400 w-full mr-[-5px] lg:[display:inline-block] tablet-desktop">
+  <div class="w-[600px] h-[422px] hover:!bg-gray-900" style="background:
+                url('/assets/images/jk/jk-i.png') black no-repeat; background-size: 100%">
   </div>
-  
-  <div class="-mt-2">
-    <span class="bg-[mediumvioletred] text-white p-2 reveal">
-      Johnella Kyle San Juan</span><span class="text-white bg-black p-2 reveal"> x 
-      </span><span class="text-black bg-yellow-600 p-2 reveal">Meldencio Czarlemagne</span>
+  <div class="w-[600px] h-[600px] hover:!bg-gray-200" style="background:
+                url('/assets/images/jk/jk-c.png') white no-repeat; background-size: 100%">
   </div>
 </div>
