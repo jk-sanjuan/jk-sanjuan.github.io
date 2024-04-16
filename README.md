@@ -29,11 +29,13 @@ layout: base
               >Lady</span>
           </li>
           <li>
-            <span class="bg-purple-600/20 hover:bg-purple-400 rounded-3xl px-4 py-5"
+            <span class="bg-purple-600/20 hover:bg-purple-400 hover:text-white animate-text
+                          rounded-3xl px-4 py-5"
               >Lady Ella</span>
           </li>
           <li>
-            <span class="bg-purple-600/20 hover:bg-purple-400 rounded-3xl px-4 py-5"
+            <span class="bg-purple-600/20 hover:bg-purple-400 hover:text-white animate-text
+                          rounded-3xl px-4 py-5"
               >Lady Kyle</span>
           </li>
           <li><span class="px-4 py-5"
