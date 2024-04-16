@@ -2721,6 +2721,10 @@ ul.dashed > li:before {
   height: 0;
 }
 
+.\[left\:0\] {
+  left: 0;
+}
+
 .\[left\:580\] {
   left: 580;
 }
@@ -2743,6 +2747,10 @@ ul.dashed > li:before {
 
 .\[opacity\:0\.75\] {
   opacity: 0.75;
+}
+
+.\[position\:absolute\] {
+  position: absolute;
 }
 
 .\[position\:fixed\] {
@@ -3250,6 +3258,17 @@ ul.dashed > li:before {
 .group:hover .group-hover\:rotate-45 {
   --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.group:hover .group-hover\:animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .group:hover .group-hover\:border-b-sky-600 {
