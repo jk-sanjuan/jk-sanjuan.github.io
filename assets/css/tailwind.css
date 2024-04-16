@@ -1845,6 +1845,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(199 21 133 / var(--tw-bg-opacity));
 }
 
+.bg-\[rgb\(111\2c 0\2c 70\)\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(111 0 70 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgba\(136\2c _136\2c _136\2c _0\.15\)\] {
   background-color: rgba(136, 136, 136, 0.15);
 }
@@ -2201,6 +2206,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .pb-\[3px\] {
   padding-bottom: 3px;
+}
+
+.pb-\[4\.4rem\] {
+  padding-bottom: 4.4rem;
 }
 
 .pl-2 {
