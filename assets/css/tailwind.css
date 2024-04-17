@@ -884,6 +884,32 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     --tw-rotate: -45deg !important;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
   }
+
+  .footer-col h3 {
+    position: relative;
+  }
+
+  .footer-col h3::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    bottom: -4px;
+    background-color: #429300;
+    height: 5px;
+    box-sizing: border-box;
+    width: 77px;
+  }
+
+  .footer-col h3::after {
+    content: '';
+    position: absolute;
+    left: -5px;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 128px;
+  }
 }
 
 .visible {
@@ -2614,32 +2640,6 @@ ul.dashed > li:before {
   }
 }
 
-.footer-col h3 {
-  position: relative;
-}
-
-.footer-col h3::before {
-  content: '';
-  position: absolute;
-  left: -5px;
-  bottom: -4px;
-  background-color: #429300;
-  height: 5px;
-  box-sizing: border-box;
-  width: 77px;
-}
-
-.footer-col h3::after {
-  content: '';
-  position: absolute;
-  left: -5px;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing: border-box;
-  width: 128px;
-}
-
 .footer-col ul li {
   transition: all 0.15s ease;
 }
@@ -3285,6 +3285,11 @@ ul.dashed > li:before {
 
 .group:hover .group-hover\:\[border-bottom-style\:dotted\] {
   border-bottom-style: dotted;
+}
+
+.group:hover .group-hover\:before\:him-green::before {
+  content: var(--tw-content);
+  background-color: #e4fc49 !important;
 }
 
 .group:hover .group-\[\:hover\]\:bg-slate-700\/40 {
