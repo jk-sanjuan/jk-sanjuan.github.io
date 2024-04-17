@@ -213,6 +213,7 @@
 .nav ul > a > li {
     position: relative;
 }
+
 .nav ul > a > li:after {
     content: '';
     width: 0;
@@ -250,6 +251,9 @@ nav li > ul li {
     left: 149px;
     position: absolute;
     width: 380px;
+}
+
+#menu-container:has(#nav.show) {
     height: 408px;
 }
 
