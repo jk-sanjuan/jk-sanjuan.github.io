@@ -898,6 +898,7 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     height: 5px;
     box-sizing: border-box;
     width: 77px;
+    transition: background-color 0.8s ease-in-out;
   }
 
   .footer-col h3::after {
