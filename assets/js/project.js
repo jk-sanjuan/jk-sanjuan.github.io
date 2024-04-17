@@ -21,18 +21,6 @@ function menu() {
     }
 }
 
-function menuOnHover() {
-    menu();
-    document.getElementById("nav").classList.add("show");
-    document.getElementById("menu-bg").classList.add("show-bg");
-}
-
-function menuOnMouseLeave() {
-    menu();
-    document.getElementById("nav").classList.remove("show");
-    document.getElementById("menu-bg").classList.remove("show-bg");
-}
-
 let breadcrumbs_open = false;
 function breadcrumbs(m) {
     m.classList.toggle('open');

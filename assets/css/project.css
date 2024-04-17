@@ -195,7 +195,8 @@
 }
 
 .nav > ul ul li {
-    padding: 14px 33px 0;
+    padding: 14px 33px 0 0;
+    width: 20rem;
 }
 
 .nav li {
@@ -248,7 +249,8 @@ nav li > ul li {
     top: 180px;
     left: 368px;
     position: absolute;
-    width: 500px;
+    width: 380px;
+    height: 408px;
 }
 
 .menu-bg {
