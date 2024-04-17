@@ -14,7 +14,7 @@ function menuOnMouseLeave() {
 }
 
 let menu_open = false;
-function menu(m) {
+function breadcrumbs(m) {
     m.classList.toggle('open');
     menu_open = !menu_open;
     scroll_on_top = document.getElementById("scroll-on-top");
@@ -42,7 +42,7 @@ function hide_mainnav() {
 
     mainnav.classList.add("hide");
     mainnav.classList.remove("show");
-    menu(mainmenu);
+    breadcrumbs(mainmenu);
 }
 
 function reveal() {
