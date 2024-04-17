@@ -51,11 +51,12 @@ layout: base
         </ul>
       </div>
     </div>
-    
   </div>
-  <div class="w-[600px] h-[422px] hover:!bg-gray-900" style="background:
-                url('/assets/images/jk/jk-cd-large.png') black no-repeat; background-size: 100%">
-  </div>
+  <section>
+    <div class="w-[600px] h-[422px] hover:!bg-gray-900" style="background:
+                  url('/assets/images/jk/jk-cd-large.png') black no-repeat; background-size: cover">
+    </div>
+  </section>
   <div class="w-[600px] h-[600px] hover:!bg-gray-200" style="background:
                 url('/assets/images/jk/jk-c.png') white no-repeat; background-size: 100%">
   </div>
