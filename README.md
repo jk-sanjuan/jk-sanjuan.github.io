@@ -6,7 +6,8 @@ layout: base
   <img src="/assets/images/jk/jk-m.png"
        class="h-[170px] [position:relative] -top-[16px] hover:bg-white/20"
        alt="JK">
-  <span class="ml-4 mt-[15px]">About <span class="bg-white/20 p-2 hover:bg-white/50">JK San Juan</span></span>
+  <div class="ml-4 mt-[15px]">About <span class="bg-white/20 p-2 hover:bg-white/50"
+    >JK San Juan</span></div>
 </div>
 
 <div class="bg-sky-400 w-full mr-[-5px] lg:[display:inline-block] tablet-desktop">
