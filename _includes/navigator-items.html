@@ -58,13 +58,25 @@
           >Clinic</a>
         </li>
         <li>
+          <a href="#">Blogs</a>
+          <ul>
+            {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}"
+                >{{ post.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li>
           <a href="https://mczvc-biomew.github.io/books"
             >Bayanihan Publishing</a>
           <ul>
-            {% for post in site.posts %}
-            <a href="{{ post.url }}">
+            {% for book in site.books %}
+            <a href="{{ book.url }}">
               <li class="anim-hover-bb">
-                {{ post.title }}
+                {{ book.title }}
               </li>
             </a>
             {% endfor %}
