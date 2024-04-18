@@ -1625,6 +1625,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   max-width: 600px;
 }
 
+.max-w-\[653px\] {
+  max-width: 653px;
+}
+
 .max-w-\[80px\] {
   max-width: 80px;
 }

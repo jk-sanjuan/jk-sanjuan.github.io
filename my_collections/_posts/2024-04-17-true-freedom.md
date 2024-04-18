@@ -18,7 +18,7 @@ sub-title: Social construct
       </div>
     </section>
     <div class="content-wrapper flex justify-center w-full sticky top-0 left-0 h-[1555px]">
-      <div class="content min-w-[444px] max-w-[580px] w-[60%] h-max py-2 px-6 !bg-white/60 quando-regular">
+      <div class="content min-w-[444px] max-w-[580px] w-[60%] max-w-[653px] h-max py-2 px-6 !bg-white/60 quando-regular">
         <p>
           True freedom lies within the constructs of society, <br>
           Where harmony and order foster unity. <br>
