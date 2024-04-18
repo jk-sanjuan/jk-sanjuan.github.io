@@ -1067,6 +1067,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-bottom: -1.75rem;
 }
 
+.-mb-\[5px\] {
+  margin-bottom: -5px;
+}
+
 .-ml-1 {
   margin-left: -0.25rem;
 }
@@ -1327,6 +1331,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 128px;
 }
 
+.h-\[1555px\] {
+  height: 1555px;
+}
+
 .h-\[170px\] {
   height: 170px;
 }
@@ -1387,6 +1395,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 422px;
 }
 
+.h-\[475px\] {
+  height: 475px;
+}
+
 .h-\[500px\] {
   height: 500px;
 }
@@ -1421,6 +1433,15 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .h-auto {
   height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .min-h-\[600px\] {
@@ -1507,6 +1528,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 576px;
 }
 
+.w-\[60\%\] {
+  width: 60%;
+}
+
 .w-\[600px\] {
   width: 600px;
 }
@@ -1580,12 +1605,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: max-content;
 }
 
+.min-w-\[444px\] {
+  min-width: 444px;
+}
+
 .min-w-\[600px\] {
   min-width: 600px;
 }
 
 .min-w-\[640px\] {
   min-width: 640px;
+}
+
+.max-w-\[580px\] {
+  max-width: 580px;
 }
 
 .max-w-\[600px\] {
@@ -1618,6 +1651,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .origin-center {
   transform-origin: center;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes pulse {
@@ -1858,6 +1895,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .border-t-transparent {
   border-top-color: transparent;
+}
+
+.\!bg-white\/60 {
+  background-color: rgb(255 255 255 / 0.6) !important;
 }
 
 .bg-\[\#4f4f4f\] {
@@ -2398,6 +2439,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.text-\[rgb\(198\2c 198\2c 198\)\] {
+  --tw-text-opacity: 1;
+  color: rgb(198 198 198 / var(--tw-text-opacity));
 }
 
 .text-\[rgb\(8\2c 137\2c 187\)\] {
