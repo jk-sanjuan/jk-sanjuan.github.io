@@ -235,7 +235,7 @@
 }
 
 nav li > ul li {
-  color: bisque;
+    color: bisque;
 }
 
 .nav li > a:hover {
@@ -315,19 +315,19 @@ nav li > ul li {
 }
 
 .animate-bb:hover::after {
-  width: 75px;
+    width: 75px;
 }
 
 .animate-bb::after {
-  content: "";
-  width: 0;
-  background: #eecdcd;
-  border-radius: 3px;
-  height: 5px;
-  bottom: 1px;
-  right: -1px;
-  position: absolute;
-  transition: width 1s ease;
+    content: "";
+    width: 0;
+    background: #eecdcd;
+    border-radius: 3px;
+    height: 5px;
+    bottom: 1px;
+    right: -1px;
+    position: absolute;
+    transition: width 1s ease;
 }
 
 .show {
@@ -354,4 +354,111 @@ nav li > ul li {
 #coursework span.asterisked.selected {
     background-color: mediumvioletred;
     color: aliceblue;
+}
+
+.signup-wrap .login-form .input-container {
+    padding: 0;
+    border-bottom: 0;
+    max-width: 100%;
+}
+
+.signup-wrap .login-form .input-container input {
+    border: 1px solid #ebebeb !important;
+    border-radius: 3px;
+    background: #f8f9fb;
+    color: #42526e;
+    padding: 0 10px;
+    height: 40px;
+}
+
+.signup-wrap .login-form .input-container.error-msg {
+    padding: 0;
+}
+
+.login-form .input-container input {
+    height: 34px;
+    border: none;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.max-width-100-mob {
+    margin: 14px 0 0;
+}
+
+.flex-ah {
+    max-height: none !important;
+    height: auto;
+}
+
+.error-msg {
+    font-size: 12px;
+    text-align: left;
+    color: #dd2c00 !important;
+    margin: 2px 0 -2px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.input-container {
+    margin: 14px auto 0;
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.input-container::after {
+    display: table;
+}
+
+.input-container {
+    position: relative;
+    padding: 2px;
+    margin: 18px 0;
+    overflow: hidden;
+}
+
+.input-container .md-input {
+    display: block;
+    margin-top: 0;
+    line-height: 26px;
+    border-radius: 0;
+    border-style: solid;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.input-container.error-msg {
+    border-bottom: 2px solid #fc4041 !important;
+}
+
+.input-container .md-input:focus-visible {
+    outline: 0 !important;
+}
+
+.button-wrap {
+    line-height: 47px;
+    height: 47px;
+    display: inline-block;
+    min-width: 300px;
+    width: 100%;
+    margin: 12px auto 0;
+    position: relative;
+}
+
+.form-btn-primary.md-button.md-primary {
+    margin: 0 auto;
+    min-width: 300px;
+    line-height: 47px;
+    height: 47px;
+    width: 100%;
+}
+
+#top-content #bg {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+
 }
