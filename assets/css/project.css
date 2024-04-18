@@ -254,7 +254,7 @@ nav li > ul li {
 }
 
 #menu-container:has(#nav.show) {
-    height: 464px;
+    height: 614px;
 }
 
 .menu-bg {
@@ -269,7 +269,7 @@ nav li > ul li {
 
 .show-bg {
     width: 339px;
-    height: 475px;
+    height: 624px;
     /*transform: translate(60%, -60px);*/
 
 }
@@ -455,10 +455,31 @@ nav li > ul li {
     width: 100%;
 }
 
+.bg-biw-kayee {
+    content: '';
+    background: url("/assets/images/kayee/BiW-8-12-14-26-17-27JK.png") white no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 #top-content #bg {
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
 
+}
+
+main .content-wrapper {
+    content: '';
+    background: url("/assets/images/kayee/C.png") white no-repeat;
+    background-size: cover;
+    height: max-content;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
