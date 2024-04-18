@@ -32,6 +32,8 @@ paginate: 10
 collections_dir: my_collections
 
 collections:
+  books:
+    output: true
   authors:
     output: true
   files:
