@@ -4,6 +4,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Quando&display=swap" rel="stylesheet">
+
 <style>
   @font-face {
     font-family: 'djvu-serif';
@@ -25,6 +28,11 @@
     src: local('DejaVuSerif-BoldItalic'),
         url('/assets/fonts/djvu-serif/DejaVuSerif-BoldItalic.ttf') format("truetype");
   }
+  @font-face {
+      font-family: '游ゴシック';
+      src: local('17'),
+        url('/assets/fonts/jp/17.otf') format("opentype");
+  }
   .djvu-serif-bold {
     font-family: 'djvu-serif-bold', 'serif';
   }
@@ -33,6 +41,27 @@
   }
   .djvu-serif-bold-italic {
     font-family: 'djvu-serif-bold-italic', 'serif';
+  }
+  .jp-17 {
+      font-family: '游ゴシック', Helvetica, sans-serif;
+  }
+  .jp-18 {
+      font-family: '游ゴシック', Helvetica, sans-serif;
+      font-size: 18px;
+  }
+  .quando-regular {
+      font-family: "Quando", serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+  .noto-sans-arabic-18 {
+      font-family: "Noto Sans Arabic", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+
+      font-size: 18px;
   }
   .sun-icon {
     background-image: url('/assets/images/biomew/sun.svg');
