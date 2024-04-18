@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div class="[font-size:2.1rem] bg-yellow-600 py-5 flex h-[97px] page-header">
+<div class="[font-size:2.1rem] bg-yellow-600 py-5 flex h-[97px] page-header relative [z-index:1]">
   <img src="/assets/images/jk/jk-m.png"
        class="h-[170px] [position:relative] -top-[16px] hover:bg-white/20"
        alt="JK">
@@ -12,10 +12,12 @@ layout: base
 
 <div class="bg-sky-400 w-full mr-[-5px] lg:[display:inline-block] tablet-desktop">
   
-  <div class="flex">
-    <div class="w-[600px] h-[422px] hover:!bg-gray-900" style="background:
-                  url('/assets/images/jk/jk-i.png') black no-repeat; background-size: 100%">
-    </div>
+  <div class="flex [position:sticky] [top:0]">
+    <section>
+      <div class="w-[600px] h-[422px] hover:!bg-gray-900" 
+            style="background: url('/assets/images/jk/jk-i.png') black no-repeat; background-size: 100%;">
+      </div>
+    </section>
     <div class="flex [flex-wrap:wrap] min-w-[600px] w-[50%]" style="background:
                 url('/assets/images/jk/jk-login.png') black no-repeat; background-size: 562px">
       <div class="w-[86px] h-[86px] hover:!bg-gray-800" style="background:
@@ -52,12 +54,14 @@ layout: base
       </div>
     </div>
   </div>
-  <section>
-    <div class="w-[600px] h-[422px] hover:!bg-gray-900" style="background:
-                  url('/assets/images/jk/jk-cd-large.png') black no-repeat; background-size: cover">
+  <div id="top-content">
+    <div id="bg">
+      <div class="w-[600px] h-[422px] hover:!bg-gray-900" 
+            style="background: url('/assets/images/jk/jk-cd-large.png') black no-repeat; background-size: cover">
+      </div>
+      <div class="w-[600px] h-[600px] hover:!bg-gray-200" style="background:
+                    url('/assets/images/jk/jk-c.png') white no-repeat; background-size: 100%">
+      </div>
     </div>
-  </section>
-  <div class="w-[600px] h-[600px] hover:!bg-gray-200" style="background:
-                url('/assets/images/jk/jk-c.png') white no-repeat; background-size: 100%">
   </div>
 </div>
