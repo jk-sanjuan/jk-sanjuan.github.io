@@ -1147,6 +1147,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-top: -30px;
 }
 
+.-mt-\[4px\] {
+  margin-top: -4px;
+}
+
 .-mt-\[66px\] {
   margin-top: -66px;
 }
@@ -1363,8 +1367,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 20px;
 }
 
-.h-\[21px\] {
-  height: 21px;
+.h-\[23px\] {
+  height: 23px;
 }
 
 .h-\[246px\] {
@@ -1379,16 +1383,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 256px;
 }
 
+.h-\[28px\] {
+  height: 28px;
+}
+
 .h-\[290px\] {
   height: 290px;
 }
 
 .h-\[310px\] {
   height: 310px;
-}
-
-.h-\[31px\] {
-  height: 31px;
 }
 
 .h-\[35\%\] {
@@ -1631,6 +1635,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .min-w-\[640px\] {
   min-width: 640px;
+}
+
+.min-w-\[744px\] {
+  min-width: 744px;
 }
 
 .max-w-\[580px\] {
