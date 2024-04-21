@@ -29,7 +29,7 @@ nav .start-clinic, ul:has(#clinic:hover) .bg-animation {
     border-radius: 0;
 }
 
-nav .start-readme, ul:has(#readme:hover) .bg-animation {
+nav .start-about, ul:has(#about:hover) .bg-animation {
     width: 82px;
     left: -154px;
     background-color: #b75703;
