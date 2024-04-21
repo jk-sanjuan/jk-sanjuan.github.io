@@ -885,6 +885,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
   }
 
+  @keyframes pulse {
+    50% {
+      opacity: .5;
+    }
+  }
+
+  .profile-screen .list .item span {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
   .footer-col h3 {
     position: relative;
   }
@@ -1214,10 +1224,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 1200px;
 }
 
-.w-\[1243px\] {
-  width: 1243px;
-}
-
 .w-\[128px\] {
   width: 128px;
 }
@@ -1268,10 +1274,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[75px\] {
   width: 75px;
-}
-
-.w-\[810px\] {
-  width: 810px;
 }
 
 .w-\[86px\] {
@@ -1952,6 +1954,10 @@ ul.dashed > li:before {
   font-size: 20px;
 }
 
+.\[font-size\:21px\] {
+  font-size: 21px;
+}
+
 .\[font-size\:35px\] {
   font-size: 35px;
 }
@@ -2279,6 +2285,10 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:min-w-\[100\%\] {
     min-width: 100%;
   }
@@ -2291,6 +2301,14 @@ ul.dashed > li:before {
 @media (min-width: 768px) {
   .md\:inline-block {
     display: inline-block;
+  }
+
+  .md\:w-\[1243px\] {
+    width: 1243px;
+  }
+
+  .md\:w-\[810px\] {
+    width: 810px;
   }
 }
 

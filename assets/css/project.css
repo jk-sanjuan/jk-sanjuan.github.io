@@ -666,3 +666,81 @@ main .content-wrapper {
     top: 0;
     left: 0;
 }
+
+#jk-i {
+    background: url('/assets/images/jk/jk-i.png') black no-repeat;
+    background-size: cover;
+    background-position: -224px -202px;
+    height: 874px;
+}
+
+
+@media (min-width: 768px) {
+    #jk-i {
+        background-position: -196px -32%;
+        background-size: 1243px;
+    }
+}
+
+@media (min-width: 800px) {
+    #jk-i {
+        background-position: -109px -32%;
+        background-size: 1243px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #jk-i {
+        background-position: -47px 0;
+        background-size: 1385px;
+    }
+}
+
+div.profile-screen {
+    width: 600px;
+    height: 560px;
+    overflow: hidden;
+    position: relative;
+    background: #31558a;
+}
+
+div.profile-navbar {
+    height: 73px;
+    background: #385e97;
+}
+
+.list {
+    padding-top: 107px;
+    text-align: left;
+}
+
+.item {
+    height: 115px;
+    margin-top: 0;
+    padding-left: 115px;
+    clear: both;
+}
+
+.item .img, .item span {
+    background: #214273;
+    border-radius: 3px;
+}
+
+.item .img {
+    float: left;
+    width: 71px;
+    height: 71px;
+    margin-left: -93px;
+}
+
+.item span {
+    height: 11px;
+    width: 96%;
+    margin-bottom: 19px;
+    float: left;
+}
+
+.item span:nth-of-type(3) {
+    width: 50%;
+    margin-bottom: 0;
+}

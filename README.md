@@ -16,23 +16,22 @@ layout: base
 
 <main>
   <div class="bg-sky-400 w-full mr-[-5px] lg:[display:inline-block] tablet-desktop">
-    <div class="[position:sticky] [top:0] w-[810px] [overflow:hidden]">
-      <div class="w-[1243px] h-[874px] hover:!bg-gray-900"
-            style="background: url('/assets/images/jk/jk-i.png') black no-repeat; 
-                    background-size: contain;
-                    background-position: -196px -32%;">
+    <div class="[position:sticky] [top:0] w-full [overflow:hidden]">
+      <div id="jk-i" class="w-full md:w-[1243px] h-[874px] hover:!bg-gray-900">
       </div>
     </div>
-    <div id="top-content">
+    <div id="top-content" class="w-[600px]">
       <div id="bg">
-        <div class="flex [flex-wrap:wrap] w-[600px] h-[422px]" style="background:
+        <div class="flex [flex-wrap:wrap] h-[422px]" style="background:
                   url('/assets/images/jk/jk-login.png') gray no-repeat; background-size: 600px">
           <div class="w-[86px] h-[86px] hover:!bg-gray-800" style="background:
                         url('/assets/images/jk/jk-icon-384.png') black no-repeat; background-size: 100%">
           </div>
+
           <div class="bg-[rgba(248,56,200,0.18)] h-[86px] pr-[117px]">
             <h1 class="ml-2 bg-sky-400 hover:bg-[mediumvioletred]/40 h-[20px]">Johnella Kyle San Juan</h1>
           </div>
+
           <div class="[flex-basis:100%] [height:0] [font-family:Play]">
             <h2 class="text-white bg-purple-700/20 p-2 hover:text-black animate-text duration-1 my-0"
               >Ube-beh (by Babe)</h2>
@@ -60,12 +59,48 @@ layout: base
             </ul>
           </div>
         </div>
-        <div class="w-[600px] h-[422px] hover:!bg-gray-900"
+
+        <div class="h-[422px] hover:!bg-gray-900"
               style="background: url('/assets/images/jk/jk-cd-large.png') black no-repeat; background-size: cover">
         </div>
-        <div class="w-[600px] h-[600px] hover:!bg-gray-200" style="background:
+        <div class="h-[600px] hover:!bg-gray-200" style="background:
                       url('/assets/images/jk/jk-c.png') white no-repeat; background-size: 100%">
         </div>
+
+        <div class="profile-screen">
+          <div class="profile-navbar">
+            <div class="list">
+              <div class="item">
+              <div class="img"></div>
+                <span></span>
+                <span></span>
+                <span></span>                    
+              </div>
+              
+              <div class="item">
+                <div class="img"></div>
+                <span></span>
+                <span></span>
+                <span></span>                    
+              </div>
+              
+              <div class="item">
+                <div class="img"></div>
+                <span></span>
+                <span></span>
+                <span></span>                    
+              </div>
+              
+              <div class="item">
+                <div class="img"></div>
+                <span></span>
+                <span></span>
+                <span></span>                    
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
