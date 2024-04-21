@@ -1113,6 +1113,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 0.25rem;
 }
 
+.h-\[100px\] {
+  height: 100px;
+}
+
 .h-\[100vh\] {
   height: 100vh;
 }
@@ -1169,6 +1173,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 86px;
 }
 
+.h-\[874px\] {
+  height: 874px;
+}
+
 .h-\[97px\] {
   height: 97px;
 }
@@ -1194,12 +1202,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 2rem;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
 .w-\[1192px\] {
   width: 1192px;
 }
 
 .w-\[1200px\] {
   width: 1200px;
+}
+
+.w-\[1243px\] {
+  width: 1243px;
 }
 
 .w-\[128px\] {
@@ -1252,6 +1268,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[75px\] {
   width: 75px;
+}
+
+.w-\[810px\] {
+  width: 810px;
 }
 
 .w-\[86px\] {
@@ -1866,6 +1886,17 @@ ul.dashed > li:before {
   max-width: 100%;
 }
 
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.group:hover .active-hover {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
 .\!\[font-size\:32px\] {
   font-size: 32px !important;
 }
@@ -1956,6 +1987,10 @@ ul.dashed > li:before {
 
 .\[opacity\:0\.75\] {
   opacity: 0.75;
+}
+
+.\[overflow\:hidden\] {
+  overflow: hidden;
 }
 
 .\[position\:absolute\] {
@@ -2211,17 +2246,6 @@ ul.dashed > li:before {
 
 .hover\:\[opacity\:0\.79\]:hover {
   opacity: 0.79;
-}
-
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.group:hover .group-hover\:animate-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 .group\/ella:hover .group-hover\/ella\:bg-white\/40 {
