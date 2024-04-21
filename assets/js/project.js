@@ -21,6 +21,14 @@ function menu() {
     }
 }
 
+let logo_menu_open = false;
+function logo_menu() {
+    logo_menu_open = !logo_menu_open;
+
+    document.body.classList.toggle('active');
+    document.querySelector('#logo').classList.toggle('active-hover');
+}
+
 let breadcrumbs_open = false;
 function breadcrumbs(m) {
     m.classList.toggle('open');
@@ -36,6 +44,7 @@ function breadcrumbs(m) {
         mainnav.classList.remove("hide");
         tbar.style.height = "177px";
     } else {
+        logo_menu();
         tbar.style.height = "102px";
         scroll_on_top.classList.add("hide");
         scroll_on_top.classList.remove("show");
