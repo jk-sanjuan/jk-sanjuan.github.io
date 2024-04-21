@@ -9,11 +9,13 @@ layout: base
   <div class="ml-4 mt-[15px]">About <span class="bg-white/20 p-2 hover:bg-white/50"
     >JK San Juan</span></div>
 </div>
-
+<main>
 <div class="bg-sky-400 w-full mr-[-5px] lg:[display:inline-block] tablet-desktop">
-  <div class="[position:sticky] [top:0]">
-    <div class="w-[600px] h-[422px] hover:!bg-gray-900"
-          style="background: url('/assets/images/jk/jk-i.png') black no-repeat; background-size: 100%;">
+  <div class="[position:sticky] [top:0] w-[810px] [overflow:hidden]">
+    <div class="w-[1243px] h-[874px] hover:!bg-gray-900"
+          style="background: url('/assets/images/jk/jk-i.png') black no-repeat; 
+                  background-size: contain;
+                  background-position: -196px -32%;">
     </div>
   </div>
   <div id="top-content">
@@ -62,3 +64,4 @@ layout: base
     </div>
   </div>
 </div>
+</main>
