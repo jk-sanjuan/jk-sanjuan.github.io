@@ -1714,11 +1714,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   font-style: italic;
 }
 
-.text-\[\#28305a\] {
-  --tw-text-opacity: 1;
-  color: rgb(40 48 90 / var(--tw-text-opacity));
-}
-
 .text-\[rgb\(8\2c 137\2c 187\)\] {
   --tw-text-opacity: 1;
   color: rgb(8 137 187 / var(--tw-text-opacity));

@@ -5,7 +5,7 @@ sub-title: Social construct
 ---
 <div>
   <div class="text-white bg-yellow-600 p-4 [font-size:20px]">
-    <span class="[font-family:Crimson_Text] [font-size:35px] text-[#28305a]">{{ page.title }}: {{ page.sub-title }}</span>
+    <span class="[font-family:Crimson_Text] [font-size:35px] text-white">{{ page.title }}: {{ page.sub-title }}</span>
   </div>
   
   <main>
