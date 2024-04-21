@@ -13,6 +13,7 @@ nav .start-home, ul:has(#home:hover) .bg-animation {
     width: 83px;
     left: -488px;
     background-color: #00886d;
+    border-radius: 0;
 }
 
 nav .start-shop, ul:has(#shop:hover) .bg-animation {
