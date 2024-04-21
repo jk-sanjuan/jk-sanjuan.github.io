@@ -1,5 +1,51 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
 
+nav .bg-animation {
+    position: relative;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+
+nav .start-home, ul:has(#home:hover) .bg-animation {
+    width: 83px;
+    left: -488px;
+    background-color: #00886d;
+}
+
+nav .start-shop, ul:has(#shop:hover) .bg-animation {
+    width: 82px;
+    left: -377px;
+    background-color: #e74c3c;
+}
+
+nav .start-clinic, ul:has(#clinic:hover) .bg-animation {
+    width: 82px;
+    left: -268px;
+    background-color: #027d21;
+    border-radius: 0;
+}
+
+nav .start-readme, ul:has(#readme:hover) .bg-animation {
+    width: 82px;
+    left: -154px;
+    background-color: #b75703;
+    border-radius: 1rem;
+}
+
+nav .start-contact-us {
+    width: 83px;
+    left: -155px;
+    background-color: #986803;
+}
+
+nav ul li a {
+    z-index: 2;
+    position: relative;
+}
+
 .alert-debug {
     color: black;
     background-color: white;
@@ -277,16 +323,7 @@
   margin-top: 60px;
   text-align: center;
 }
-.body {
-  color: white;
-  font-family: "Work Sans", sans-serif;
-  font-size: 20px;
-  justify-content: center;
-  line-height: 28px;
-  margin: 30px auto;
-  max-width: 600px;
-  text-align: center;
-}
+
 .active .pie {
   transform: translateX(0) translateY(0);
 }
