@@ -1714,9 +1714,9 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   font-style: italic;
 }
 
-.text-\[rgb\(198\2c 198\2c 198\)\] {
+.text-\[\#28305a\] {
   --tw-text-opacity: 1;
-  color: rgb(198 198 198 / var(--tw-text-opacity));
+  color: rgb(40 48 90 / var(--tw-text-opacity));
 }
 
 .text-\[rgb\(8\2c 137\2c 187\)\] {
@@ -1929,6 +1929,10 @@ ul.dashed > li:before {
   flex-wrap: wrap;
 }
 
+.\[font-family\:Crimson_Text\] {
+  font-family: Crimson Text;
+}
+
 .\[font-family\:Play\] {
   font-family: Play;
 }
@@ -1951,6 +1955,10 @@ ul.dashed > li:before {
 
 .\[font-size\:20px\] {
   font-size: 20px;
+}
+
+.\[font-size\:35px\] {
+  font-size: 35px;
 }
 
 .\[grid-template-rows\:0fr_auto\] {
