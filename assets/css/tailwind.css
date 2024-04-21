@@ -1906,8 +1906,8 @@ ul.dashed > li:before {
   bottom: 70px;
 }
 
-.\[color\:\#d7a570\] {
-  color: #d7a570;
+.\[color\:\#eacfb3\] {
+  color: #eacfb3;
 }
 
 .\[display\:inline-block\] {
@@ -2285,10 +2285,6 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 640px) {
-  .sm\:w-full {
-    width: 100%;
-  }
-
   .sm\:min-w-\[100\%\] {
     min-width: 100%;
   }
@@ -2305,10 +2301,6 @@ ul.dashed > li:before {
 
   .md\:w-\[1243px\] {
     width: 1243px;
-  }
-
-  .md\:w-\[810px\] {
-    width: 810px;
   }
 }
 
