@@ -668,10 +668,16 @@ main .content-wrapper {
 }
 
 #jk-i {
-    background: url('/assets/images/jk/jk-i.png') black no-repeat;
-    background-size: cover;
-    background-position: -224px -136px;
+    background: black url('/assets/images/jk/jk-i.png') repeat-y -182px -39px;
+    background-size: 1080px;
     height: 874px;
+}
+
+@media (min-width: 720px) {
+    #jk-i {
+        background-position: -187px 0;
+        background-size: 1243px;
+    }
 }
 
 
@@ -697,8 +703,11 @@ main .content-wrapper {
 }
 
 div.profile-screen {
-    width: 600px;
+    width: 60%;
     height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     overflow: hidden;
     position: relative;
     background: #31558a;
@@ -741,6 +750,6 @@ div.profile-navbar {
 }
 
 .item span:nth-of-type(3) {
-    width: 50%;
+    width: 40%;
     margin-bottom: 0;
 }
