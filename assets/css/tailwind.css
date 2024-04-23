@@ -1892,6 +1892,7 @@ ul.dashed > li:before {
 
 .group:hover .active-hover {
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation-duration: 1.5s;
 }
 
 .\!\[font-size\:32px\] {
