@@ -10,28 +10,28 @@ nav .bg-animation {
 }
 
 nav .start-home, ul:has(#home:hover) .bg-animation {
-    width: 83px;
-    left: -488px;
+    width: 81px;
+    left: -481px;
     background-color: #00886d;
     border-radius: 0;
 }
 
 nav .start-shop, ul:has(#shop:hover) .bg-animation {
-    width: 82px;
-    left: -377px;
+    width: 80px;
+    left: -371px;
     background-color: #e74c3c;
 }
 
 nav .start-clinic, ul:has(#clinic:hover) .bg-animation {
-    width: 82px;
-    left: -268px;
+    width: 79px;
+    left: -263px;
     background-color: #027d21;
     border-radius: 0;
 }
 
 nav .start-about, ul:has(#about:hover) .bg-animation {
-    width: 82px;
-    left: -154px;
+    width: 80px;
+    left: -152px;
     background-color: #b75703;
     border-radius: 1rem;
 }
@@ -111,6 +111,7 @@ nav ul li a {
 
 .founding-box {
     filter: drop-shadow(-6.1px 0.1px 0.2em rgb(0, 0, 0));
+    min-width: 690px;
 }
 
 @keyframes rotation {
