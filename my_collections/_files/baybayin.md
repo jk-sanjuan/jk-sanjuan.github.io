@@ -152,19 +152,19 @@ tags: baybayin language Filipino 2021
     <img alt="Discover Baybayin" src="/assets/images/book_covers/Discover-Baybayin.png" width="400px"
         class=""/>
     <main>
-      <div class="text w-[750px] ml-[3rem] mr-auto">
+      <div class="text w-[750px] ml-[3rem] pr-[2rem]">
         <h2 class="ml-[5rem]">Description:</h2>
-        <p class="description">
+        <p class="description bg-gray-200/90 py-4 px-2">
     
-        Do you want to learn how to write using baybayin? It is easy to learn this writing system!<br>
-        Let this book guide you on how to learn easily how to write and read in baybayin, the ancient writings of the Tagalogs.<br> 
-        This book contains the rules and exercises to help you become proficient in using baybayin. <br>
-        This book also gives you a short history of writing in other parts of the world and how it influenced <br> 
-        the writing systems used here in the Philippines. Aside from that, it also discusses indigenous writing <br>
-        as it relates to language and culture. <br><br>
-        
-        This book is dedicated to all who want to learn how to write and read using baybayin. <br> 
-        Let's learn and discover baybayin!
+          Do you want to learn how to write using baybayin? It is easy to learn this writing system!<br>
+          Let this book guide you on how to learn easily how to write and read in baybayin, the ancient writings of the Tagalogs.<br> 
+          This book contains the rules and exercises to help you become proficient in using baybayin. <br>
+          This book also gives you a short history of writing in other parts of the world and how it influenced <br> 
+          the writing systems used here in the Philippines. Aside from that, it also discusses indigenous writing <br>
+          as it relates to language and culture. <br><br>
+          
+          This book is dedicated to all who want to learn how to write and read using baybayin. <br> 
+          Let's learn and discover baybayin!
         </p>
       </div>
     </main>  
