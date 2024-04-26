@@ -1059,10 +1059,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-right: 20px;
 }
 
-.mr-auto {
-  margin-right: auto;
-}
-
 .mt-0 {
   margin-top: 0px;
 }
@@ -1308,16 +1304,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   min-width: 444px;
 }
 
+.min-w-\[515px\] {
+  min-width: 515px;
+}
+
 .min-w-\[555px\] {
   min-width: 555px;
 }
 
-.min-w-\[600px\] {
-  min-width: 600px;
+.min-w-\[585px\] {
+  min-width: 585px;
 }
 
-.min-w-\[640px\] {
-  min-width: 640px;
+.min-w-\[600px\] {
+  min-width: 600px;
 }
 
 .min-w-\[744px\] {
@@ -1485,6 +1485,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200\/90 {
+  background-color: rgb(229 231 235 / 0.9);
 }
 
 .bg-gray-300 {
@@ -1677,6 +1681,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .pr-\[117px\] {
   padding-right: 117px;
+}
+
+.pr-\[2rem\] {
+  padding-right: 2rem;
 }
 
 .pt-3 {
@@ -1971,6 +1979,10 @@ ul.dashed > li:before {
   height: 0;
 }
 
+.\[height\:73vh\] {
+  height: 73vh;
+}
+
 .\[left\:0\] {
   left: 0;
 }
@@ -2001,6 +2013,10 @@ ul.dashed > li:before {
 
 .\[opacity\:0\.75\] {
   opacity: 0.75;
+}
+
+.\[overflow-y\:scroll\] {
+  overflow-y: scroll;
 }
 
 .\[overflow\:hidden\] {
