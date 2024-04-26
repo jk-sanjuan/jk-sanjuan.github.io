@@ -17,7 +17,7 @@ sub-title: Social construct
         </div>
       </div>
     </section>
-    <div class="content-wrapper flex justify-center w-full sticky top-0 left-0 h-[1555px]">
+    <div class="content-wrapper min-w-[515px] flex justify-center w-full sticky top-0 left-0 h-[1555px]">
       <div class="content min-w-[444px] max-w-[580px] w-[60%] h-max py-2 px-6 !bg-white/60 quando-regular">
         <div class="text-white bg-yellow-600 p-4 [margin:-8px_-24px_0] [font-size:21px]">
           <span class="">{{ page.title }}: {{ page.sub-title }}</span>
