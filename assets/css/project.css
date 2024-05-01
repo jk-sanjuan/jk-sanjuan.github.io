@@ -11,27 +11,27 @@ nav .bg-animation {
 
 nav .start-home, ul:has(#home:hover) .bg-animation {
     width: 81px;
-    left: -481px;
+    left: -479px;
     background-color: #00886d;
     border-radius: 0;
 }
 
 nav .start-shop, ul:has(#shop:hover) .bg-animation {
     width: 80px;
-    left: -371px;
+    left: -368px;
     background-color: #e74c3c;
 }
 
 nav .start-clinic, ul:has(#clinic:hover) .bg-animation {
     width: 79px;
-    left: -263px;
+    left: -260px;
     background-color: #027d21;
     border-radius: 0;
 }
 
 nav .start-about, ul:has(#about:hover) .bg-animation {
     width: 80px;
-    left: -152px;
+    left: -148px;
     background-color: #b75703;
     border-radius: 1rem;
 }

@@ -1216,6 +1216,18 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 100px;
 }
 
+.w-\[106px\] {
+  width: 106px;
+}
+
+.w-\[110px\] {
+  width: 110px;
+}
+
+.w-\[113px\] {
+  width: 113px;
+}
+
 .w-\[1192px\] {
   width: 1192px;
 }
@@ -1246,6 +1258,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[250px\] {
   width: 250px;
+}
+
+.w-\[52px\] {
+  width: 52px;
 }
 
 .w-\[60\%\] {
@@ -1641,6 +1657,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .py-2 {
