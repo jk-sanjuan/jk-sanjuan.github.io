@@ -1127,6 +1127,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 100vh;
 }
 
+.h-\[1260px\] {
+  height: 1260px;
+}
+
 .h-\[128px\] {
   height: 128px;
 }
@@ -1181,10 +1185,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .h-\[86px\] {
   height: 86px;
-}
-
-.h-\[874px\] {
-  height: 874px;
 }
 
 .h-\[97px\] {
