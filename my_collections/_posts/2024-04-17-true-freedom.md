@@ -24,8 +24,27 @@ og-description: "mczvc x jksj musings"
     </section>
     <div class="content-wrapper min-w-[515px] flex justify-center w-full sticky top-0 left-0 h-[1555px]">
       <div class="content min-w-[444px] max-w-[580px] w-[60%] h-max py-2 px-6 !bg-white/60 quando-regular">
-        <div class="text-white bg-yellow-600 p-4 [margin:-8px_-24px_0] [font-size:21px]">
-          <span class="">{{ page.title }}: {{ page.sub-title }}</span>
+        <div class="text-white bg-yellow-600 p-4 [margin:-8px_-24px_0] [font-size:21px] flex">
+          <span class="flex-[1_0_content]">{{ page.title }}: {{ page.sub-title }}</span>
+          <div class="share-menu">
+            <label class="group">
+              <input class="share-toggler" type="checkbox">
+              <img src="/assets/images/icons/share.svg" width="512" height="512" alt="share" 
+                class="w-[40px] h-[40px] cursor-pointer rounded-full group-hover:bg-white/50"/>
+            </label>
+            <ul>
+              <li class="share-item">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjk-sanjuan.github.io%2F2024%2F04%2F17%2Ftrue-freedom.html&amp;src=sdkpreparse" 
+                  class="fa fa-facebook"></a>
+              </li>
+              <li class="share-item">
+                <a class="fa fa-twitter twitter-share-button" href="https://twitter.com/intent/tweet?text={{ page.title }}:%20{{ page.sub-title }}%0A{{ site.url }}{{ page.url }}"></a>
+              </li>
+              <li class="share-item">
+                <a class="fa fa-vk" href="#"></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <p>
           True freedom lies within the constructs of society, <br>
