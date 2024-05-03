@@ -3,7 +3,7 @@ layout: base
 title: "True Freedom"
 sub-title: "Social construct"
 og-title: "True Freedom"
-og-image: "https://jk-sanjuan.github.io/assets/images/thumbnails/2024-04-17-是愛.png"
+og-image: "https://jk-sanjuan.github.io/assets/images/thumbnails/2024-04-17-true-freedom.png"
 image-width: 1920
 image-height: 836
 og-description: "mczvc x jksj musings"
