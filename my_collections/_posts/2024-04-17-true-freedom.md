@@ -8,7 +8,10 @@ image-width: 1920
 image-height: 836
 og-description: "mczvc x jksj musings"
 ---
-<div>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=7536621456397792" nonce="DEbEOBxi"></script>
+
+<div class="min-w-[677px]">
   <div class="text-white bg-yellow-600 p-4 [font-size:20px]">
     <span class="[font-family:Crimson_Text] [font-size:35px] text-white">{{ page.title }}: {{ page.sub-title }}</span>
   </div>
