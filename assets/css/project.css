@@ -671,7 +671,6 @@ main .content-wrapper {
 #jk-i {
     background: black url('/assets/images/jk/jk-i.png') repeat-y -182px -39px;
     background-size: 1080px;
-    height: 874px;
 }
 
 @media (min-width: 720px) {
