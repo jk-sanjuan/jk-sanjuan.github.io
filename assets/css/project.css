@@ -754,3 +754,126 @@ div.profile-navbar {
     width: 40%;
     margin-bottom: 0;
 }
+
+.share-toggler {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+}
+
+.share-menu:has(.share-toggler:checked) ul .share-item {
+    opacity: 1;
+}
+
+.share-item {
+    opacity: 0;
+}
+
+.share-menu:has(.share-toggler:checked) ul .share-item:nth-child(1) {
+  transform: rotate(0deg) translate(-110px);
+}
+.share-menu:has(.share-toggler:checked) ul .share-item:nth-child(2) {
+  transform: rotate(60deg) translateX(-110px);
+}
+.share-menu:has(.share-toggler:checked) ul .share-item:nth-child(3) {
+  transform: rotate(120deg) translateX(-110px);
+}
+.share-menu:has(.share-toggler:checked) ul .share-item:nth-child(4) {
+  transform: rotate(180deg) translateX(-110px);
+}
+.share-menu:has(.share-toggler:checked) ul .share-item:nth-child(5) {
+  transform: rotate(240deg) translateX(-110px);
+}
+.share-menu:has(.share-toggler:checked) ul .share-item:nth-child(6) {
+  transform: rotate(300deg) translateX(-110px);
+}
+.share-menu:has(.share-toggler:checked) ul .share-item a {
+  pointer-events:auto;
+}
+.share-toggler + label {
+  width: 40px;
+  height: 5px;
+  display: block;
+  z-index: 1;
+  border-radius: 2.5px;
+  background: rgba(230, 239, 250, 0.9);
+  transition: transform 0.5s top 0.5s;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.share-toggler + label:before,
+.share-toggler + label:after {
+  width: 40px;
+  height: 5px;
+  display: block;
+  z-index: 1;
+  border-radius: 2.5px;
+  background: rgba(255, 255, 255, 0.7);
+  transition: transform 0.5s top 0.5s;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+}
+.share-toggler + label:before {
+  top: 10px;
+}
+.share-toggler + label:after {
+  top: -10px;
+}
+.share-item:nth-child(1) a {
+  transform: rotate(0deg);
+}
+.share-item:nth-child(2) a {
+  transform: rotate(-60deg);
+}
+.share-item:nth-child(3) a {
+  transform: rotate(-120deg);
+}
+.share-item:nth-child(4) a {
+  transform: rotate(-180deg);
+}
+.share-item:nth-child(5) a {
+  transform: rotate(-240deg);
+}
+.share-item:nth-child(6) a {
+  transform: rotate(-300deg);
+}
+.share-item {
+  position: absolute;
+  display: block;
+  top: 6px;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.share-item a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  line-height: 80px;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(230, 230, 250, 0.7);
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  pointer-events: none;
+  transition: 0.2s;
+}
+.share-item a:hover {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 44.44px
+}
