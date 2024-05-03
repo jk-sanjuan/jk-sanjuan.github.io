@@ -15,9 +15,9 @@ layout: base
 </div>
 
 <main>
-  <div class="bg-sky-400 w-full mr-[-5px] lg:[display:inline-block] tablet-desktop">
+  <div class="bg-sky-400 w-full lg:[display:inline-block] tablet-desktop">
     <div class="[position:sticky] [top:0] w-full [overflow:hidden]">
-      <div id="jk-i" class="w-full md:w-[1243px] h-[874px] hover:!bg-gray-900">
+      <div id="jk-i" class="w-full md:w-[1243px] h-[1260px] hover:!bg-gray-900">
       </div>
     </div>
     <div id="top-content" class="w-[600px]">
