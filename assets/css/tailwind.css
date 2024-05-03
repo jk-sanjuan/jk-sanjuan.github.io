@@ -1151,12 +1151,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 28px;
 }
 
+.h-\[40px\] {
+  height: 40px;
+}
+
 .h-\[422px\] {
   height: 422px;
 }
 
 .h-\[475px\] {
   height: 475px;
+}
+
+.h-\[48px\] {
+  height: 48px;
 }
 
 .h-\[600px\] {
@@ -1258,6 +1266,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[250px\] {
   width: 250px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-\[48px\] {
+  width: 48px;
 }
 
 .w-\[52px\] {
@@ -2305,6 +2321,10 @@ ul.dashed > li:before {
 
 .group\/ella:hover .group-hover\/ella\:bg-white\/40 {
   background-color: rgb(255 255 255 / 0.4);
+}
+
+.group:hover .group-hover\:bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
 }
 
 .group\/ella:hover .group-hover\/ella\:text-red-600 {
