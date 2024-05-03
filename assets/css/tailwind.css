@@ -1163,10 +1163,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 475px;
 }
 
-.h-\[48px\] {
-  height: 48px;
-}
-
 .h-\[600px\] {
   height: 600px;
 }
@@ -1272,10 +1268,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 40px;
 }
 
-.w-\[48px\] {
-  width: 48px;
-}
-
 .w-\[52px\] {
   width: 52px;
 }
@@ -1354,6 +1346,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .min-w-\[600px\] {
   min-width: 600px;
+}
+
+.min-w-\[677px\] {
+  min-width: 677px;
 }
 
 .min-w-\[744px\] {
