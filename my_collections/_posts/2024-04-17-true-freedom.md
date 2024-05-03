@@ -1,7 +1,12 @@
 ---
 layout: base
 title: "True Freedom"
-sub-title: Social construct
+sub-title: "Social construct"
+og-title: "True Freedom"
+og-image: "https://jk-sanjuan.github.io/assets/images/thumbnails/2024-04-17-是愛.png"
+image-width: 1920
+image-height: 836
+og-description: "mczvc x jksj musings"
 ---
 <div>
   <div class="text-white bg-yellow-600 p-4 [font-size:20px]">
