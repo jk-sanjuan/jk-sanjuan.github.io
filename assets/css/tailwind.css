@@ -1035,10 +1035,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-left: 3rem;
 }
 
-.ml-\[5rem\] {
-  margin-left: 5rem;
-}
-
 .ml-auto {
   margin-left: auto;
 }
@@ -2348,6 +2344,10 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 640px) {
+  .sm\:ml-\[5rem\] {
+    margin-left: 5rem;
+  }
+
   .sm\:min-w-\[100\%\] {
     min-width: 100%;
   }

@@ -157,7 +157,7 @@ tags: baybayin language Filipino 2021
     </div>
     <main>
       <div class="text md:w-[750px] w-[90vw] ml-[3rem] pr-[2rem]">
-        <h2 class="ml-[5rem]">Description:</h2>
+        <h2 class="sm:ml-[5rem]">Description:</h2>
         <p class="description bg-gray-200/90 py-4 px-2">
     
           Do you want to learn how to write using baybayin? It is easy to learn this writing system!<br>
