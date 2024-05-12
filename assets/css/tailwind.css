@@ -1329,12 +1329,12 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   min-width: 515px;
 }
 
-.min-w-\[555px\] {
-  min-width: 555px;
+.min-w-\[554px\] {
+  min-width: 554px;
 }
 
-.min-w-\[585px\] {
-  min-width: 585px;
+.min-w-\[555px\] {
+  min-width: 555px;
 }
 
 .min-w-\[600px\] {
