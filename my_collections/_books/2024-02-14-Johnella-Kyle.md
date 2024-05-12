@@ -20,7 +20,7 @@ published_date: 2024-02-14
                 hover:bg-[rgb(250_21_133)]"
       > Johnella Kyle San Juan</span>
     <span>
-      <span class="bg-gray-700 w-[250px] h-[23px] mb-0 inline-block"
+      <span class="bg-gray-700 w-[250px] h-[28px] mb-0 inline-block"
         ></span>
       <span class="w-[250px] h-[28px] -mt-[4px] bg-red-700 block [position:relative]"
         ></span>
