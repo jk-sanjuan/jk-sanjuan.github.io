@@ -333,6 +333,11 @@ nav ul li a {
     width: 46px;
 }
 
+#ham-menu:hover {
+    transition: height .45s ease-in-out, background-color .25s ease-in-out;
+    height: 52px;
+}
+
 .title {
     color: white;
     font-family: "Crimson Text", serif;
@@ -376,7 +381,7 @@ nav ul li a {
 }
 
 .nav > ul {
-    padding: 10px 42px 0;
+    padding: 10px 42px 80px;
 }
 
 .nav > ul ul li {
