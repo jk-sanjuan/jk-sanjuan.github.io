@@ -2153,6 +2153,10 @@ ul.dashed > li:before {
   color: rgb(56 189 248 );
 }
 
+.hover\:h-\[52px\]:hover {
+  height: 52px;
+}
+
 @keyframes pulse {
   50% {
     opacity: .5;
