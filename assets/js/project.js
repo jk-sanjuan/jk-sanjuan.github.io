@@ -42,10 +42,10 @@ function breadcrumbs(m) {
         scroll_on_top.classList.remove("hide");
         mainnav.classList.add("show");
         mainnav.classList.remove("hide");
-        tbar.style.height = "177px";
+        tbar.style.height = "160px";
     } else {
         logo_menu();
-        tbar.style.height = "102px";
+        tbar.style.height = "82px";
         scroll_on_top.classList.add("hide");
         scroll_on_top.classList.remove("show");
         mainnav.classList.add("hide");
