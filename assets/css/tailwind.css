@@ -921,6 +921,38 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     box-sizing: border-box;
     width: 128px;
   }
+
+  #tbar {
+    height: 82px;
+  }
+
+  @media (min-width: 768px) {
+    #tbar {
+      height: 102px;
+    }
+  }
+
+  #tbar.full {
+    height: 160px;
+  }
+
+  @media (min-width: 768px) {
+    #tbar.full {
+      height: 180px;
+    }
+  }
+
+  .active #logo {
+    left: -2px !important;
+    top: -5px;
+  }
+
+  @media (min-width: 768px) {
+    .active #logo {
+      left: -17px !important;
+      top: -13px;
+    }
+  }
 }
 
 .visible {
@@ -2369,6 +2401,15 @@ ul.dashed > li:before {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .md\:ml-6 {
+    margin-left: 1.5rem;
   }
 
   .md\:inline-block {

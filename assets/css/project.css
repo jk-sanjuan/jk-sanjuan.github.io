@@ -363,11 +363,6 @@ nav ul li a {
     z-index: 5;
 }
 
-.active #logo {
-    left: -5px;
-    top: -5px;
-}
-
 
 /** Globe Menu **/
 
