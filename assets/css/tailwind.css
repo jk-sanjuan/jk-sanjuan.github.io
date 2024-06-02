@@ -953,6 +953,18 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
       top: -13px;
     }
   }
+
+  .mobile-shown {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100vh;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    position: absolute;
+    z-index: 99;
+  }
 }
 
 .visible {
@@ -2422,6 +2434,15 @@ ul.dashed > li:before {
 
   .md\:w-\[750px\] {
     width: 750px;
+  }
+
+  .md\:desktop {
+    background-color: transparent;
+    position: relative;
+  }
+
+  .md\:\[align-items\:inherit\] {
+    align-items: inherit;
   }
 
   .md\:\[flex-direction\:row\] {

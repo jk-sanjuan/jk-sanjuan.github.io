@@ -366,6 +366,10 @@ nav ul li a {
 
 /** Globe Menu **/
 
+.v-hidden {
+    visibility: hidden;
+}
+
 #menu-container {
     z-index: 2;
 }
