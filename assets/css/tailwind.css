@@ -1361,10 +1361,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   min-width: 300px;
 }
 
-.min-w-\[442px\] {
-  min-width: 442px;
-}
-
 .min-w-\[444px\] {
   min-width: 444px;
 }
@@ -2437,6 +2433,7 @@ ul.dashed > li:before {
   }
 
   .md\:desktop {
+    height: 53px;
     background-color: transparent;
     position: relative;
   }
