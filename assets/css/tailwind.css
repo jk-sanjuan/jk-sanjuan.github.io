@@ -2452,6 +2452,10 @@ ul.dashed > li:before {
     width: 600px;
   }
 
+  .lg\:min-w-\[484px\] {
+    min-width: 484px;
+  }
+
   .lg\:\[display\:inline-block\] {
     display: inline-block;
   }
