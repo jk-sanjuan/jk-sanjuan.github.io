@@ -1,52 +1,49 @@
 <nav id="main-nav" class="hide bg-[rgb(111,0,70)] py-2 pb-[4.4rem]">
-  <div id="mobile-menu" class="mobile-shown md:desktop">
-    <ul class="flex [flex-direction:column] md:[flex-direction:row] justify-center items-center md:[align-items:inherit]
-                mr-10 my-3 overflow-x-hidden font-semibold marker:text-sky-400 list-none">
-      <li class="p-4 w-[113px]">
-        <!--- Home -->
-        <a id="home" class="cursor-default text-blue-200 py-4 px-4 rounded animate-btn
-                            hover:text-orange-400 hover:bg-sky-400/20 hover:no-underline" href="/"
-          >Home</a>
-      </li>
-      <li class="p-4 w-[106px]">
-        <!--- Shop -->
-        <a id="shop" class="text-white py-4 px-4 hover:text-sky-200/80 border-b-3 animate-bb
-                            hover:rounded-none hover:border-b-sky-400/90 hover:no-underline"
-           href="/shop"
-          >Shop</a>
-      </li>
-      <li class="p-4 w-[110px]">
-        <!--- Clinic -->
-        <a id="clinic" class="cursor-default text-blue-200 py-4 px-[15px] animate-btn
-                              hover:text-white hover:bg-orange-500/30 hover:no-underline"
-           href="/clinic"
-          >Clinic</a>
-      </li>
-      <li class="p-4 w-[113px]">
-        <!--- About -->
-        <a id="about" class="cursor-default text-blue-200 py-4 px-4 rounded-2xl
-           hover:text-red-200 hover:bg-red-900/50 hover:no-underline animate-btn"
-           href="/about"
-          >About</a>
-      </li>
-      <li class="flex items-center justify-center">
-        <div id="ham-menu" onclick="menu()"
-            class="group flex h-15 w-[52px] items-center justify-center
-                    cursor-pointer rounded-3xl bg-gray-400/20 p-2
-                    hover:bg-gray-500/30">
-          <div class="space-y-2">
-            <span id="upper-line"
-                class="block h-1 w-10 origin-center rounded-full bg-slate-500 transition-transform ease-in-out
-                "></span>
-            <span id="lower-line"
-                class="block h-1 w-8 origin-center rounded-full bg-orange-500 transition-transform ease-in-out
-                "></span>
-          </div>
+  <ul class="flex mr-10 my-3 overflow-x-hidden font-semibold marker:text-sky-400 list-none">
+    <li class="p-4 w-[113px]">
+      <!--- Home -->
+      <a id="home" class="cursor-default text-blue-200 py-4 px-4 rounded animate-btn
+                          hover:text-orange-400 hover:bg-sky-400/20 hover:no-underline" href="/"
+        >Home</a>
+    </li>
+    <li class="p-4 w-[106px]">
+      <!--- Shop -->
+      <a id="shop" class="text-white py-4 px-4 hover:text-sky-200/80 border-b-3 animate-bb
+                          hover:rounded-none hover:border-b-sky-400/90 hover:no-underline"
+         href="/shop"
+        >Shop</a>
+    </li>
+    <li class="p-4 w-[110px]">
+      <!--- Clinic -->
+      <a id="clinic" class="cursor-default text-blue-200 py-4 px-[15px] animate-btn
+                            hover:text-white hover:bg-orange-500/30 hover:no-underline"
+         href="/clinic"
+        >Clinic</a>
+    </li>
+    <li class="p-4 w-[113px]">
+      <!--- About -->
+      <a id="about" class="cursor-default text-blue-200 py-4 px-4 rounded-2xl
+         hover:text-red-200 hover:bg-red-900/50 hover:no-underline animate-btn"
+         href="/about"
+        >About</a>
+    </li>
+    <li class="flex items-center justify-center">
+      <div id="ham-menu" onclick="menu()"
+          class="group flex h-15 w-[52px] items-center justify-center
+                  cursor-pointer rounded-3xl bg-gray-400/20 p-2
+                  hover:bg-gray-500/30">
+        <div class="space-y-2">
+          <span id="upper-line"
+              class="block h-1 w-10 origin-center rounded-full bg-slate-500 transition-transform ease-in-out
+              "></span>
+          <span id="lower-line"
+              class="block h-1 w-8 origin-center rounded-full bg-orange-500 transition-transform ease-in-out
+              "></span>
         </div>
-      </li>
-      <li class="w-0"><div class="bg-animation start-home"></div></li>
-    </ul>
-  </div>
+      </div>
+    </li>
+    <li class="w-0"><div class="bg-animation start-home"></div></li>
+  </ul>
 
   <div id="menu-container">
     <nav class="nav" id="nav">

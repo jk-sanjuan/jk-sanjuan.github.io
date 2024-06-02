@@ -36,7 +36,6 @@ function breadcrumbs(m) {
     scroll_on_top = document.getElementById("scroll-on-top");
     mainnav = document.getElementById("main-nav");
     tbar = document.getElementById("tbar");
-    mobile_menu = document.getElementById("mobile-menu");
 
     if (breadcrumbs_open) {
         scroll_on_top.classList.add("show");
@@ -44,12 +43,10 @@ function breadcrumbs(m) {
         mainnav.classList.add("show");
         mainnav.classList.remove("hide");
         tbar.classList.add("full");
-        mobile_menu.classList.remove("v-hidden");
         // tbar.style.height = "160px";
     } else {
         logo_menu();
         tbar.classList.remove("full");
-        mobile_menu.classList.add("v-hidden");
         // tbar.style.height = "82px";
         scroll_on_top.classList.add("hide");
         scroll_on_top.classList.remove("show");
