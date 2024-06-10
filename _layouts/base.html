@@ -33,19 +33,20 @@
   {% include fonts-and-icons.style.html %}
   <script>
     window.onload = function () {
-      document.getElementById("main-nav").classList.add("show");
       mainmenu = document.querySelector(".hamburger");
-      breadcrumbs(mainmenu);
+      if (window.screen.width >= 768) {
+        toggle_breadcrumbs(mainmenu);
+      }
     };
   </script>
 </head>
-<body class="h-[100vh] grid [grid-template-rows:0fr_auto]">
+<body class="h-[100vh] grid [grid-template-rows:0fr_1fr_0]">
 
-  <div id="tbar">
+  <div id="topbar">
     {% include base.navigator.html %}
   </div>
 
-  <div class="-mb-[17px]">
+  <div class="main-content h-max">
     {{ content }}
   </div>
     <!--- comment
