@@ -1,108 +1,158 @@
-<nav id="main-nav" class="hide bg-[rgb(111,0,70)] py-2 pb-[4.4rem]">
-  <ul class="flex mr-10 my-3 overflow-x-hidden font-semibold marker:text-sky-400 list-none">
-    <li class="p-4 w-[113px]">
-      <!--- Home -->
-      <a id="home" class="cursor-default text-blue-200 py-4 px-4 rounded animate-btn
-                          hover:text-orange-400 hover:bg-sky-400/20 hover:no-underline" href="/"
-        >Home</a>
-    </li>
-    <li class="p-4 w-[106px]">
-      <!--- Shop -->
-      <a id="shop" class="text-white py-4 px-4 hover:text-sky-200/80 border-b-3 animate-bb
-                          hover:rounded-none hover:border-b-sky-400/90 hover:no-underline"
-         href="/shop"
-        >Shop</a>
-    </li>
-    <li class="p-4 w-[110px]">
-      <!--- Clinic -->
-      <a id="clinic" class="cursor-default text-blue-200 py-4 px-[15px] animate-btn
-                            hover:text-white hover:bg-orange-500/30 hover:no-underline"
-         href="/clinic"
-        >Clinic</a>
-    </li>
-    <li class="p-4 w-[113px]">
-      <!--- About -->
-      <a id="about" class="cursor-default text-blue-200 py-4 px-4 rounded-2xl
-         hover:text-red-200 hover:bg-red-900/50 hover:no-underline animate-btn"
-         href="/about"
-        >About</a>
-    </li>
-    <li class="flex items-center justify-center">
-      <div id="ham-menu" onclick="menu()"
-          class="group flex h-15 w-[52px] items-center justify-center
-                  cursor-pointer rounded-3xl bg-gray-400/20 p-2
-                  hover:bg-gray-500/30">
-        <div class="space-y-2">
-          <span id="upper-line"
-              class="block h-1 w-10 origin-center rounded-full bg-slate-500 transition-transform ease-in-out
-              "></span>
-          <span id="lower-line"
-              class="block h-1 w-8 origin-center rounded-full bg-orange-500 transition-transform ease-in-out
-              "></span>
-        </div>
-      </div>
-    </li>
-    <li class="w-0"><div class="bg-animation start-home"></div></li>
-  </ul>
-
-  <div id="menu-container">
-    <nav class="nav" id="nav">
-      <ul class="animate-pulse [overflow-y:scroll] [height:73vh] ease-in-out">
-        <li><a href="/"
+<div class="h-full [position:fixed] block p-0 invisible md:[overflow-x:unset] md:[overflow-y:unset]
+            [overflow-x:hidden] [overflow-y:auto] w-full h-full max-h-[calc(100vh_-_102px)]">
+  <nav id="main-nav"
+       class="visible main-nav--hide right-0 [position:absolute] md:[position:relative]
+              py-2 w-[100%] md:w-full h-[auto] max-w-[360px] md:max-w-[100%]">
+    <div id="nav-backdrop"
+         class="backdrop left-0 bg-black/50 [position:fixed]
+                top-[102px] w-full h-full [z-index:-1]
+                md:[visibility:hidden] backdrop--hide"></div>
+    <div class="menu-nav bg-[rgb(157,0,99)] max-h-[550px] [position:absolute] top-0 w-full">
+      <ul class="flex [flex-direction:column] md:[flex-direction:row] py-3
+                 menu-bar font-semibold marker:text-sky-400 list-none">
+        <li class="w-0">
+          <div class="bg-animation start-home"></div>
+        </li>
+        <li class="p-4 w-[113px]">
+          <!--- Home -->
+          <a id="home" class="cursor-default text-blue-200 py-4 px-4 rounded animate-btn
+                              hover:text-orange-400 hover:bg-sky-400/20 hover:no-underline" href="/"
           >Home</a>
         </li>
-        <li>
-          <a href="/shop"
-            >Shop</a>
+        <li class="p-4 w-[106px]">
+          <!--- Shop -->
+          <a id="shop" class="text-white py-4 px-4 hover:text-sky-200/80 border-b-3 animate-bb
+                              hover:rounded-none hover:border-b-sky-400/90 hover:no-underline"
+             href="/shop"
+          >Shop</a>
         </li>
-        <li>
-          <a href="/clinic"
+        <li class="p-4 w-[110px]">
+          <!--- Clinic -->
+          <a id="clinic" class="cursor-default text-blue-200 py-4 px-[15px] animate-btn
+                                hover:text-white hover:bg-orange-500/30 hover:no-underline"
+             href="/clinic"
           >Clinic</a>
         </li>
-        <li>
-          <a href="#">Blogs</a>
-          <ul>
-            {% for post in site.posts %}
-            <li>
-              <a href="{{ post.url }}"
-                >{{ post.title }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li>
-          <a href="https://mczvc-biomew.github.io/books"
-            >Bayanihan Publishing</a>
-          <ul>
-            {% for book in site.books %}
-            <a href="{{ book.url }}">
-              <li class="anim-hover-bb">
-                {{ book.title }}
+        <li class="p-4 pb-0 w-[160px] [position:relative]">
+          <!--- Clinic -->
+          <a id="portfolio" href="#"
+             class="nav-link cursor-default text-blue-200 py-4 px-[15px] animate-btn
+                    hover:text-white hover:bg-[rgba(249,115,22,0.12)] hover:no-underline"
+             data-dropdown="portfolio-dropdown"
+          >Portfolio <i class="fa fa-chevron-down"></i></a>
+          <div id="portfolio-dropdown" class="dropdown dropdown--hide w-max m-4 mb-0">
+            <ul role="menu" class="dropdown-menu">
+              {% for book in site.books %}
+              <li>
+                <a href="{{ book.url }}" class="dropdown-link">
+                  {{ book.title }}
+                </a>
               </li>
-            </a>
-            {% endfor %}
-          </ul>
+              {% endfor %}
+            </ul>
+          </div>
         </li>
-        <li>
-          <a href="https://mczvc-biomew.github.io/storage"
-            >Bayanihan OpenLibrary</a>
-          <ul>
-            {% for file in site.files %}
-            <li>
-              <a href="{{ file.url }}">{{ file.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
+        <li class="p-4 pb-0 w-[122px] [position:relative]">
+          <!--- Clinic -->
+          <a id="blog" href="#"
+             class="nav-link cursor-default text-blue-200 py-4 px-[15px] animate-btn
+                    hover:text-white hover:bg-[rgba(249,115,22,0.12)] hover:no-underline"
+             data-dropdown="blog-dropdown"
+          >Blog <i class="fa fa-chevron-down"></i></a>
+          <div id="blog-dropdown" class="dropdown dropdown--hide w-max m-4 mb-0">
+            <ul role="menu" class="dropdown-menu">
+              {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url }}" class="dropdown-link"
+                >{{ post.title }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
         </li>
-        <li>
-          <a href="/contact-us"
-          >Contact Us</a>
+        <li class="flex items-center justify-center [display:none] md:[display:flex] lg:[display:none]">
+          <div id="ham-menu" onclick="toggleNavMore()"
+               class="group flex h-15 w-[52px] items-center justify-center
+                  cursor-pointer rounded-3xl bg-gray-400/20 p-2
+                  hover:bg-gray-500/30">
+            <div class="space-y-2">
+          <span id="upper-line"
+                class="block h-1 w-10 origin-center rounded-full bg-slate-500 transition-transform ease-in-out
+              "></span>
+              <span id="lower-line"
+                    class="block h-1 w-8 origin-center rounded-full bg-orange-500 transition-transform ease-in-out
+              "></span>
+            </div>
+          </div>
+        </li>
+        <li class="p-4 pb-0 w-[288px] [position:relative] md:[display:none] lg:[display:block]">
+          <!--- Clinic -->
+          <a id="openlibrary" href="#"
+             class="nav-link cursor-default text-blue-200 py-4 px-[15px] animate-btn
+                    hover:text-white hover:bg-[rgba(249,115,22,0.12)] hover:no-underline"
+             data-dropdown="openlibrary-dropdown"
+          >Bayanihan OpenLibrary <i class="fa fa-chevron-down"></i></a>
+          <div id="openlibrary-dropdown" class="dropdown dropdown--hide w-max m-4 mb-0">
+            <ul role="menu" class="dropdown-menu">
+              {% for file in site.files %}
+              <li>
+                <a href="{{ file.url }}" class="dropdown-link">
+                  {{ file.title }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+        <li class="p-4 w-[113px] md:[display:none] lg:[display:block]">
+          <!--- About -->
+          <a id="about" class="cursor-default text-blue-200 py-4 px-4 rounded-2xl
+             hover:text-red-200 hover:bg-red-900/50 hover:no-underline animate-btn"
+             href="/about"
+          >About</a>
+        </li>
+        <li class="p-4 w-[110px] md:[display:none] lg:[display:block]">
+          <!--- About -->
+          <a id="contact"
+             class="cursor-pointer text-[#dc8f00] hover:text-[#e4fc49] py-4 px-4
+             hover:[border-bottom-style:double] hover:[border-bottom-width:4px] hover:[border-bottom-color:#e4fc49]"
+             href="/contact-us"
+          >Contact</a>
         </li>
       </ul>
-    </nav>
-  </div>
+    </div>
 
-  <div class="menu-bg" id="menu-bg"></div>
+    <div id="menu-container">
+      <nav class="nav" id="nav-more">
+        <ul class="animate-pulse [overflow-y:scroll] [height:calc(100vh-222px)] ease-in-out">
+          <li><a href="https://mczvc-biomew.github.io/storage"
+          >Bayanihan OpenLibrary</a>
 
-</nav>
+            <ul>
+              {% for file in site.files %}
+              <li>
+                <a href="{{ file.url }}">
+                  {{ file.title }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+
+          </li>
+          <li>
+            <a href="/about"
+            >About</a>
+          </li>
+          <li>
+            <a href="/contact-us"
+            >Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="menu-bg" id="menu-bg"></div>
+
+  </nav>
+</div>
