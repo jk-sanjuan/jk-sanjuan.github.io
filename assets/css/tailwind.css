@@ -1142,6 +1142,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 102px;
 }
 
+.h-\[1047px\] {
+  height: 1047px;
+}
+
 .h-\[125px\] {
   height: 125px;
 }
@@ -2162,6 +2166,10 @@ ul.dashed > li:before {
   display: none;
 }
 
+.\[filter\:blur\(4px\)\] {
+  filter: blur(4px);
+}
+
 .\[flex-basis\:100\%\] {
   flex-basis: 100%;
 }
@@ -2637,6 +2645,10 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 700px) {
+  .md\:top-\[193px\] {
+    top: 193px;
+  }
+
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
