@@ -1138,6 +1138,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 100vh;
 }
 
+.h-\[100vw\] {
+  height: 100vw;
+}
+
 .h-\[102px\] {
   height: 102px;
 }
@@ -1231,8 +1235,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   max-height: calc(100vh - 102px);
 }
 
-.min-h-\[600px\] {
-  min-height: 600px;
+.min-h-\[300px\] {
+  min-height: 300px;
 }
 
 .w-0 {
@@ -1382,10 +1386,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .min-w-\[515px\] {
   min-width: 515px;
-}
-
-.min-w-\[600px\] {
-  min-width: 600px;
 }
 
 .min-w-\[677px\] {
@@ -2646,12 +2646,20 @@ ul.dashed > li:before {
     display: inline-block;
   }
 
+  .md\:max-h-\[590px\] {
+    max-height: 590px;
+  }
+
   .md\:w-\[1243px\] {
     width: 1243px;
   }
 
   .md\:w-\[200px\] {
     width: 200px;
+  }
+
+  .md\:w-\[600px\] {
+    width: 600px;
   }
 
   .md\:w-\[750px\] {
@@ -2696,10 +2704,6 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 1180px) {
-  .lg\:w-\[600px\] {
-    width: 600px;
-  }
-
   .lg\:min-w-\[484px\] {
     min-width: 484px;
   }
