@@ -947,10 +947,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   position: sticky;
 }
 
-.-left-\[239px\] {
-  left: -239px;
-}
-
 .-top-\[16px\] {
   top: -16px;
 }
@@ -965,6 +961,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .right-0 {
   right: 0px;
+}
+
+.right-\[753px\] {
+  right: 753px;
 }
 
 .top-0 {
@@ -1056,10 +1056,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .ml-8 {
   margin-left: 2rem;
-}
-
-.ml-\[3rem\] {
-  margin-left: 3rem;
 }
 
 .ml-auto {
@@ -1333,10 +1329,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[86px\] {
   width: 86px;
-}
-
-.w-\[90vw\] {
-  width: 90vw;
 }
 
 .w-auto {
@@ -1774,6 +1766,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-left: 1.6rem;
 }
 
+.pl-\[1rem\] {
+  padding-left: 1rem;
+}
+
 .pl-\[3rem\] {
   padding-left: 3rem;
 }
@@ -1786,8 +1782,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-right: 117px;
 }
 
-.pr-\[2rem\] {
-  padding-right: 2rem;
+.pr-\[1rem\] {
+  padding-right: 1rem;
 }
 
 .pt-3 {
@@ -2606,10 +2602,6 @@ ul.dashed > li:before {
     top: -16px;
   }
 
-  .sm\:ml-\[5rem\] {
-    margin-left: 5rem;
-  }
-
   .sm\:flex {
     display: flex;
   }
@@ -2666,6 +2658,10 @@ ul.dashed > li:before {
     width: 1243px;
   }
 
+  .md\:w-\[1300px\] {
+    width: 1300px;
+  }
+
   .md\:w-\[200px\] {
     width: 200px;
   }
@@ -2720,6 +2716,10 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 1180px) {
+  .lg\:left-\[0\] {
+    left: 0;
+  }
+
   .lg\:w-\[50vw\] {
     width: 50vw;
   }
@@ -2758,6 +2758,20 @@ ul.dashed > li:before {
 
   .\*\:lg\:min-w-\[113px\] > * {
     min-width: 113px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:\!left-\[8\%\] {
+    left: 8% !important;
+  }
+
+  .xl\:\!left-\[90\%\] {
+    left: 90% !important;
+  }
+
+  .xl\:\[transform\:rotate\(0deg\)_scale\(1\)\] {
+    transform: rotate(0deg) scale(1);
   }
 }
 
