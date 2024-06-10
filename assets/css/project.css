@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
 
+.main-nav--hide {
+    height: 0 !important;
+    overflow: hidden;
+    padding: 0 !important;
+    max-height: 0 !important;
+    visibility: hidden;
+}
+
+.main-nav--hide .menu-nav {
+    max-height: 0;
+}
+
 nav .bg-animation {
     position: relative;
     height: 100%;
@@ -10,36 +22,57 @@ nav .bg-animation {
 }
 
 nav .start-home, ul:has(#home:hover) .bg-animation {
-    width: 81px;
-    left: -479px;
+    width: 82px;
+    left: 16px;
     background-color: #00886d;
     border-radius: 0;
 }
 
 nav .start-shop, ul:has(#shop:hover) .bg-animation {
-    width: 80px;
-    left: -368px;
+    width: 81px;
+    left: 126px;
     background-color: #e74c3c;
 }
 
 nav .start-clinic, ul:has(#clinic:hover) .bg-animation {
     width: 79px;
-    left: -260px;
+    left: 235px;
     background-color: #027d21;
     border-radius: 0;
 }
 
+nav .start-portfolio, ul:has(#portfolio:hover) .bg-animation {
+    width: 125px;
+    left: 345px;
+    background-color: #02527d;
+    border-radius: 0;
+}
+
+nav .start-blog, ul:has(#blog:hover) .bg-animation {
+    width: 89px;
+    left: 505px;
+    background-color: #3d027d;
+    border-radius: 0;
+}
+
+nav .start-openlibrary, ul:has(#openlibrary:hover) .bg-animation {
+    width: 252px;
+    left: 627px;
+    background-color: #3d027d;
+    border-radius: 0;
+}
+
 nav .start-about, ul:has(#about:hover) .bg-animation {
-    width: 80px;
-    left: -148px;
+    width: 82px;
+    left: 915px;
     background-color: #b75703;
     border-radius: 1rem;
 }
 
-nav .start-contact-us {
-    width: 80px;
-    left: -149px;
-    background-color: #9b59b6;
+nav .start-contact, ul:has(#contact:hover) .bg-animation {
+    width: 99px;
+    left: 1027px;
+    background-color: #b67c59;
 }
 
 nav ul li a {
@@ -132,48 +165,9 @@ nav ul li a {
     display: inline-block;
 }
 
-.hover_filter-drop-shadow-sm:hover {
-    filter: drop-shadow(0 0 0.5em rgb(0, 0, 0));
-}
-
-.hover_filter-blur-5:hover {
-    filter: blur(5px);
-}
-
-.file-button {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0.5rem;
-}
-
-.auto {
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.icon-wrapper {
-    width: 80px;
-    margin: 0 auto;
-    display: inline-block;
-}
-
-.file-icon {
-    width: 64px;
-    height: 64px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 64px;
-    border-radius: 4px;
-    position: relative;
-}
-
 #book-description, #author-bio {
     border-inline-start: 5px solid #0171ff;
 }
-
 
 .btn-back {
     position: relative;
@@ -228,7 +222,6 @@ nav ul li a {
 .btn-back:hover {
     cursor: pointer;
 }
-
 
 .pie {
     -webkit-tap-highlight-color: transparent;
@@ -317,11 +310,9 @@ nav ul li a {
     border-radius: 50%;
     box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    height: 200px;
     left: -100px;
     position: absolute;
     top: -100px;
-    width: 200px;
 }
 
 .hamburger {
@@ -338,14 +329,6 @@ nav ul li a {
     height: 52px;
 }
 
-.title {
-    color: white;
-    font-family: "Crimson Text", serif;
-    font-size: 80px;
-    line-height: 84px;
-    margin-top: 60px;
-    text-align: center;
-}
 
 .active .pie {
     transform: translateX(0) translateY(0);
@@ -363,6 +346,10 @@ nav ul li a {
     z-index: 5;
 }
 
+.active #logo {
+    left: -18px;
+    top: -10px;
+}
 
 /** Globe Menu **/
 
@@ -380,7 +367,7 @@ nav ul li a {
 }
 
 .nav > ul {
-    padding: 10px 42px 80px;
+    padding: 10px 16px 80px;
 }
 
 .nav > ul ul li {
@@ -436,14 +423,14 @@ nav li > ul li {
 }
 
 .menu-bg, #menu-container {
-    top: 180px;
-    left: 149px;
+    top: 104px;
+    left: 277px;
     position: absolute;
-    width: 380px;
+    width: 363px;
 }
 
-#menu-container:has(#nav.show) {
-    height: 614px;
+#menu-container:has(#nav-more.show) {
+    height: 220px;
 }
 
 .menu-bg {
@@ -458,9 +445,7 @@ nav li > ul li {
 
 .show-bg {
     width: 364px;
-    height: 624px;
-    /*transform: translate(60%, -60px);*/
-
+    height: 230px;
 }
 
 .anim-hover-bb {
@@ -528,7 +513,7 @@ nav li > ul li {
 
 .hide {
     transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
-    height: 0;
+    height: 0 !important;
     opacity: 0;
     overflow: hidden;
     margin: 0 !important;
