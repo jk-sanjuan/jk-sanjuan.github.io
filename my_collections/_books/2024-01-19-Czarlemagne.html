@@ -12,12 +12,13 @@ image-height: "632"
 <div class="text-white bg-yellow-600 p-4 [font-size:20px]">Resume of Czarlemagne</div>
 
 <div class="bg-gray-500 text-white p-4">
-  <div class="flex w-[990px]">
+  <div class="flex lg:w-[990px]">
     <div class="[font-size:20px] w-[148px]"><div class="font-bold">Meldencio Czarlemagne</div> Corrales</div>
-    <img alt="mczvc" class="[left:580px] [position:relative]" src="/assets/images/biomew/mczvc_1.png" width="13%" height="13%"/>
+    <img alt="mczvc" src="/assets/images/biomew/mczvc_1.png"
+        class="[position:relative] mx-auto max-w-[200px]" />
   </div>
-  <div class="flex mt-2">
-    <div class="w-[155px]"><span>Software Engineer and Architect, DevOps Engineer, Database Manager and Administrator,  
+  <div class="flex mt-2 max-w-[1240px]">
+    <div class="max-w-[155px]"><span>Software Engineer and Architect, DevOps Engineer, Database Manager and Administrator,
   IT & IS Manager</span></div>
     <div class="mx-auto">
       <span class="">
@@ -29,10 +30,10 @@ image-height: "632"
   </div>
 </div>
 
-<div class="flex">
-  <div class="p-4">
+<div class="block md:flex">
+  <div class="p-4 lg:w-[50vw]">
     <h3>ABOUT ME</h3>
-    <div class="w-[613px] [line-height:1.4]">
+    <div class="lg:max-w-[613px] [line-height:1.4]">
       <ul class="pl-[3rem] list-[lower-roman]">
         <li>I am expert in Python, Java, C++, and JavaScript and a wide variety of frameworks for these languages, 
           for example:
@@ -60,7 +61,7 @@ image-height: "632"
     </div>
 
     <h3>WORK EXPERIENCE</h3>
-    <div class="w-[613px]">
+    <div class="lg:max-w-[613px]">
       <div class="pl-[3rem]">
         <div class="*:block *:pr-2 pt-4">
           <span>(May 2019 – Nov. 2019)</span>
@@ -86,7 +87,7 @@ image-height: "632"
           <span> | </span><span class="italic">Quezon City</span>
           
           <ul class="dashed *:mt-2">
-            <li>Built several micro-services and API endpoints for the consumers and producers operating in the open-source, MOOC and value-based Careers platform to implement automated management solutions.</li>
+            <li>Built several microservices and API endpoints for the consumers and producers operating in the open-source, MOOC and value-based Careers platform to implement automated management solutions.</li>
             <li>Developed automation tools for document generation.</li>
             <li>Created full-stack web applications for the university’s virtual learning environment.</li>
             <li>Designed a business model for university-wide learning; a balanced and prosperous ecosystem, for not-for-profit design of business.</li>
@@ -98,36 +99,34 @@ image-height: "632"
     </div>
 
     <h3>Company</h3>
-    <div>
-      <div class="flex">
-        <div>
-          <span class="font-bold w-[75px] [display:inline-block]">Egg Co.</span><span>(Parent)</span>
-        </div>
-        <div>
-          <ul class="list-disc list-inside [&_ul]:list-[revert] ml-4 [line-height:1.5]">
-            <li>DAD System and University – College of Computer Science, School for Business and Management</li>
-            <li>Royal Society of Science, Engineering, and Medicine</li>
-            <li>Royal Society of Mathematics, Architecture, and Computing</li>
-            <li>Royal Society for Professionals</li>
-            <li>Bayanihan College, Bayanihan Foundation</li>
-              <ul class="list-disc list-inside ml-8">
-                <li>United Alumnus Royals</li>
-                <li>Bayanihan OS, Software</li>
-              </ul>
-            <li>Vanguard Consortium</li>
-              <ul class="list-disc list-inside ml-8">
-                <li>Royal Knighthood</li>
-              </ul>
-            <li>Egg Co. Club, Egg Co. Hub</li>
-            <li>Royal Club™ Machines, Equipments, and Technology</li>
-            <li>Picosoft™</li>
-          </ul>
-        </div>
+    <div class="flex">
+      <div>
+        <span class="font-bold w-[75px] [display:inline-block]">Egg Co.</span><span>(Parent)</span>
+      </div>
+      <div class="max-w-full">
+        <ul class="list-disc list-inside [&_ul]:list-[revert] ml-4 [line-height:1.5]">
+          <li>DAD System and University – College of Computer Science, School for Business and Management</li>
+          <li>Royal Society of Science, Engineering, and Medicine</li>
+          <li>Royal Society of Mathematics, Architecture, and Computing</li>
+          <li>Royal Society for Professionals</li>
+          <li>Bayanihan College, Bayanihan Foundation</li>
+            <ul class="list-disc list-inside ml-8">
+              <li>United Alumnus Royals</li>
+              <li>Bayanihan OS, Software</li>
+            </ul>
+          <li>Vanguard Consortium</li>
+            <ul class="list-disc list-inside ml-8">
+              <li>Royal Knighthood</li>
+            </ul>
+          <li>Egg Co. Club, Egg Co. Hub</li>
+          <li>Royal Club™ Machines, Equipments, and Technology</li>
+          <li>Picosoft™</li>
+        </ul>
       </div>
     </div>
   </div>
-  <div>
-    <div class="w-[900px]">
+  <div class="p-4 lg:w-[50vw]">
+    <div class="2xl:min-w-[758px] lg:max-w-[900px]">
       <h3>EDUCATION</h3>
       <div class="*:block">
         <span>August 2014 – October 2016</span>
@@ -142,9 +141,9 @@ image-height: "632"
           <span>C, C++, C#, Clojure, Carbon, Go, Java, Kotlin, Python, Lua, Haskell, Julia, HTML5 / XML / CSS3, PHP, 
                 JavaScript, Typescript, Rust, Ruby, OCaml, Swift, Bash, Powershell, Solidity, Vyper</span>
         </div>
-        <div>
-          <div class="flex mt-3 *:w-[999px]">
-            <h3 class="pr-3">Computer Languages</h3>
+        <div class="flex [flex-direction:column] md:[flex-direction:row] mt-3">
+          <h3 class="pr-3">Computer Languages</h3>
+          <div class="flex flex-wrap *:min-w-[99px] *:lg:min-w-[113px] *:[flex-grow:1] *:[flex-shrink:1]">
             <span>C <br>
                   💗💗💗💗💗 <br>
                   C++ <br>
@@ -209,7 +208,7 @@ image-height: "632"
             <span class="text-white bg-yellow-600 p-2 block">Software Architect, 2022–2032</span>
           </div>
           <div class="flex mb-4">
-            <span><span class="bg-gray-200 p-2">Vanguard Consortium – Phi Chi Alpha</span></span>
+            <span><span class="bg-gray-200 p-2 [line-height:2rem]">Vanguard Consortium – Phi Chi Alpha</span></span>
             <div class="*:block w-[246px] ml-auto">
               <span class="text-[rgb(8,137,187)] bg-gray-400/80 p-2">Royal Knight, Sigma Alpha, <br>Founder</span>
               <span class="text-yellow-600 bg-gray-300 p-1">Established on 14 Dec. 2023</span>
@@ -238,7 +237,7 @@ image-height: "632"
         </div>
         <div>
           <h3>Coursework Information</h3>
-          <span id="coursework" class="w-[725px] block *:bg-gray-500 *:text-white *:p-1 [line-height:2.1]
+          <span id="coursework" class="block *:bg-gray-500 *:text-white *:p-1 [line-height:2.1]
                        *:cursor-pointer">
                 <span>Calculus I, II</span> <span>English Composition I, II</span> 
                 <span>Interpersonal Communication Skills</span> <span>Reasoning & Argumentation</span> 
@@ -266,7 +265,7 @@ image-height: "632"
                 <span>Symbolic Logic</span> <span>ERGU | EREG</span> 
                 <span>Rizal</span>
           </span>
-          <span class="block w-[600px] [right:-250px] [position:relative] ">
+          <span class="block w-auto [right:0px] [position:absolute] ">
             <span id="coursework-asterisk" class="bg-yellow-400 p-2" 
                   onmouseover="select_asterisked()" onmouseleave="deselect_asterisked()">
               (* Coursework had a lab component as well)</span></span>
