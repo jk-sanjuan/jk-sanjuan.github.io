@@ -23,7 +23,7 @@ tags: baybayin language Filipino 2021
 
 <div class="block">
   <div>
-    <div id="area" class="w-[969px] block h-[670px]">
+    <div id="area" class="">
     
       <select id="toc"></select>
       <div id="viewer" class="spreads"></div>
@@ -95,32 +95,16 @@ tags: baybayin language Filipino 2021
     
         rendition.on("layout", function(layout) {
           let viewer = document.getElementById("viewer");
+          let area = document.getElementById("area");
     
           if (layout.spread) {
             viewer.classList.remove('single');
           } else {
             viewer.classList.add('single');
           }
-        });
-    
-        rendition.on("relocated", function(location){
-          console.log(location);
-    
-          var next = book.package.metadata.direction === "rtl" ?  document.getElementById("prev") : document.getElementById("next");
-          var prev = book.package.metadata.direction === "rtl" ?  document.getElementById("next") : document.getElementById("prev");
-    
-          if (location.atEnd) {
-            next.style.visibility = "hidden";
-          } else {
-            next.style.visibility = "visible";
-          }
-    
-          if (location.atStart) {
-            prev.style.visibility = "hidden";
-          } else {
-            prev.style.visibility = "visible";
-          }
-    
+          area.classList.add("[transform:rotate(90deg)_scale(0.7)]");
+          area.classList.add("-left-[239px]");
+          area.classList.add("[position:relative]");
         });
     
         book.loaded.navigation.then(function(toc){
