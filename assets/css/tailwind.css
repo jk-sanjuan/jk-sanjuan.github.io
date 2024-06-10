@@ -957,12 +957,12 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   position: sticky;
 }
 
-.-top-\[126px\] {
-  top: -126px;
-}
-
 .-top-\[16px\] {
   top: -16px;
+}
+
+.-top-\[30vw\] {
+  top: -30vw;
 }
 
 .-top-\[9px\] {
@@ -973,8 +973,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   left: 0px;
 }
 
-.left-\[23px\] {
-  left: 23px;
+.left-\[9px\] {
+  left: 9px;
 }
 
 .right-0 {
@@ -1172,6 +1172,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 128px;
 }
 
+.h-\[1550px\] {
+  height: 1550px;
+}
+
 .h-\[1555px\] {
   height: 1555px;
 }
@@ -1200,8 +1204,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 475px;
 }
 
+.h-\[510px\] {
+  height: 510px;
+}
+
 .h-\[600px\] {
   height: 600px;
+}
+
+.h-\[684px\] {
+  height: 684px;
 }
 
 .h-\[69px\] {
@@ -2317,6 +2329,10 @@ ul.dashed > li:before {
   position: sticky;
 }
 
+.\[right\:-248px\] {
+  right: -248px;
+}
+
 .\[right\:0px\] {
   right: 0px;
 }
@@ -2327,6 +2343,14 @@ ul.dashed > li:before {
 
 .\[top\:0\] {
   top: 0;
+}
+
+.\[top\:260px\] {
+  top: 260px;
+}
+
+.\[top\:744px\] {
+  top: 744px;
 }
 
 .\[transform\:rotate\(90deg\)_scale\(0\.7\)\] {
@@ -2726,10 +2750,6 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 1180px) {
-  .lg\:left-\[0\] {
-    left: 0;
-  }
-
   .lg\:w-\[50vw\] {
     width: 50vw;
   }
