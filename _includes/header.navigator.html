@@ -1,5 +1,5 @@
-<div class="flex w-[91%] sm:w-[96%]">
-  <div class="flex flex-[1_0_content] w-full">
+<div class="flex w-[100%]">
+  <div class="flex flex-[1_0_content] w-full min-w-[300px]">
     <header class="w-full flex-[1_0_content] flex justify-between items-center group">
       <div class="pie pie1" onclick="logo_menu()">
         <div class="pie-color pie-color1">
@@ -29,7 +29,7 @@
               </svg>
         </div>
       </div>
-      <div class="logo-menu hide w-[100px] h-[100px]" onclick="">
+      <div class="logo-menu hide" onclick="">
         <svg class="left-hamburger" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
           <g
             fill="none"
@@ -39,23 +39,25 @@
           ></g>
         </svg>
       </div>
-      <img id="logo" src="/assets/images/jk/header-logo.png" class="flex-shrink-0 ml-2 md:ml-6 w-[70px] h-[70px] my-2 md:my-4
-                  [position:absolute] [left:0] active-hover bg-sz-64 bg-no-repeat" alt="JK"
+      <img id="logo" src="/assets/images/jk/header-logo.png" alt="JK"
+           class="flex-shrink-0 ml-2 md:ml-6 w-[70px] h-[70px] my-4
+                  [position:absolute] [left:0] active-hover bg-sz-64 bg-no-repeat"
         onclick="logo_menu()">
-      <img src="/assets/images/jk/header-logo.png" class="flex-shrink-0 ml-2 md:ml-6 w-[70px] h-[70px] my-2 md:my-4
-                  bg-sz-64 bg-no-repeat" alt="JK">
+      <img src="/assets/images/jk/header-logo.png" alt="JK"
+           class="flex-shrink-0 ml-2 md:ml-6 w-[70px] h-[70px] my-4
+                  bg-sz-64 bg-no-repeat">
       <div class="flex-[1_0_content] ml-0 cursor-pointer">
           <a href="/">
-            <span class="[font-size:1.375rem] sm:text-3xl font-semibold text-yellow-600 hover:text-yellow-500 djvu-serif-bold
-                          animate-btn ml-2"
-            >JK San Juan</span>
+            <img class="w-[166px] md:w-[200px] p-[6px] hover:[filter:brightness(1.2)]
+                        animate-btn ml-2"
+                 src="/assets/images/kayee/JKSanJuan.png"/>
           </a>
       </div>
 
     </header>
   </div>
   <div class="flex">
-    <div class="hamburger btn-back [transform:scale(1.7)]" onclick="breadcrumbs(this)">
+    <div class="hamburger btn-back [transform:scale(1.7)]" onclick="toggle_breadcrumbs(this)">
       <div class="icon"></div>
     </div>
   </div>
