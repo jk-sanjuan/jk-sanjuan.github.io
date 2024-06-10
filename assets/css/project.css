@@ -318,7 +318,7 @@ nav ul li a {
 .hamburger {
     cursor: pointer;
     height: 46px;
-    left: 58%;
+    left: 0;
     position: relative;
     top: 9%;
     width: 46px;
@@ -443,9 +443,9 @@ nav li > ul li {
     transition: 0.3s ease;
 }
 
-.show-bg {
+.menu-bg--show {
     width: 364px;
-    height: 230px;
+    height: 264px;
 }
 
 .anim-hover-bb {
