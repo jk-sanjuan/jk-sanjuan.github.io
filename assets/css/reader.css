@@ -15,7 +15,7 @@
 
 #viewer.spreads {
   width: 900px;
-  height: 600px;
+  height: 405px;
   box-shadow: 0 0 4px #ccc;
   border-radius: 5px;
   padding: 0;
@@ -157,7 +157,7 @@
 
 #navigation {
   width: 400px;
-  height: 100vh;
+  height: 100px;
   position: absolute;
   overflow: auto;
   top: 0;
