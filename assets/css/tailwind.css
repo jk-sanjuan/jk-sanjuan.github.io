@@ -2738,6 +2738,10 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 1180px) {
+  .lg\:-top-\[10px\] {
+    top: -10px;
+  }
+
   .lg\:w-\[50vw\] {
     width: 50vw;
   }
