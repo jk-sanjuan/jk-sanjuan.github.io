@@ -961,8 +961,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   top: -16px;
 }
 
-.-top-\[30vw\] {
-  top: -30vw;
+.-top-\[27vw\] {
+  top: -27vw;
 }
 
 .-top-\[9px\] {
@@ -1210,10 +1210,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .h-\[600px\] {
   height: 600px;
-}
-
-.h-\[684px\] {
-  height: 684px;
 }
 
 .h-\[69px\] {
@@ -2329,10 +2325,6 @@ ul.dashed > li:before {
   position: sticky;
 }
 
-.\[right\:-248px\] {
-  right: -248px;
-}
-
 .\[right\:0px\] {
   right: 0px;
 }
@@ -2343,10 +2335,6 @@ ul.dashed > li:before {
 
 .\[top\:0\] {
   top: 0;
-}
-
-.\[top\:260px\] {
-  top: 260px;
 }
 
 .\[top\:744px\] {
