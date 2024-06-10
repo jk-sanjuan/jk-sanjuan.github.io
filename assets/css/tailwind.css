@@ -2667,6 +2667,14 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 700px) {
+  .md\:\!left-\[4\%\] {
+    left: 4% !important;
+  }
+
+  .md\:\!left-\[94\%\] {
+    left: 94% !important;
+  }
+
   .md\:top-\[10px\] {
     top: 10px;
   }
