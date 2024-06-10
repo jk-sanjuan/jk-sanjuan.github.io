@@ -2667,6 +2667,10 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 700px) {
+  .md\:top-\[10px\] {
+    top: 10px;
+  }
+
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -2732,16 +2736,16 @@ ul.dashed > li:before {
     position: relative;
   }
 
+  .md\:\[transform\:rotate\(0deg\)_scale\(1\)\] {
+    transform: rotate(0deg) scale(1);
+  }
+
   .md\:\[visibility\:hidden\] {
     visibility: hidden;
   }
 }
 
 @media (min-width: 1180px) {
-  .lg\:top-\[10px\] {
-    top: 10px;
-  }
-
   .lg\:w-\[50vw\] {
     width: 50vw;
   }
@@ -2790,10 +2794,6 @@ ul.dashed > li:before {
 
   .xl\:\!left-\[90\%\] {
     left: 90% !important;
-  }
-
-  .xl\:\[transform\:rotate\(0deg\)_scale\(1\)\] {
-    transform: rotate(0deg) scale(1);
   }
 }
 
