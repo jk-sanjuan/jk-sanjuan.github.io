@@ -947,6 +947,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   position: sticky;
 }
 
+.-left-\[208px\] {
+  left: -208px;
+}
+
 .-top-\[16px\] {
   top: -16px;
 }
@@ -961,10 +965,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .right-0 {
   right: 0px;
-}
-
-.right-\[753px\] {
-  right: 753px;
 }
 
 .top-0 {
