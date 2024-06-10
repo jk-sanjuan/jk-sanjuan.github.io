@@ -929,6 +929,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
       height: 190px;
     }
   }
+
+  nav .start-openlibrary, nav .start-about, nav .start-contact {
+    visibility: hidden;
+  }
+
+  @media (min-width: 1180px) {
+    nav .bg-animation {
+      visibility: visible;
+    }
+  }
 }
 
 .visible {
