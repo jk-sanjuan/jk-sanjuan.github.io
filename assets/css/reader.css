@@ -78,17 +78,17 @@
   }
 
   #prev {
-    left: -31px;
+    left: 545px;
   }
 
   #next {
-    left: 909px;
+    left: 1422px;
   }
 }
 
 .arrow {
-  position: relative;
-  top: -321px;
+  position: fixed;
+  top: 315px;
   margin-top: -20px;
   font-size: 64px;
   color: #E2E2E2;
