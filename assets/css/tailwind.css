@@ -973,6 +973,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   left: 0px;
 }
 
+.left-\[23px\] {
+  left: 23px;
+}
+
 .right-0 {
   right: 0px;
 }
