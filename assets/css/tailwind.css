@@ -1231,6 +1231,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   max-height: 550px;
 }
 
+.max-h-\[600px\] {
+  max-height: 600px;
+}
+
 .max-h-\[calc\(100vh_-_102px\)\] {
   max-height: calc(100vh - 102px);
 }
@@ -1269,10 +1273,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .w-\[113px\] {
   width: 113px;
-}
-
-.w-\[1192px\] {
-  width: 1192px;
 }
 
 .w-\[122px\] {
