@@ -961,8 +961,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   top: -16px;
 }
 
-.-top-\[33vw\] {
-  top: -33vw;
+.-top-\[31vw\] {
+  top: -31vw;
 }
 
 .-top-\[9px\] {
@@ -973,8 +973,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   left: 0px;
 }
 
-.left-\[8px\] {
-  left: 8px;
+.left-\[12px\] {
+  left: 12px;
 }
 
 .right-0 {
