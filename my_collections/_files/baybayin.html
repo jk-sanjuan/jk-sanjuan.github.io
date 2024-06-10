@@ -25,7 +25,7 @@ tags: baybayin language Filipino 2021
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
 <script src="/assets/js/epub.js/dist/epub.min.js"></script>
 
-<div class="block">
+<div class="block w-[100vw]">
   <div>
     <div id="area" class="">
     
@@ -108,9 +108,10 @@ tags: baybayin language Filipino 2021
           } else {
             viewer.classList.add('single');
           }
+          area.classList.add("-top-[126px]");
           area.classList.add("[transform:rotate(90deg)_scale(0.7)]");
           area.classList.add("xl:[transform:rotate(0deg)_scale(1)]");
-          area.classList.add("-left-[208px]");
+          area.classList.add("left-0");
           area.classList.add("lg:left-[0]");
           area.classList.add("[position:relative]");
           area.classList.add("[position:relative]");
@@ -145,15 +146,15 @@ tags: baybayin language Filipino 2021
     </div>
   </div>
 
-  <div class="w-max flex [flex-direction:column] md:[flex-direction:row] md:mx-auto">
-    <div class="max-w-[100vw]">
+  <div class="w-full flex [flex-direction:column] md:[flex-direction:row] md:mx-auto">
+    <div class="min-w-[300px] max-w-[100vw]">
       <img alt="Discover Baybayin" src="/assets/images/book_covers/Discover-Baybayin.png" width="400px"
         class="mx-auto"/>
     </div>
-    <main>
-      <div class="text md:w-[750px] w-full pl-[1rem] pr-[1rem]">
+    <div>
+      <div class="text w-full pl-[1rem] pr-[1rem]">
         <h2 class="">Description:</h2>
-        <p class="description w-[90vw] bg-gray-200/90 py-4 px-2">
+        <p class="description w-[95vw] md:w-full bg-gray-200/90 py-4 px-2">
     
           Do you want to learn how to write using baybayin? It is easy to learn this writing system!<br>
           Let this book guide you on how to learn easily how to write and read in baybayin, the ancient writings of the Tagalogs.<br> 
@@ -166,6 +167,6 @@ tags: baybayin language Filipino 2021
           Let's learn and discover baybayin!
         </p>
       </div>
-    </main>  
+    </div>
   </div>
 </div>
