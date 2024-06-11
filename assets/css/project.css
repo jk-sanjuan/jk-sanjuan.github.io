@@ -380,7 +380,7 @@ nav ul li a {
     padding: 12px 0;
 }
 
-.nav li > a {
+#nav-more.nav ul li > a.nav-menu-link {
     color: #dc8f00;
     font-size: 23px;
     text-decoration: none;
@@ -388,18 +388,6 @@ nav ul li a {
 
 .nav ul > a > li {
     position: relative;
-}
-
-.nav ul > a > li:after {
-    content: '';
-    width: 0;
-    left: 258px;
-    height: 3px;
-    background-color: #00000000;
-    position: absolute;
-    display: block;
-    bottom: 9px;
-    transition: width 1s ease, left 1s ease-out;
 }
 
 .nav ul > a > li:hover::after {
@@ -410,11 +398,11 @@ nav ul li a {
     border-radius: 3px;
 }
 
-nav li > ul li {
+nav#nav-more ul li a.nav-sub-link {
     color: bisque;
 }
 
-.nav li > a:hover {
+nav#nav-more ul li a.nav-menu-link:hover {
     color: #e4fc49;
     font-weight: bold;
     border-bottom-style: double;
