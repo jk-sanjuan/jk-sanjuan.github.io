@@ -18,7 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:            Jk-SanJuan
+name:             Johnella Kyle
+title:            JK San Juan
+tagline:          Certified *Chic*
 email:            mczvc.biomew@gmail.com mczvc@proton.me
 description:      Johnella Kyle's Website
 baseurl:          ""
