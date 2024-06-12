@@ -34,7 +34,7 @@
   <script>
     window.onload = function () {
       mainmenu = document.querySelector(".hamburger");
-      if (window.screen.width >= 768) {
+      if (window.screen.width >= 700) {
         toggle_breadcrumbs(mainmenu);
       }
     };
@@ -46,13 +46,8 @@
     {% include base.navigator.html %}
   </div>
 
-  <div class="main-content h-max">
-    {{ content }}
-  </div>
-    <!--- comment
-    Script tags with only code, no src (defer by default). To run
-    with a "defer" so that you run inline code:
-    -->
+  {{ content }}
+
   {% include footer.html %}
 </body>
 </html>

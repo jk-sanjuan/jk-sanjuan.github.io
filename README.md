@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 ---
 
 <div class="[font-size:2.1rem] bg-yellow-600 py-5 flex h-[97px] page-header relative [z-index:1]">

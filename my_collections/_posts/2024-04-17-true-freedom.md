@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: "True Freedom"
 sub-title: "Social construct"
 og-title: "True Freedom"
