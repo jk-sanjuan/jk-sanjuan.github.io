@@ -14,6 +14,9 @@ function scrollToTop(event: Event) {
 
 <style lang="scss">
 #scroll-on-top {
+    &:hover {
+        @apply h-[55px];
+    }
     transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
     height: 63px;
     opacity: 1;
