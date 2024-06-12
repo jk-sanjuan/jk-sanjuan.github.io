@@ -492,22 +492,6 @@ nav#nav-more ul li a.nav-menu-link:hover {
     transition: width 1s ease;
 }
 
-.show {
-    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
-    height: 63px;
-    opacity: 1;
-    display: block !important;
-}
-
-.hide {
-    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
-    height: 0 !important;
-    opacity: 0;
-    overflow: hidden;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
 #coursework > span:hover {
     background-color: rgb(229, 231, 235);
     color: black;
