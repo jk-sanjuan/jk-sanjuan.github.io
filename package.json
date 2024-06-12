@@ -3,6 +3,8 @@
   "private": true,
   "dependencies": {
     "@vueuse/core": "^5",
+    "pinia": "^2.1.7",
+    "primevue": "^3.52.0",
     "vue": "^3.2"
   },
   "devDependencies": {
@@ -16,6 +18,7 @@
     "unplugin-vue-components": "^0.21",
     "vite": "^5.2.13",
     "vite-plugin-ruby": "^5.0.0",
+    "vite-plugin-vue-devtools": "^7.2.1",
     "vite-plugin-windicss": "^1.2.0",
     "vue-cli-plugin-windicss": "~1.1.6",
     "windicss": "^3.5.6"
