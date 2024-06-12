@@ -8,6 +8,7 @@
   "devDependencies": {
     "@iconify-json/bx": "^1.1.2",
     "@iconify-json/octicon": "^1.1.13",
+    "@types/node": "^20.14.2",
     "@vitejs/plugin-vue": "^2",
     "netlify-plugin-cache": "^1.0.3",
     "sass": "^1.35",
