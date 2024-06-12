@@ -86,6 +86,7 @@ exclude:
   - tsconfig.json
   - package-lock.json
   - vite.config.ts
+  - _headers
   - tmp
   - Procfile.dev
 #   - .sass-cache/
