@@ -78,14 +78,15 @@
                   cursor-pointer rounded-3xl bg-gray-400/20 p-2
                   hover:bg-gray-500/30">
             <div class="space-y-2">
-          <span id="upper-line"
-                class="block h-1 w-10 origin-center rounded-full bg-slate-500 transition-transform ease-in-out
-              "></span>
+              <span id="upper-line"
+                  class="block h-1 w-10 origin-center rounded-full bg-slate-500 transition-transform ease-in-out
+                "></span>
               <span id="lower-line"
                     class="block h-1 w-8 origin-center rounded-full bg-orange-500 transition-transform ease-in-out
               "></span>
             </div>
           </div>
+
         </li>
         <li class="p-4 pb-0 w-[288px] [position:relative] md:[display:none] lg:[display:block]">
           <!--- Clinic -->
@@ -123,39 +124,41 @@
         </li>
       </ul>
     </div>
-
-    <div id="menu-container">
-      <nav class="nav" id="nav-more">
-        <ul class="animate-pulse [overflow-y:scroll] [height:calc(100vh-222px)] ease-in-out">
-          <li>
-            <a href="https://mczvc-biomew.github.io/storage" class="nav-menu-link"
-              >Bayanihan OpenLibrary</a>
-
-            <ul>
+    <script>
+        window.__navMore = false;
+        window.__navMoreMenu = [
+          {
+            label: 'Bayanihan OpenLibrary',
+            items: [
               {% for file in site.files %}
-              <li>
-                <a href="{{ file.url }}"
-                  class="nav-sub-link text-[1.3rem]">
-                  {{ file.title }}
-                </a>
-              </li>
+                {
+                  label: "{{ file.title }}",
+                  url: "{{ file.url }}"
+                },
               {% endfor %}
-            </ul>
-
-          </li>
-          <li>
-            <a href="/about" class="nav-menu-link"
-            >About</a>
-          </li>
-          <li>
-            <a href="/contact-us" class="nav-menu-link"
-            >Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="menu-bg" id="menu-bg"></div>
+            ]
+          },
+          {
+            label: "JK San Juan",
+            items: [
+              {
+                label: 'About',
+                url: '/about',
+              },
+              {
+                label: 'Contact',
+                url: '/contact-us',
+              },
+            ]
+          },
+          {
+            label: '',
+            class: 'p-menu-bg p-menu-bg--show [z-index:-1] p-0 m-0',
+            items: []
+          }
+        ]
+    </script>
+    <div id="app-nav-more"></div>
 
   </nav>
 </div>
