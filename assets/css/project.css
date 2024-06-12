@@ -361,13 +361,20 @@ nav ul li a {
     z-index: 2;
 }
 
-.nav {
+.nav, .p-menu {
     transition: 0.3s ease;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .nav > ul {
     padding: 10px 16px 80px;
+}
+
+.p-menu-list {
+    padding: 0 16px 80px;
+    height: calc(100vh - 400px);
+    overflow-y: scroll;
 }
 
 .nav > ul ul li {
@@ -375,12 +382,21 @@ nav ul li a {
     width: 20rem;
 }
 
-.nav li {
+.p-menuitem-content {
+    padding: 2px 0 0 28px;
+    width: 20rem;
+}
+
+.nav li, .p-menu-list .p-submenu-header {
     list-style: none;
     padding: 12px 0;
 }
 
-#nav-more.nav ul li > a.nav-menu-link {
+.p-menuitem {
+    padding: 0 0 12px;
+}
+
+#nav-more.nav ul li > a.nav-menu-link, .p-submenu-header {
     color: #dc8f00;
     font-size: 23px;
     text-decoration: none;
@@ -398,8 +414,12 @@ nav ul li a {
     border-radius: 3px;
 }
 
-nav#nav-more ul li a.nav-sub-link {
+nav#nav-more ul li a.nav-sub-link, .p-menuitem-text {
     color: bisque;
+}
+
+.p-menuitem-text {
+    font-size: 1.3rem;
 }
 
 nav#nav-more ul li a.nav-menu-link:hover {
@@ -410,18 +430,29 @@ nav#nav-more ul li a.nav-menu-link:hover {
     border-bottom-color: #e4fc49;
 }
 
-.menu-bg, #menu-container {
+.menu-bg, #menu-container, .p-menu, .p-menu-bg {
     top: 104px;
     left: 277px;
     position: absolute;
     width: 363px;
 }
 
+.p-menu-bg {
+    top: -11px;
+    left: -2px;
+    position: absolute;
+    width: 363px;
+}
+
+.p-menu {
+    margin-left: 22px;
+}
+
 #menu-container:has(#nav-more.show) {
     height: 220px;
 }
 
-.menu-bg {
+.menu-bg, .p-menu-bg {
     z-index: 1;
     width: 0;
     height: 0;
@@ -431,7 +462,7 @@ nav#nav-more ul li a.nav-menu-link:hover {
     transition: 0.3s ease;
 }
 
-.menu-bg--show {
+.menu-bg--show, .p-menu-bg--show {
     width: 364px;
     height: 264px;
 }
