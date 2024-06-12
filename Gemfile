@@ -11,6 +11,7 @@ source "https://rubygems.org"
 
 # Github Page
 gem "github-pages", group: :jekyll_plugins
+gem 'jekyll-vite', group: :jekyll_plugins
 
 gem "webrick"
 
