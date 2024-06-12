@@ -12,6 +12,11 @@ vendor
 /vue_frontend/.idea/
 /vue_frontend/
 
+.bundle
+log
+tmp
+.jekyll-cache
+
 # Vite Ruby
 /public/vite*
 node_modules
