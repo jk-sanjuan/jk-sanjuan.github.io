@@ -586,41 +586,78 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   --tw-backdrop-sepia:  ;
 }
 
+.\!container {
+  width: 100% !important;
+}
+
 .container {
   width: 100%;
 }
 
 @media (min-width: 468px) {
+  .\!container {
+    max-width: 468px !important;
+  }
+
   .container {
     max-width: 468px;
   }
 }
 
 @media (min-width: 700px) {
+  .\!container {
+    max-width: 700px !important;
+  }
+
   .container {
     max-width: 700px;
   }
 }
 
 @media (min-width: 1180px) {
+  .\!container {
+    max-width: 1180px !important;
+  }
+
   .container {
     max-width: 1180px;
   }
 }
 
 @media (min-width: 1280px) {
+  .\!container {
+    max-width: 1280px !important;
+  }
+
   .container {
     max-width: 1280px;
   }
 }
 
 @media (min-width: 1536px) {
+  .\!container {
+    max-width: 1536px !important;
+  }
+
   .container {
     max-width: 1536px;
   }
 }
 
 @layer component {
+  @keyframes pulse {
+    50% {
+      opacity: .5;
+    }
+  }
+
+  ul.p-menu-list {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: scroll;
+    height: calc(100vh - 222px);
+  }
+
   form a {
     border-bottom-width: 2px !important;
     border-style: solid !important;
@@ -949,12 +986,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   visibility: hidden;
 }
 
+.collapse {
+  visibility: collapse;
+}
+
 .static {
   position: static;
 }
 
 .fixed {
   position: fixed;
+}
+
+.\!absolute {
+  position: absolute !important;
 }
 
 .absolute {
@@ -991,6 +1036,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .right-0 {
   right: 0px;
+}
+
+.start-1 {
+  inset-inline-start: 0.25rem;
 }
 
 .top-0 {
@@ -1196,6 +1245,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   display: grid;
 }
 
+.\!contents {
+  display: contents !important;
+}
+
 .contents {
   display: contents;
 }
@@ -1286,6 +1339,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .h-\[510px\] {
   height: 510px;
+}
+
+.h-\[55px\] {
+  height: 55px;
 }
 
 .h-\[600px\] {
@@ -1566,16 +1623,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
 .cursor-default {
   cursor: default;
 }
@@ -1669,6 +1716,12 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .overflow-y-clip {
   overflow-y: clip;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .rounded {
@@ -2092,10 +2145,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   font-size: 1.2em;
 }
 
-.text-\[1\.3rem\] {
-  font-size: 1.3rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2137,6 +2186,11 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .italic {
   font-style: italic;
+}
+
+.ordinal {
+  --tw-ordinal: ordinal;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
 .leading-5 {
@@ -2416,6 +2470,13 @@ ul.dashed > li:before {
   transition-duration: 1s;
 }
 
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
@@ -2541,6 +2602,11 @@ ul.dashed > li:before {
   }
 }
 
+.p-menu--show {
+  visibility: visible;
+  opacity: 1;
+}
+
 .backdrop--hide {
   margin: 0px !important;
   height: 0px !important;
@@ -2619,6 +2685,10 @@ ul.dashed > li:before {
 
 .\[color\:\#eacfb3\] {
   color: #eacfb3;
+}
+
+.\[display\:block\] {
+  display: block;
 }
 
 .\[display\:inline-block\] {
@@ -2701,10 +2771,6 @@ ul.dashed > li:before {
   height: 0;
 }
 
-.\[height\:calc\(100vh-222px\)\] {
-  height: calc(100vh - 222px);
-}
-
 .\[k\:K\] {
   k: K;
 }
@@ -2729,6 +2795,10 @@ ul.dashed > li:before {
   line-height: 2rem;
 }
 
+.\[localhost\:5173\/__inspect\/\] {
+  localhost: 5173/  inspect/;
+}
+
 .\[margin\:-8px_-24px_0\] {
   margin: -8px -24px 0;
 }
@@ -2748,10 +2818,6 @@ ul.dashed > li:before {
 
 .\[overflow-y\:auto\] {
   overflow-y: auto;
-}
-
-.\[overflow-y\:scroll\] {
-  overflow-y: scroll;
 }
 
 .\[overflow\:hidden\] {
