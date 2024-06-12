@@ -1,0 +1,22 @@
+{
+  "name": "jksanjuan",
+  "private": true,
+  "dependencies": {
+    "@vueuse/core": "^5",
+    "vue": "^3.2"
+  },
+  "devDependencies": {
+    "@iconify-json/bx": "^1.1.2",
+    "@iconify-json/octicon": "^1.1.13",
+    "@vitejs/plugin-vue": "^2",
+    "netlify-plugin-cache": "^1.0.3",
+    "sass": "^1.35",
+    "unplugin-icons": "^0.14",
+    "unplugin-vue-components": "^0.21",
+    "vite": "^5.2.13",
+    "vite-plugin-ruby": "^5.0.0",
+    "vite-plugin-windicss": "^1.2.0",
+    "vue-cli-plugin-windicss": "~1.1.6",
+    "windicss": "^3.5.6"
+  }
+}
