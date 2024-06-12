@@ -42,8 +42,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: NPM Install
-        run: npm install --legacy-peer-deps
+#      - name: NPM Install
+#        run: npm install --legacy-peer-deps
       - name: Bundle Install Vite
         run: bundle exec vite install
       - name: Build with Jekyll
