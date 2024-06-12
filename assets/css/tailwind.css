@@ -949,6 +949,18 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   visibility: hidden;
 }
 
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -961,8 +973,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   top: -16px;
 }
 
-.-top-\[31vw\] {
-  top: -31vw;
+.-top-\[236px\] {
+  top: -236px;
 }
 
 .-top-\[9px\] {
@@ -1140,8 +1152,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-1 {
@@ -1176,12 +1200,12 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 128px;
 }
 
-.h-\[1550px\] {
-  height: 1550px;
-}
-
 .h-\[1555px\] {
   height: 1555px;
+}
+
+.h-\[1562px\] {
+  height: 1562px;
 }
 
 .h-\[170px\] {
@@ -1434,12 +1458,20 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   flex: 1 0 content;
 }
 
+.flex-shrink {
+  flex-shrink: 1;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
 
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .origin-center {
@@ -1853,6 +1885,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   font-size: 1.2em;
 }
 
+.text-\[1\.3rem\] {
+  font-size: 1.3rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1937,6 +1973,12 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .text-yellow-600 {
   --tw-text-opacity: 1;
   color: rgb(202 138 4 / var(--tw-text-opacity));
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .transition-transform {
@@ -2272,6 +2314,10 @@ ul.dashed > li:before {
   height: calc(100vh - 222px);
 }
 
+.\[k\:K\] {
+  k: K;
+}
+
 .\[left\:0\] {
   left: 0;
 }
@@ -2353,8 +2399,8 @@ ul.dashed > li:before {
   top: 744px;
 }
 
-.\[transform\:rotate\(90deg\)_scale\(0\.7\)\] {
-  transform: rotate(90deg) scale(0.7);
+.\[transform\:rotate\(90deg\)_scale\(0\.7\)_translateX\(50\%\)\] {
+  transform: rotate(90deg) scale(0.7) translateX(50%);
 }
 
 .\[transform\:scale\(1\.7\)\] {
@@ -2706,6 +2752,10 @@ ul.dashed > li:before {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:h-\[971px\] {
+    height: 971px;
   }
 
   .md\:max-h-\[590px\] {
