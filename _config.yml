@@ -80,6 +80,7 @@ exclude:
   - docs
   - exe
   - node_modules
+  - vue_frontend
   - package.json
   - shims.d.ts
   - windi.config.ts
