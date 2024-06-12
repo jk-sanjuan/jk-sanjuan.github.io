@@ -72,21 +72,19 @@ let breadcrumbs_open = false;
 function toggle_breadcrumbs(m) {
     m.classList.toggle('open');
     breadcrumbs_open = !breadcrumbs_open;
-    scroll_on_top = document.getElementById("scroll-on-top");
+    scrollToTop = document.getElementById("scroll-on-top");
     mainnav = document.getElementById("main-nav");
     topbar = document.getElementById("topbar");
     nav_backdrop = document.getElementById("nav-backdrop");
 
     if (breadcrumbs_open) {
-        scroll_on_top.classList.add("show");
-        scroll_on_top.classList.remove("hide");
+        scrollToTop.classList.remove("hide");
         mainnav.classList.remove("main-nav--hide");
         nav_backdrop.classList.remove("backdrop--hide");
         topbar.classList.add("full");
     } else {
         topbar.classList.remove("full");
-        scroll_on_top.classList.add("hide");
-        scroll_on_top.classList.remove("show");
+        scrollToTop.classList.add("hide");
         mainnav.classList.add("main-nav--hide");
         // mainnav.classList.remove("show");
         nav_backdrop.classList.add("backdrop--hide");
