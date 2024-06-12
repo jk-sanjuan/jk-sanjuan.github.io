@@ -40,9 +40,6 @@ navLink.forEach((link) => {
 
 })
 
-function scrollToTop() {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-}
 
 let nav_more_open = false;
 
