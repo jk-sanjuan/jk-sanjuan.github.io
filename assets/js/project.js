@@ -46,19 +46,14 @@ let nav_more_open = false;
 function toggleNavMore() {
     nav_more_open = !nav_more_open;
     window.__navMore.value = nav_more_open;
-    // const navMore = document.getElementById("nav-more");
     const pMenu = document.querySelector(".p-menu");
 
     if (nav_more_open) {
-        // navMore.classList.add("nav-more--show");
         pMenu.classList.add("p-menu--show");
-        // menu_bg.classList.add("menu-bg--show");
         document.querySelector("#ham-menu #upper-line").classList.add("open");
         document.querySelector("#ham-menu #lower-line").classList.add("open");
     } else {
-        // navMore.classList.remove("nav-more--show");
         pMenu.classList.remove("p-menu--show");
-        // menu_bg.classList.remove("menu-bg--show");
         document.querySelector("#ham-menu #upper-line").classList.remove("open");
         document.querySelector("#ham-menu #lower-line").classList.remove("open");
     }
