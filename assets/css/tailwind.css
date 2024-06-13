@@ -1066,6 +1066,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin: 0px;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .m-4 {
   margin: 1rem;
 }
@@ -1255,6 +1259,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .hidden {
   display: none;
+}
+
+.h-0 {
+  height: 0px;
 }
 
 .h-1 {
@@ -2685,10 +2693,6 @@ ul.dashed > li:before {
 
 .\[color\:\#eacfb3\] {
   color: #eacfb3;
-}
-
-.\[display\:block\] {
-  display: block;
 }
 
 .\[display\:inline-block\] {
