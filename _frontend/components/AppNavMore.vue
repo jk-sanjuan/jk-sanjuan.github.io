@@ -11,12 +11,14 @@ onMounted(() => {
 })
 </script>
 <template>
-    <div :class="{ 'nav-more--show': show }">
+    <div :class="[{ 'invisible': !show }]">
         <Menu :model="items"/>
+        <div class="p-menu-bg [z-index:-1] p-0 m-1" :class="{ 'p-menu-bg--show': show }"></div>
     </div>
 </template>
 <style scoped lang="scss">
-.nav-more--show {
-    @apply [display:block];
+.invisible {
+    @apply h-0 max-h-0;
 }
+
 </style>
