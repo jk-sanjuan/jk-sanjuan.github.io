@@ -3263,6 +3263,14 @@ ul.dashed > li:before {
     width: 100%;
   }
 
+  .md\:min-w-\[33\%\] {
+    min-width: 33%;
+  }
+
+  .md\:min-w-\[66\%\] {
+    min-width: 66%;
+  }
+
   .md\:max-w-\[100\%\] {
     max-width: 100%;
   }
@@ -3305,16 +3313,16 @@ ul.dashed > li:before {
 }
 
 @media (min-width: 1180px) {
-  .lg\:w-\[50vw\] {
-    width: 50vw;
-  }
-
   .lg\:w-\[990px\] {
     width: 990px;
   }
 
   .lg\:min-w-\[484px\] {
     min-width: 484px;
+  }
+
+  .lg\:min-w-\[50vw\] {
+    min-width: 50vw;
   }
 
   .lg\:max-w-\[613px\] {
@@ -3353,6 +3361,10 @@ ul.dashed > li:before {
 
   .xl\:\!left-\[90\%\] {
     left: 90% !important;
+  }
+
+  .xl\:min-w-\[40\%\] {
+    min-width: 40%;
   }
 }
 
