@@ -1,0 +1,32 @@
+---
+layout: page
+title: Staff
+---
+
+<div class="flex flex-col flex-col-reverse">
+  <div class="author-card p-4">
+    <ul class="rounded-2xl bg-gray-200 py-3 w-max">
+      {% for author in site.authors %}
+        <li class="list-inside">
+          <h2 class="bg-red-300 px-4 py-2">{{ author.name }}</h2>
+          <div class="pl-7">
+            <h3>{{ author.position }}</h3>
+            <p>{{ author.content | markdownify }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="[font-size:2.1rem] bg-yellow-600 py-5 flex h-[97px] page-header">
+    <img src="/assets/images/jk/jk-m.png"
+         class="h-[170px] [position:relative] -top-[16px] hover:bg-white/20"
+         alt="Clinic">
+    <span class="ml-4 mt-[15px]"
+    >Staffs</span>
+  </div>
+</div>
+<style>
+  .author-card {
+    filter: drop-shadow(2px 3.1px 0.2em rgb(0, 0, 0));
+  }
+</style>
