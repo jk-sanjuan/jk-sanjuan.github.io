@@ -905,6 +905,7 @@ ul .icon:hover {
 .content-page {
     position: absolute;
     top: 328px;
+    transition: transform 0.5s ease-in-out;
 }
 
 #profile-bg {
@@ -927,4 +928,5 @@ ul .icon:hover {
 #team:target #page-team {
     transform: translateX(320vw);
     width: 80%;
+    transition-delay: .4s;
 }
