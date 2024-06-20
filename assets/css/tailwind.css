@@ -2725,6 +2725,10 @@ ul.dashed > li:before {
   }
 }
 
+.\!\[background-position-x\:-80px\] {
+  background-position-x: -80px !important;
+}
+
 .\!\[font-size\:32px\] {
   font-size: 32px !important;
 }
@@ -3351,6 +3355,10 @@ ul.dashed > li:before {
 
   .md\:pr-\[117px\] {
     padding-right: 117px;
+  }
+
+  .md\:\!\[background-position-x\:0\] {
+    background-position-x: 0 !important;
   }
 
   .md\:\[display\:flex\] {
