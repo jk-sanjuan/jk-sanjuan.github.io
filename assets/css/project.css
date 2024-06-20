@@ -658,7 +658,7 @@ main .content-wrapper {
 
 @media (min-width: 720px) {
     #jk-i {
-        background-position: -187px 0;
+        background-position: -187px 119%;
         background-size: 1243px;
     }
 }
@@ -666,22 +666,29 @@ main .content-wrapper {
 
 @media (min-width: 768px) {
     #jk-i {
-        background-position: -196px -32%;
+        background-position: -196px 119%;
         background-size: 1243px;
     }
 }
 
 @media (min-width: 800px) {
     #jk-i {
-        background-position: -109px -32%;
+        background-position: -109px 130%;
         background-size: 1243px;
     }
 }
 
 @media (min-width: 1000px) {
     #jk-i {
-        background-position: -47px 0;
+        background-position: -47px -131%;
         background-size: 1385px;
+    }
+}
+
+@media (min-width: 1072px) {
+    #jk-i {
+        background-position: -47px 121%;
+        background-size: 100%;
     }
 }
 
@@ -877,6 +884,18 @@ ul#left-menu {
 
 .icon a {
     font-size: 16px;
+}
+
+@media (min-width: 715px) {
+    .icon a {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1072px) {
+    .icon a {
+        font-size: 32px;
+    }
 }
 
 ul .icon:hover {
