@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
 
+:root {
+    --navbar-height: 102px;
+}
+
 .main-nav--hide {
     height: 0 !important;
     overflow: hidden;
@@ -636,13 +640,6 @@ nav#nav-more ul li a.nav-menu-link:hover {
     left: 0;
 }
 
-#top-content #bg {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
 main .content-wrapper {
     content: '';
     background: url("/assets/images/kayee/C.png") white no-repeat;
@@ -655,7 +652,7 @@ main .content-wrapper {
 }
 
 #jk-i {
-    background: black url('/assets/images/jk/jk-i.png') repeat-y -182px -39px;
+    background: black url('/assets/images/jk/jk-i.png') repeat-y -182px 20px;
     background-size: 1080px;
 }
 
@@ -689,8 +686,7 @@ main .content-wrapper {
 }
 
 div.profile-screen {
-    width: 60%;
-    height: 560px;
+    width: 96%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -861,4 +857,74 @@ div.profile-navbar {
   color: white;
   background: rgba(255, 255, 255, 0.3);
   font-size: 44.44px
+}
+
+ul#left-menu {
+    position: relative;
+    z-index: 1;
+    top: 123px;
+    bottom: 0;
+    height: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.icon {
+    color: #fff;
+    font-size: 32px;
+    display: block;
+}
+
+.icon a {
+    font-size: 16px;
+}
+
+ul .icon:hover {
+    opacity: 0.5;
+}
+
+#profile:target ul .icon,
+#designs:target ul .icon,
+#nation:target ul .icon,
+#team:target ul .icon {
+    transform: scale(.6);
+}
+
+#profile:target #uno,
+#designs:target #dos,
+#nation:target #tres,
+#team:target #cuatro {
+    transform: scale(1);
+}
+
+#left-menu .icon {
+    margin: 30px 0;
+    transition: all .5s ease-out;
+}
+
+.content-page {
+    position: absolute;
+    top: 328px;
+}
+
+#profile-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#page-bg {
+    left: 0;
+}
+
+#page-profile, #page-designs, #page-nation, #page-team {
+    left: -300vw;
+}
+
+#profile:target #page-profile,
+#designs:target #page-designs,
+#nation:target #page-nation,
+#team:target #page-team {
+    transform: translateX(320vw);
+    width: 80%;
 }
