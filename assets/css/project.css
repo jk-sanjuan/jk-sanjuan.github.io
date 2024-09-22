@@ -46,21 +46,21 @@ nav .start-clinic, ul:has(#clinic:hover) .bg-animation {
 }
 
 nav .start-portfolio, ul:has(#portfolio:hover) .bg-animation {
-    width: 125px;
+    width: 103px;
     left: 345px;
     background-color: #02527d;
     border-radius: 0;
 }
 
 nav .start-blog, ul:has(#blog:hover) .bg-animation {
-    width: 89px;
+    width: 68px;
     left: 505px;
     background-color: #3d027d;
     border-radius: 0;
 }
 
 nav .start-openlibrary, ul:has(#openlibrary:hover) .bg-animation {
-    width: 252px;
+    width: 230px;
     left: 627px;
     background-color: #3d027d;
     border-radius: 0;
