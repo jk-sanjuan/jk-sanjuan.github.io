@@ -884,6 +884,8 @@ ul#left-menu {
 
 .icon a {
     font-size: 16px;
+    width: 10ch;
+    display: block;
 }
 
 @media (min-width: 715px) {
@@ -914,6 +916,7 @@ ul .icon:hover {
 #nation:target #tres,
 #team:target #cuatro {
     transform: scale(1);
+    background: rgba(136, 136, 136, 0.35);
 }
 
 #left-menu .icon {
