@@ -1486,8 +1486,8 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   width: 166px;
 }
 
-.w-\[19\%\] {
-  width: 19%;
+.w-\[21\%\] {
+  width: 21%;
 }
 
 .w-\[21ch\] {
@@ -2974,6 +2974,11 @@ ul.dashed > li:before {
 
 .\*\:cursor-pointer > * {
   cursor: pointer;
+}
+
+.\*\:rounded-l-3xl > * {
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
 }
 
 .\*\:bg-gray-500 > * {
