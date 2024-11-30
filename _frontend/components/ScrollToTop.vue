@@ -5,7 +5,7 @@ function scrollToTop(event: Event) {
 </script>
 
 <template>
-    <div id="scroll-on-top"
+    <div id="scroll-to-top"
          class="sticky-screen ![opacity:0.34] hover:![opacity:0.79] cursor-pointer
               [bottom:70px] [right:53px] [position:fixed] [z-index:100] hide">
         <a @click="scrollToTop"><i class="fa fa-arrow-up ![font-size:32px]"></i></a>
@@ -13,7 +13,7 @@ function scrollToTop(event: Event) {
 </template>
 
 <style lang="scss">
-#scroll-on-top {
+#scroll-to-top {
     &:hover {
         @apply h-[55px];
     }
