@@ -20,18 +20,14 @@ tags: baybayin language Filipino 2021
   document.querySelector('.bg-animation').classList.remove('start-home');
   document.querySelector('.bg-animation').classList.add('start-openlibrary');
 
-  bookUrl = "/assets/books/discover-baybayin.epub";
 </script>
-<link rel="stylesheet" type="text/css" href="/assets/css/reader.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
-<script src="/assets/js/epub.js/dist/epub.min.js"></script>
+{% vite_javascript_tag app-epub-reader %}
 
-<div class="block w-[100vw] h-[1562px] md:h-[971px]">
-  {% include components/epub-reader.html %}
+<div class="block w-[100vw] flex flex-col">
+  <div id="app-epub-reader"> </div>
 
-  <div class="w-full flex [flex-direction:column] md:[flex-direction:row] md:mx-auto
-              [top:744px] [position:absolute] h-[510px]">
+  <div class="w-full flex [flex-direction:column] mt-4 md:[flex-direction:row] md:mx-auto">
     <div class="min-w-[300px] max-w-[100vw]">
       <img alt="Discover Baybayin" src="/assets/images/book_covers/Discover-Baybayin.png" width="400px"
         class="mx-auto"/>
@@ -40,15 +36,15 @@ tags: baybayin language Filipino 2021
       <div class="text w-full pl-[1rem] pr-[1rem]">
         <h2 class="">Description:</h2>
         <p class="description w-[95vw] md:w-full bg-gray-200/90 py-4 px-2">
-    
+
           Do you want to learn how to write using baybayin? It is easy to learn this writing system!<br>
-          Let this book guide you on how to learn easily how to write and read in baybayin, the ancient writings of the Tagalogs.<br> 
+          Let this book guide you on how to learn easily how to write and read in baybayin, the ancient writings of the Tagalogs.<br>
           This book contains the rules and exercises to help you become proficient in using baybayin. <br>
           This book also gives you a short history of writing in other parts of the world and how it influenced
           the writing systems used here in the Philippines. Aside from that, it also discusses indigenous writing
           as it relates to language and culture. <br><br>
-          
-          This book is dedicated to all who want to learn how to write and read using baybayin. <br> 
+
+          This book is dedicated to all who want to learn how to write and read using baybayin. <br>
           Let's learn and discover baybayin!
         </p>
       </div>
