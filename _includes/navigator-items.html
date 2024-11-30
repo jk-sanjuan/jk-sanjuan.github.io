@@ -117,30 +117,32 @@
       </ul>
     </div>
     <script>
-        window.__navMore = false;
-        window.__navMoreMenu = [
-          {
-            label: 'Bayanihan OpenLibrary',
-            items: [
-              {% for file in site.files %}
-                {
-                  label: "{{ file.title }}",
-                  url: "{{ file.url }}"
-                },
-              {% endfor %}
-            ]
-          },
-          {
-            label: "JK San Juan",
-            items: [
+      window.__navMore = false;
+      window.__navMoreMenu = [
+        {
+          label: 'Bayanihan OpenLibrary',
+          items: [
+            {% for file in site.files %}
               {
-                label: 'About',
-                url: '/about',
+                label: "{{ file.title }}",
+                url: "{{ file.url }}"
               },
-            ]
-          }
-        ]
+            {% endfor %}
+          ]
+        },
+        {
+          label: "JK San Juan",
+          items: [
+            {
+              label: 'About',
+              url: '/about',
+            },
+          ]
+        }
+      ]
     </script>
+
+    <!-- Mount App-Nav-More here -->
     <div id="app-nav-more"></div>
 
   </nav>
