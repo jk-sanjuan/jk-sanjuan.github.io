@@ -2614,6 +2614,20 @@ ul.dashed > li:before {
   }
 }
 
+.footer--title--shade {
+  display: inline-block;
+  height: 0;
+  transition: all .4s;
+  margin-left: -0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.hover-shade .footer--title--shade {
+  background-color: #e4fc49 !important;
+  height: 1.2em !important;
+}
+
 .footer-col ul li {
   transition: all 0.15s ease;
 }
@@ -3227,13 +3241,18 @@ ul.dashed > li:before {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.group:hover .group-hover\:\[animation\:rotation_850ms_ease-in\] {
-  animation: rotation 850ms ease-in;
+.group:hover .group-hover\:hover-shade:before {
+  width: 139px;
+  transition: width .9s ease-in-out;
 }
 
-.group:hover .group-hover\:before\:him-green::before {
-  content: var(--tw-content);
+.group:hover .group-hover\:hover-shade .footer--title--shade {
   background-color: #e4fc49 !important;
+  height: 1.2em !important;
+}
+
+.group:hover .group-hover\:\[animation\:rotation_850ms_ease-in\] {
+  animation: rotation 850ms ease-in;
 }
 
 @media (min-width: 468px) {
