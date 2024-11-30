@@ -71,7 +71,7 @@ let breadcrumbs_open = false;
 function toggle_breadcrumbs(m) {
     m.classList.toggle('open');
     breadcrumbs_open = !breadcrumbs_open;
-    scrollToTop = document.getElementById("scroll-on-top");
+    scrollToTop = document.getElementById("scroll-to-top");
     mainnav = document.getElementById("main-nav");
     topbar = document.getElementById("topbar");
     nav_backdrop = document.getElementById("nav-backdrop");
