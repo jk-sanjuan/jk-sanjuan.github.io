@@ -652,43 +652,43 @@ main .content-wrapper {
 }
 
 #jk-i {
-    background: black url('/assets/images/jk/jk-i.png') repeat-y -182px 20px;
+    background: black url('/assets/images/jk/jk-i.png') repeat-y -182px 198px;
     background-size: 1080px;
 }
 
 @media (min-width: 720px) {
     #jk-i {
-        background-position: -187px 119%;
-        background-size: 1243px;
+        background-position: -187px 209%;
+        background-size: 1200px;
     }
 }
 
 
 @media (min-width: 768px) {
     #jk-i {
-        background-position: -196px 119%;
+        background-position: -196px 530%;
         background-size: 1243px;
     }
 }
 
 @media (min-width: 800px) {
     #jk-i {
-        background-position: -109px 130%;
+        background-position: -109px 530%;
         background-size: 1243px;
     }
 }
 
 @media (min-width: 1000px) {
     #jk-i {
-        background-position: -47px -131%;
-        background-size: 1385px;
+        background-position: -47px 530%;
+        background-size: 1230px;
     }
 }
 
 @media (min-width: 1072px) {
     #jk-i {
-        background-position: -47px 121%;
-        background-size: 100%;
+        background-position: center 430%;
+        background-size: 1230px;
     }
 }
 
@@ -866,10 +866,10 @@ div.profile-navbar {
   font-size: 44.44px
 }
 
-ul#left-menu {
+ul#about--left-menu {
     position: relative;
     z-index: 1;
-    top: 123px;
+    top: -229px;
     bottom: 0;
     height: 0;
     padding: 0;
@@ -904,6 +904,10 @@ ul .icon:hover {
     opacity: 0.5;
 }
 
+#about--intro {
+    padding-top: 6em;
+}
+
 #profile:target ul .icon,
 #designs:target ul .icon,
 #nation:target ul .icon,
@@ -919,36 +923,39 @@ ul .icon:hover {
     background: rgba(136, 136, 136, 0.35);
 }
 
-#left-menu .icon {
-    margin: 30px 0;
-    transition: all .5s ease-out;
-}
-
 .content-page {
     position: absolute;
-    top: 328px;
     transition: transform 0.5s ease-in-out;
 }
 
-#profile-bg {
+#about--profile {
     top: 0;
     left: 0;
     width: 100%;
 }
 
-#page-bg {
+#about--profile-bg {
+    background: url('/assets/images/jk/jk-login.png') gray no-repeat;
+    background-size: cover;
+}
+
+#about--page--bg {
     left: 0;
+    z-index: -1;
 }
 
-#page-profile, #page-designs, #page-nation, #page-team {
-    left: -300vw;
+#about-page--profile, #about-page--designs, #about-page--nation, #about-page--team {
+    left: -320vw;
+    position: relative;
+    opacity: 0;
+    transition: transform 0.5s ease-in-out;
 }
 
-#profile:target #page-profile,
-#designs:target #page-designs,
-#nation:target #page-nation,
-#team:target #page-team {
+#profile:target #about-page--profile,
+#designs:target #about-page--designs,
+#nation:target #about-page--nation,
+#team:target #about-page--team {
+    opacity: 1;
     transform: translateX(320vw);
-    width: 80%;
     transition-delay: .4s;
 }
