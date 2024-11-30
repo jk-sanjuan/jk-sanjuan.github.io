@@ -1,9 +1,12 @@
 ---
 layout: page
 ---
+{% vite_client_tag %}
+{% vite_javascript_tag about %}
 <script>
   document.querySelector('.bg-animation').classList.remove('start-home');
   document.querySelector('.bg-animation').classList.add('start-about');
+
 </script>
 
 <div class="[font-size:2.1rem] bg-yellow-600 py-5 flex h-[97px] page-header relative [z-index:1]">
