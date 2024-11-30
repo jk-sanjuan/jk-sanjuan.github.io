@@ -1,9 +1,12 @@
 ---
 layout: page
 ---
+{% vite_client_tag %}
+{% vite_javascript_tag about %}
 <script>
   document.querySelector('.bg-animation').classList.remove('start-home');
   document.querySelector('.bg-animation').classList.add('start-about');
+
 </script>
 
 <div class="[font-size:2.1rem] bg-yellow-600 py-5 flex h-[97px] page-header relative [z-index:1]">
@@ -56,7 +59,6 @@ layout: page
                     >Ube Theme</h2>
                 </div>
               </div>
-
             </div>
           </div>
 
@@ -71,40 +73,7 @@ layout: page
           </div>
 
           <div id="about-page--team" class="">
-            <div class="profile-screen h-[319px] max-w-[500px] md:h-[560px]">
-              <div class="profile-navbar">
-                <div class="list animate-pulse">
-                  <div class="item">
-                  <div class="img"></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-
-                  <div class="item">
-                    <div class="img"></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-
-                  <div class="item">
-                    <div class="img"></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-
-                  <div class="item">
-                    <div class="img"></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+            <div id="app-profile-card"></div>
           </div>
 
         </div>
