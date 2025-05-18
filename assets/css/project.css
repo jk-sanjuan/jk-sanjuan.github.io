@@ -16,6 +16,12 @@
     max-height: 0;
 }
 
+.menu-nav-ul {
+    --un-text-shadow: 0 3px 2px var(--un-text-shadow-color, rgb(30 29 39 / 0.19)),
+    1px 2px 4px var(--un-text-shadow-color, rgb(54 64 147 / 0.18));
+    text-shadow: var(--un-text-shadow);
+}
+
 nav .bg-animation {
     position: relative;
     height: 100%;
@@ -123,6 +129,10 @@ nav ul li a {
 
 .bg-sz-128 {
     background-size: 128px;
+}
+
+.page-title {
+    filter: drop-shadow(0 1px 1px rgb(0, 0, 0));
 }
 
 .page-header {
@@ -355,7 +365,7 @@ nav ul li a {
     top: -10px;
 }
 
-/** Globe Menu **/
+/** Global Menu **/
 
 .v-hidden {
     visibility: hidden;
@@ -651,47 +661,6 @@ main .content-wrapper {
     left: 0;
 }
 
-#jk-i {
-    background: black url('/assets/images/jk/jk-i.png') repeat-y -182px 198px;
-    background-size: 1080px;
-}
-
-@media (min-width: 720px) {
-    #jk-i {
-        background-position: -187px 209%;
-        background-size: 1200px;
-    }
-}
-
-
-@media (min-width: 768px) {
-    #jk-i {
-        background-position: -196px 530%;
-        background-size: 1243px;
-    }
-}
-
-@media (min-width: 800px) {
-    #jk-i {
-        background-position: -109px 530%;
-        background-size: 1243px;
-    }
-}
-
-@media (min-width: 1000px) {
-    #jk-i {
-        background-position: -47px 530%;
-        background-size: 1230px;
-    }
-}
-
-@media (min-width: 1072px) {
-    #jk-i {
-        background-position: center 430%;
-        background-size: 1230px;
-    }
-}
-
 div.profile-screen {
     width: 96%;
     margin-left: auto;
@@ -904,58 +873,7 @@ ul .icon:hover {
     opacity: 0.5;
 }
 
-#about--intro {
-    padding-top: 6em;
-}
-
-#profile:target ul .icon,
-#designs:target ul .icon,
-#nation:target ul .icon,
-#team:target ul .icon {
-    transform: scale(.6);
-}
-
-#profile:target #uno,
-#designs:target #dos,
-#nation:target #tres,
-#team:target #cuatro {
-    transform: scale(1);
-    background: rgba(136, 136, 136, 0.35);
-}
-
 .content-page {
     position: absolute;
     transition: transform 0.5s ease-in-out;
-}
-
-#about--profile {
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-#about--profile-bg {
-    background: url('/assets/images/jk/jk-login.png') gray no-repeat;
-    background-size: cover;
-}
-
-#about--page--bg {
-    left: 0;
-    z-index: -1;
-}
-
-#about-page--profile, #about-page--designs, #about-page--nation, #about-page--team {
-    left: -320vw;
-    position: relative;
-    opacity: 0;
-    transition: transform 0.5s ease-in-out;
-}
-
-#profile:target #about-page--profile,
-#designs:target #about-page--designs,
-#nation:target #about-page--nation,
-#team:target #about-page--team {
-    opacity: 1;
-    transform: translateX(320vw);
-    transition-delay: .4s;
 }
