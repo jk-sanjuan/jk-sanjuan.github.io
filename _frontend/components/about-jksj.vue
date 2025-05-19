@@ -166,8 +166,8 @@ onMounted( () => {
 }
 
 #jk-i {
-  background: black url('/assets/images/jk/jk-i.png') repeat 500% 40vh;
-  background-size: 99vw;
+  background: black url('/assets/images/jk/jk-i.png') repeat min(500%, calc(50vw - 250px)) 40vh;
+  background-size: min(99vw, 130vh);
   height: 115vh;
 }
 
@@ -243,5 +243,15 @@ onMounted( () => {
   background-repeat: no-repeat;
   background-size: 70vh;
   background-position: center center;
+}
+
+div.profile-screen {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    background: #31558a;
 }
 </style>
