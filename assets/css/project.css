@@ -661,16 +661,6 @@ main .content-wrapper {
     left: 0;
 }
 
-div.profile-screen {
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    overflow: hidden;
-    position: relative;
-    background: #31558a;
-}
-
 div.profile-navbar {
     height: 73px;
     background: #385e97;
