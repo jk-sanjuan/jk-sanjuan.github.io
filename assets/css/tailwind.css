@@ -1345,6 +1345,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   height: 475px;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .h-\[510px\] {
   height: 510px;
 }
@@ -2202,6 +2206,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   font-size: 1.2em;
 }
 
+.text-\[38px\] {
+  font-size: 38px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2215,6 +2227,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.\!font-bold {
+  font-weight: 700 !important;
 }
 
 .font-bold {
@@ -2270,6 +2286,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .text-\[\#dc8f00\] {
   --tw-text-opacity: 1;
   color: rgb(220 143 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#ffd681\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 214 129 / var(--tw-text-opacity));
+}
+
+.text-\[rgb\(255\2c 207\2c 92\)\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 207 92 / var(--tw-text-opacity));
 }
 
 .text-\[rgb\(8\2c 137\2c 187\)\] {
@@ -2599,29 +2625,6 @@ ul.dashed > li:before {
     transform: translateX(0);
     opacity: 1;
   }
-}
-
-.footer--title--shade {
-  display: inline-block;
-  height: 1.2em;
-  transform: scale(0);
-  transition: all .4s;
-  margin-left: -0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.hover-shade .footer--title--shade {
-  transform: scale(1);
-  background-color: #e4fc49 !important;
-}
-
-.footer-col ul li {
-  transition: all 0.15s ease;
-}
-
-.footer-col ul li:hover {
-  padding-left: 14px;
 }
 
 .social-links {
@@ -2992,12 +2995,6 @@ ul.dashed > li:before {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.\*\:transition-all > * {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .\*\:\[flex-grow\:1\] > * {
   flex-grow: 1;
 }
@@ -3176,16 +3173,6 @@ ul.dashed > li:before {
 
 .group:hover .group-hover\:bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.group:hover .group-hover\:hover-shade:before {
-  width: 139px;
-  transition: width .9s ease-in-out;
-}
-
-.group:hover .group-hover\:hover-shade .footer--title--shade {
-  transform: scale(1);
-  background-color: #e4fc49 !important;
 }
 
 .group:hover .group-hover\:\[animation\:rotation_850ms_ease-in\] {
