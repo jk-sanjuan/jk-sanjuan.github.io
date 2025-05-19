@@ -24,6 +24,7 @@
 
   {% vite_client_tag %}
   {% vite_javascript_tag application %}
+  {% vite_javascript_tag mczvc %}
 
   <!--- Project-wide CSS -->
   <link href="/assets/css/project.css" rel="stylesheet" />
@@ -37,9 +38,9 @@
   <script>
     window.onload = function () {
       mainmenu = document.querySelector(".hamburger");
-      if (window.screen.width >= 700) {
-        toggle_breadcrumbs(mainmenu);
-      }
+      // if (window.screen.width >= 700) {
+      //   toggle_breadcrumbs(mainmenu);
+      // }
     };
   </script>
 </head>

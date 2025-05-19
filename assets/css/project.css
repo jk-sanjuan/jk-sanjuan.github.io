@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
 
+:root {
+    --navbar-height: 102px;
+}
+
 .main-nav--hide {
     height: 0 !important;
     overflow: hidden;
@@ -10,6 +14,12 @@
 
 .main-nav--hide .menu-nav {
     max-height: 0;
+}
+
+.menu-nav-ul {
+    --un-text-shadow: 0 3px 2px var(--un-text-shadow-color, rgb(30 29 39 / 0.19)),
+    1px 2px 4px var(--un-text-shadow-color, rgb(54 64 147 / 0.18));
+    text-shadow: var(--un-text-shadow);
 }
 
 nav .bg-animation {
@@ -119,6 +129,10 @@ nav ul li a {
 
 .bg-sz-128 {
     background-size: 128px;
+}
+
+.page-title {
+    filter: drop-shadow(0 1px 1px rgb(0, 0, 0));
 }
 
 .page-header {
@@ -351,7 +365,7 @@ nav ul li a {
     top: -10px;
 }
 
-/** Globe Menu **/
+/** Global Menu **/
 
 .v-hidden {
     visibility: hidden;
@@ -636,13 +650,6 @@ nav#nav-more ul li a.nav-menu-link:hover {
     left: 0;
 }
 
-#top-content #bg {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
 main .content-wrapper {
     content: '';
     background: url("/assets/images/kayee/C.png") white no-repeat;
@@ -652,51 +659,6 @@ main .content-wrapper {
     position: sticky;
     top: 0;
     left: 0;
-}
-
-#jk-i {
-    background: black url('/assets/images/jk/jk-i.png') repeat-y -182px -39px;
-    background-size: 1080px;
-}
-
-@media (min-width: 720px) {
-    #jk-i {
-        background-position: -187px 0;
-        background-size: 1243px;
-    }
-}
-
-
-@media (min-width: 768px) {
-    #jk-i {
-        background-position: -196px -32%;
-        background-size: 1243px;
-    }
-}
-
-@media (min-width: 800px) {
-    #jk-i {
-        background-position: -109px -32%;
-        background-size: 1243px;
-    }
-}
-
-@media (min-width: 1000px) {
-    #jk-i {
-        background-position: -47px 0;
-        background-size: 1385px;
-    }
-}
-
-div.profile-screen {
-    width: 60%;
-    height: 560px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    overflow: hidden;
-    position: relative;
-    background: #31558a;
 }
 
 div.profile-navbar {
@@ -861,4 +823,47 @@ div.profile-navbar {
   color: white;
   background: rgba(255, 255, 255, 0.3);
   font-size: 44.44px
+}
+
+ul#about--left-menu {
+    position: relative;
+    z-index: 1;
+    top: -229px;
+    bottom: 0;
+    height: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.icon {
+    color: #fff;
+    font-size: 32px;
+    display: block;
+}
+
+.icon a {
+    font-size: 16px;
+    width: 10ch;
+    display: block;
+}
+
+@media (min-width: 715px) {
+    .icon a {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1072px) {
+    .icon a {
+        font-size: 32px;
+    }
+}
+
+ul .icon:hover {
+    opacity: 0.5;
+}
+
+.content-page {
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
 }

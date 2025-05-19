@@ -13,7 +13,7 @@ function closeDropdownMenu() {
 
 function closeNavMore() {
     nav_more_open = true;
-    toggleNavMore()
+    toggleNavMore();
 }
 
 document.documentElement.addEventListener("click",
