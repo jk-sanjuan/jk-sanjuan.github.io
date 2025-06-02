@@ -1,16 +1,13 @@
-<div class="h-full [position:fixed] block p-0 invisible md:[overflow-x:unset] md:[overflow-y:unset]
-            [overflow-x:hidden] [overflow-y:auto] w-[100vw] h-full max-h-[calc(100vh_-_102px)]">
+<div class="h-full [position:fixed] block p-0 invisible md:[overflow-x:unset] md:[overflow-y:unset] [overflow-x:hidden] [overflow-y:auto] w-[100vw] h-full max-h-[calc(100vh_-_102px)]">
+
+  <div id="nav-backdrop" class="backdrop left-0 [position:fixed] top-[102px] w-full h-full md:[visibility:hidden] backdrop--hide"></div>
+
   <nav id="main-nav"
-       class="visible main-nav--hide right-0 [position:absolute] md:[position:relative]
-              py-2 w-[100%] md:w-full h-[auto] max-w-[360px] md:max-w-[100%]">
-    <div id="nav-backdrop"
-         class="backdrop left-0 bg-black/50 [position:fixed]
-                top-[102px] w-full h-full [z-index:-1]
-                md:[visibility:hidden] backdrop--hide"></div>
-    <div class="menu-nav bg-[rgb(157,0,99)] max-h-[550px] overflow-y-clip md:[overflow-y:unset]
-                [position:absolute] top-0 w-full">
-      <ul class="menu-nav-ul flex [flex-direction:column] md:[flex-direction:row] py-3
-                 menu-bar font-semibold marker:text-sky-400 list-none">
+       class="visible main-nav--hide right-0 [position:absolute] md:[position:relative] py-2 w-[100%] md:w-full h-[auto] md:max-w-[100%]">
+
+    <div class="menu-nav bg-[rgb(157,0,99)] max-h-[550px] overflow-y-clip md:[overflow-y:unset] [position:absolute] top-0 w-full">
+
+      <ul class="menu-nav-ul flex [flex-direction:column] md:[flex-direction:row] py-3 menu-bar font-semibold marker:text-sky-400 list-none">
 
         <li class="w-0">
           <div class="bg-animation start-home"></div>
@@ -96,26 +93,6 @@
 
         </li>
 
-        <li class="p-4 pb-0 w-[288px] [position:relative] md:[display:none] lg:[display:block]">
-          <!--- Clinic -->
-          <a id="openlibrary" href="#"
-             class="nav-link cursor-default text-blue-200 py-4 px-[15px] animate-btn
-                    hover:text-white hover:bg-[rgba(249,115,22,0.12)] hover:no-underline"
-             data-dropdown="openlibrary-dropdown"
-          >Bayanihan OpenLibrary <i class="fa fa-chevron-down"></i></a>
-          <div id="openlibrary-dropdown" class="dropdown dropdown--hide w-max m-4 mb-0">
-            <ul role="menu" class="dropdown-menu">
-              {% for file in site.files %}
-              <li>
-                <a href="{{ file.url }}" class="dropdown-link">
-                  {{ file.title }}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </li>
-
         <li class="p-4 w-[113px] md:[display:none] lg:[display:block]">
           <!--- About -->
           <a id="about" class="cursor-default text-blue-200 py-4 px-4 rounded-2xl
@@ -129,17 +106,6 @@
     <script>
       window.__navMore = false;
       window.__navMoreMenu = [
-        {
-          label: 'Bayanihan OpenLibrary',
-          items: [
-            {% for file in site.files %}
-              {
-                label: "{{ file.title }}",
-                url: "{{ file.url }}"
-              },
-            {% endfor %}
-          ]
-        },
         {
           label: "JK San Juan",
           items: [
