@@ -334,6 +334,23 @@ nav ul li a {
     top: -100px;
 }
 
+.hamburger-label, .hamburger-close-label {
+    transition: opacity ease 500ms;
+    opacity: 1;
+}
+
+.hamburger-label:has(+ * + .hamburger.open) {
+    opacity: 0;
+    width: 0;
+    left: -50%;
+}
+
+.hamburger-close-label:has(+ .hamburger:not(.open)) {
+    opacity: 0;
+    width: 0;
+    left: -50%;
+    transition: width ease 500ms;
+}
 .hamburger {
     cursor: pointer;
     height: 46px;
