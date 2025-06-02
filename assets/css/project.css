@@ -74,7 +74,7 @@ nav .start-openlibrary, ul:has(#openlibrary:hover) .bg-animation {
 
 nav .start-about, ul:has(#about:hover) .bg-animation {
     width: 82px;
-    left: 915px;
+    left: 627px;
     background-color: #b75703;
     border-radius: 1rem;
 }
@@ -88,6 +88,11 @@ nav .start-contact, ul:has(#contact:hover) .bg-animation {
 nav ul li a {
     z-index: 2;
     position: relative;
+}
+
+#nav-backdrop {
+    background-color: rgb(0 0 0 / 0.5);
+    visibility: visible;
 }
 
 .alert-debug {
