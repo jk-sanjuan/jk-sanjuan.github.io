@@ -1,7 +1,7 @@
 <template>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
-<script src="/assets/js/epub.js/dist/epub.min.js"></script>
+<script src="../../assets/js/epub.js/dist/epub.min.js"></script>
 
 <div id="epub-reader-view">
   <div id="area" class="">
@@ -135,8 +135,8 @@ const readerViewHeight = ref(0);
 const readerViewWidth = ref(0);
 
 onMounted(() => {
-  readerViewHeight.value = document.getElementById('epub-reader-view').clientHeight;
-  readerViewWidth.value = document.getElementById('epub-reader-view').clientWidth;
+  readerViewHeight.value = document.getElementById('epub-reader-view')!.clientHeight;
+  readerViewWidth.value = document.getElementById('epub-reader-view')!.clientWidth;
 })
 </script>
 
