@@ -1157,6 +1157,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin-left: 2rem;
 }
 
+.ml-\[25px\] {
+  margin-left: 25px;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -1649,10 +1653,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   flex-direction: column;
 }
 
-.flex-col-reverse {
-  flex-direction: column-reverse;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -1704,6 +1704,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-divide-opacity));
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .overflow-hidden {
@@ -1887,11 +1891,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   background-color: rgb(126 34 206 / 0.2);
 }
 
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
-}
-
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
@@ -2035,10 +2034,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   padding-left: 1rem;
 }
 
-.pl-7 {
-  padding-left: 1.75rem;
-}
-
 .pl-\[1\.6rem\] {
   padding-left: 1.6rem;
 }
@@ -2082,6 +2077,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .text-\[0\.8em\] {
   font-size: 0.8em;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .text-\[38px\] {
@@ -2159,6 +2158,16 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .text-\[\#a64d00\] {
   --tw-text-opacity: 1;
   color: rgb(166 77 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#f2329e\] {
+  --tw-text-opacity: 1;
+  color: rgb(242 50 158 / var(--tw-text-opacity));
+}
+
+.text-\[\#ff88e7\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 136 231 / var(--tw-text-opacity));
 }
 
 .text-\[\#ffd681\] {
@@ -2306,11 +2315,6 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .ring-gray-900\/5 {
   --tw-ring-color: rgb(17 24 39 / 0.05);
-}
-
-.drop-shadow {
-  --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .\!filter {
@@ -2646,6 +2650,10 @@ ul.dashed > li:before {
 
 .\[font-family\:Play\] {
   font-family: Play;
+}
+
+.\[font-family\:sans-serif\] {
+  font-family: sans-serif;
 }
 
 .\[font-size\:1\.5em\] {
