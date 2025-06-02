@@ -68,7 +68,7 @@ function logo_menu() {
 }
 
 let breadcrumbs_open = false;
-function toggle_breadcrumbs(m) {
+function toggleBreadcrumbs(m) {
     m.classList.toggle('open');
     breadcrumbs_open = !breadcrumbs_open;
     scrollToTop = document.getElementById("scroll-to-top");
