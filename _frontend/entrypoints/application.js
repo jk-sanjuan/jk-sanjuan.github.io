@@ -11,6 +11,8 @@ const pinia = createPinia()
 
 import Home from "~/components/Home.vue";
 
+import CircularMenu from "~/components/CircularMenu.vue";
+
 import ScrollToTop from "~/components/ScrollToTop.vue";
 import AppNavMore from "~/components/AppNavMore.vue";
 import about_jksj from "~/components/about-jksj.vue";
@@ -32,8 +34,10 @@ createApp(about_jksj)
   .component('AboutTeam', Team)
 .mount('#app-about-jksj');
 
+createApp(CircularMenu).mount('#circularMenu');
 createApp(cFooterCol).mount('#c-footer-col');
 
 createApp(Home).mount('#home-app');
+
 
 console.log('Vite ⚡️ Ruby')
