@@ -334,10 +334,20 @@ nav ul li a {
     top: -100px;
 }
 
+
 .hamburger-label, .hamburger-close-label {
     transition: opacity ease 500ms;
     opacity: 1;
+    display: none;
 }
+
+@media (min-width: 450px) {
+
+    .hamburger-label, .hamburger-close-label {
+        display: block;
+    }
+}
+
 
 .hamburger-label:has(+ * + .hamburger.open) {
     opacity: 0;
